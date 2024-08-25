@@ -18,3 +18,4 @@ minGameVersion: "146"
 dependencies: [ ]
 hidden: false
 subtitle: "V0.2!"
+hideBrowser: true
