@@ -1,0 +1,28 @@
+type: LiquidRouter
+
+name: Liquid Holder
+description: Stores liquid for future usage.
+size: 3
+squareSprite: false
+category: liquid
+requirements: [
+k01-elanite/50
+k02-foronium/30
+]
+
+liquidCapacity: 1500
+liquidPadding: 2
+
+research: {
+  parent: "d05-pipe-router"
+ 	objectives: [
+	    {
+      type: OnSector
+     		preset: "foron-rivers"
+		    }
+ 	]
+}
+researchCost: [
+k01-elanite/150
+k02-foronium/85
+]

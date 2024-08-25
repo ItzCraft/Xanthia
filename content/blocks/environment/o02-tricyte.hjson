@@ -1,0 +1,11 @@
+type: Floor
+name: Liquid Trycite
+description: A source of Tricyte.
+
+variants: 5
+speedMultiplier: 0.8
+liquidDrop: l07-tricyte
+liquidMultiplier: 1
+isLiquid: true
+cacheLayer: water
+albedo: 1.2

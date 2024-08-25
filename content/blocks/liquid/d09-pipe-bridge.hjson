@@ -1,0 +1,26 @@
+type: LiquidBridge
+
+name: Pipe Bridge
+description: Transports liquids over terrain or buildings.
+size: 1
+squareSprite: false
+category: liquid
+requirements: [
+k01-elanite/10
+]
+
+range: 4
+arrowSpacing: 8
+
+research: {
+  parent: "d05-pipe-router"
+ 	objectives: [
+	    {
+      type: OnSector
+     		preset: "foron-rivers"
+		    }
+ 	]
+}
+researchCost: [
+k01-elanite/150
+]

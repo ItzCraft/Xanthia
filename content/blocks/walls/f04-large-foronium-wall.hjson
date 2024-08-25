@@ -1,0 +1,23 @@
+type: Wall
+
+name: Foronium Wall
+description: Protects structures from enemy projectiles.
+size: 2
+requirements: [
+k02-foronium/24
+]
+health: 1840
+category: defense
+
+research: {
+  parent: "f03-foronium-wall"
+ 	objectives: [
+	    {
+      type: OnSector
+     		preset: "lylith-gorges"
+		    }
+ 	]
+}
+researchCost: [
+k02-foronium/540
+]

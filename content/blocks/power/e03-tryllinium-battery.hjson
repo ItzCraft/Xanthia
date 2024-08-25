@@ -1,0 +1,20 @@
+type: Battery 
+name: Tryllinium battery
+description: Stores small amount of power.
+category: power
+size: 1
+health: 35
+conductivePower: true
+consumes: {
+  powerBuffered: 400
+}
+
+requirements: [
+  k03-tryllinium/24
+  k01-elanite/16
+]
+research: e01-tryllinium-node
+researchCost: [
+  k03-tryllinium/565
+  k01-elanite/450
+]

@@ -1,0 +1,29 @@
+type: CoreBlock
+
+name: Core: «Fragment»
+description: The main base, when destroyed a sector is lost.
+size: 3
+squareSprite: false
+
+health: 1500
+itemCapacity: 3000
+unitCapModifier: 8
+unitType: ma01-note
+
+requirements: [
+k01-elanite/750
+]
+
+category: effect
+hasItems: true
+hasColor: true
+
+isFirstTier: true
+
+alwaysUnlocked: true
+research: {
+  planet: xanthia
+  name: Xanthia
+  root: true
+  requiresUnlock: false
+}

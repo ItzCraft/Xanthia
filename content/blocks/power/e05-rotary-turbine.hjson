@@ -1,0 +1,66 @@
+type: ConsumeGenerator
+
+name: Rotary Turbine
+description: Uses smoke to provide power, but it pollutes the air that needs to be cleaned.
+health: 50
+size: 2
+squareSprite: false
+requirements: [
+k01-elanite/60
+k03-tryllinium/20
+]
+research: e01-tryllinium-node
+researchCost: [
+k01-elanite/240
+k03-tryllinium/120
+]
+hasLiquids: true
+
+powerProduction: 5.9
+itemDuration: 60
+consumes: {
+  liquids: [
+    l06-smoke/0.1
+  ]
+}
+
+category: power
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: l06-smoke
+    padding: 2
+    }
+    {
+    type: DrawRegion
+    suffix: -middle
+    }
+    {
+    type: DrawRegion
+    suffix: -rotator
+    spinSprite: true
+    rotateSpeed: -4
+    }
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawSoftParticles
+    radius: 9
+    particleRad: 30
+    alpha: 0.2
+    particleSize: 7
+    color1: FFFFFFA1
+    color2: CFCFCFA1
+    }
+  ]
+}
+
+ambientSound: machine

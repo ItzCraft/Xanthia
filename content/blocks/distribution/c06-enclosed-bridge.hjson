@@ -1,0 +1,16 @@
+type: DuctBridge
+
+name: Enclosed Bridge
+description: Transports items over buildings.
+size: 1
+squareSprite: false
+
+speed: 6
+
+requirements: [
+k01-elanite/15
+]
+research: c01-enclosed-conveyor
+researchCost: [
+k01-elanite/100
+]

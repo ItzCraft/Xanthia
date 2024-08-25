@@ -1,0 +1,40 @@
+Type: UnitAssembler
+name: Tank Assembler
+health: 1800
+size: 4
+consumes: {
+power: 17
+  liquid: {
+    liquid: l04-molten-velorium
+    amount: 0.6
+  }
+}
+category: units
+requirements: [
+  k01-elanite/1100
+  k02-foronium/850
+  k05-velorium/675
+  k06-duramatter/535
+]
+plans: [
+  {
+  unit: mb03-brilliance
+  requirements: [
+    xanthia-3-mb01-sparkle/6
+    xanthia-3-f03-foronium-wall/8
+    xanthia-3-f04-large-foronium-wall/16
+  ]
+  time: 1750
+  }
+  {
+  unit: mb04-dazzle
+  requirements: [
+    xanthia-3-mb02-glime/6
+    xanthia-3-f07-dura-wall/8
+    xanthia-3-f08-large-dura-wall/16
+  ]
+  time: 2350
+  }
+]
+areaSize: 9
+dronesCreated: 5

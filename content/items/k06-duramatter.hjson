@@ -1,0 +1,15 @@
+type: Item
+
+name: Duramatter
+description: Used in advanced structures. Similar to surge alloy except it wasn't charged.
+
+color: BAC6F1FF
+hardness: 4
+cost: 3
+
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+
+research: k05-velorium

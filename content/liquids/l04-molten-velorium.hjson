@@ -1,0 +1,20 @@
+type: Liquid
+
+name: Molten Velorium
+description: A molten version of velorium. Very hot. Handle with care.
+
+color: C885ACFF
+gasColor: E1ABCBFF
+barColor: C885ACFF
+lightColor: E1ABCBFF
+
+explosiveness: 0.4
+flammability: 1.2
+temperature: 0.7
+heatCapacity: 0.2
+viscosity: 0.2
+
+coolant: false
+
+research: k05-velorium
+alwaysUnlocked: false 

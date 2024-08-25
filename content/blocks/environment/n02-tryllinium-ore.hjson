@@ -1,0 +1,7 @@
+type: OverlayFloor
+
+name: Tryllinium
+description: Source of tryllinium.
+
+itemDrop: k03-tryllinium
+wallOre: true

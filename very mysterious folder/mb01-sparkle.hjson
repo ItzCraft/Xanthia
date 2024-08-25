@@ -1,0 +1,71 @@
+type: tank
+
+name: Sparkle
+description: Fast and can shoot quickly. Have bad innacurancy.
+hitSize: 10
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 600
+armor: 1
+speed: 1.1
+rotateSpeed: 5
+itemCapacity: 0
+outlineColor: 131824FF
+research: i01-core-fragment
+weapons: [
+  {
+    x: 0
+    y: -0.2
+    name: mb01-sparkle-weapon
+    reload: 40
+    mirror: false
+    rotate: true
+    rotateSpeed: 5
+    shootSound: cannon
+    inaccuracy: 8
+    bullet: {
+      width: 8
+      splashDamage: 40
+      splashRadius: 35
+      speed: 5
+      lifetime: 35
+      homingPower: 0.1
+      trailLength: 5
+      trailWidth: 2
+      shootEffect: {
+          type: MultiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 10
+              length: 20
+              lifetime: 25
+              colorFrom: FFA665FF
+              colorTo: D06B53FF
+              sizeFrom: 4
+              sizeTo: 0
+              interp: pow2In
+              sizeInterp: pow4Out
+            }
+          ]
+        }
+    }
+  parts: [
+      {
+        type: RegionPart
+        suffix: -side
+        mirror: true
+        under: false
+        outline: true
+        progress: recoil
+        heatProgress: warmup
+        moveX: 0.2
+        moveY: -0.1
+        moveRot: -5
+      }
+    ]
+  }
+]
+researchCostMultiplier: 2

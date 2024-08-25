@@ -1,0 +1,163 @@
+// unexisty actually copied code from Asthosus 😔
+localizedName: Xanthia
+description: A new planet, with new campaign and possibilities.
+alwaysUnlocked: true
+mesh: [
+ {
+    //water
+    type: NoiseMesh
+    planet: xanthia
+    divisions: 5
+    seed: 7
+    radius: 1.229
+    color1: 3482BE
+    color2: 337AB1
+    octaves: 3.7
+    persistence: 1.1
+  }
+  {
+    //lylith
+    type: NoiseMesh
+    planet: xanthia
+    divisions: 5
+    radius: 1.24
+    seed: 94
+    color1: 656565
+    color2: 515151
+    octaves: 3.7
+    persistence: 0.6
+  }
+  {
+    //foron
+    type: NoiseMesh
+    planet: xanthia
+    divisions: 4
+    seed: 101
+    radius: 1.2441
+    color1: A387EA
+    color2: 8A73C6
+    octaves: 5.1
+    persistence: 0.8
+  }
+  {
+    //veylite
+    type: NoiseMesh
+    planet: asthosus
+    seed: 69
+    divisions: 5
+    color1: 895841
+    color2: 623C35
+    radius: 1.212
+    octaves: 4
+    persistence: 1
+    scale: 0.75
+    mag: 1
+  }
+  {
+    //basilith
+    type: NoiseMesh
+    planet: xanthia
+    divisions: 5
+    seed: 19
+    radius: 1.247
+    color1: FFE4CA
+    color2: F7CBA4
+    octaves: 4.5
+    persistence: 1.1
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: xanthia
+   speed: 1.21
+   radius: 0.1
+   divisions: 6
+   color: FFF4EB7E
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: xanthia
+   speed: 1.01
+   radius: 0.11
+   divisions: 6
+   color: FFF4EB7E
+   octaves: 3
+   persistence: 0.4
+   scl: 0.9
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: xanthia
+   speed: 0.891
+   radius: 0.091
+   divisions: 6
+   color: FFF4EB7E
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
+]
+generator: {
+  octaves: 2
+  persistence: 0.58
+  scale: 24
+  mag: 0.79
+  thresh: 1.14
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.3
+  carbonChance: 0.32
+  berylChance: 0.2
+  ferricChance: 0.2
+}
+sectorSize: 1
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 1
+radius: 1.2
+minZoom: 0.8
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: false
+sectorSeed: 14513
+bloom: true
+visible: true
+atmosphereColor: 795F5F
+iconColor: 795F5F
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: true
+defaultCore: i01-core-fragment
+parent: sun
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: [
+  "k01-elanite",
+  "k02-foronium",
+  "k03-tryllinium",
+  "k04-scaldium",
+  "k05-velorium",
+  "k06-duramatter",
+  "k07-tritanium",
+  "k08-item",
+  "k09-item",
+  "k10-item",
+  "k11-item",
+  "k12-item"
+]

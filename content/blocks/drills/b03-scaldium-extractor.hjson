@@ -1,0 +1,52 @@
+type: AttributeCrafter
+
+name: Scaldium Extractor
+description: Extract scaldium from the ground. Only work in certain places, some place are better than another.
+
+size: 2
+squareSprite: true
+requirements: [
+k01-elanite/50
+]
+research: {
+  parent: "b01-force-drill"
+ 	objectives: [
+	    {
+      type: OnSector
+     		preset: "upgrade"
+		    }
+ 	]
+}
+researchCost: [
+k01-elanite/200
+]
+outputItem: k04-scaldium/1
+craftTime: 120
+attribute: scaldium
+baseEfficiency: 0
+boostScale: 0.25
+minEfficiency: 0.01
+
+category: production
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawRegion
+    suffix: -rotator
+    spinSprite: true
+    rotateSpeed: 2
+    }
+    {
+    type: DrawDefaulr
+    }
+  ]
+}
+
+ambientSound: machine
+ambientSoundVolume: 0.2

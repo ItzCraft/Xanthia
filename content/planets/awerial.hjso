@@ -1,0 +1,85 @@
+generator: {
+  octaves: 7
+  persistence: 2.8
+  scale: 20
+  mag: 0.6
+  thresh: 1
+  min: 100
+  max: 100
+  radMin: 265
+  radMax: 550
+}
+localizedName: Awerial
+alwaysUnlocked: true
+orbitSpacing: 1
+orbitRadius: 25
+radius: 0.4
+minZoom: 0.6
+drawOrbit: true
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.23
+accessible: true
+updateLighting: false
+sectorSeed: 1939
+bloom: false
+visible: true
+atmosphereColor: 6c9660
+iconColor: 6c9660
+hasAtmosphere: true
+parent: xanthia
+mesh: [
+ {
+    // ice(Green)
+    type: NoiseMesh
+    planet: awerial
+    divisions: 5
+    seed: 41
+    radius: 0.42
+    color1: b3c9b9
+    color2: 525c54
+    octaves: 5.5
+    persistence: 1.1
+    scale: 0.5
+    mag: 0.4
+  }
+  {
+    // Tricyte
+    type: NoiseMesh
+    planet: awerial
+    divisions: 5
+    radius: 0.42
+    seed: 45
+    color1: 2aa33b
+    color2: 2aa33b
+    octaves: 5.5
+    persistence: 1.1
+    scale: 0.65
+    mag: 0.4
+  }
+    {
+    // orange
+    type: NoiseMesh
+    planet: awerial
+    divisions: 5
+    radius: 0.42
+    seed: 153
+    color1: 9c6148
+    color2: 9e4018
+    octaves: 5.5
+    persistence: 1.1
+    scale: 0.45
+    mag: 0.7
+  }
+  {
+    // gray
+    type: NoiseMesh
+    planet: awerial
+    divisions: 5
+    seed: 228
+    radius: 0.416
+    color1: 737373
+    color2: 3b3c3d
+    octaves: 6
+    persistence: 0.9
+  }
+]

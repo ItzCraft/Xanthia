@@ -1,0 +1,17 @@
+type: Duct
+
+name: "Enclosed Conveyor"
+description: "Transports items forward."
+size: 1
+
+speed: 6
+bridgeReplacement: c06-enclosed-bridge
+
+requirements: [
+k01-elanite/1
+]
+
+research: i01-core-fragment
+researchCost: [
+k01-elanite/40 
+]

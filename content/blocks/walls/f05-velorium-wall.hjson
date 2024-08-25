@@ -1,0 +1,15 @@
+type: Wall
+
+name: Velorium Wall
+description: Protects structures from enemy projectiles.
+size: 1
+requirements: [
+k05-velorium/6
+]
+health: 660
+category: defense
+
+research: f03-foronium-wall
+researchCost: [
+k05-velorium/150
+]

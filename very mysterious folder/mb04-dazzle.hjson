@@ -1,0 +1,73 @@
+type: tank
+
+name: Dazzle
+description: Fires deadly missile that cause violent explosion with high area damage. Mounted with 2 smaller turrets.
+hitSize: 34
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 4000
+armor: 8
+speed: 0.35
+rotateSpeed: 1.4
+itemCapacity: 0
+outlineColor: 131824FF
+research: mb03-brilliance
+weapons: [
+  {
+    x: 12
+    y: -9
+    name: mb04-dazzle-weapon2
+    reload: 20
+    mirror: true
+    rotate: true
+    rotateSpeed: 4.5
+    shootSound: cannon
+    inaccuracy: 4
+    cooldownTime: 45
+    bullet: {
+      damage: 30
+      speed: 4.5
+      lifetime: 30
+    }
+  }
+  {
+    x: 15
+    y: 5
+    name: mb04-dazzle-weapon2
+    reload: 20
+    mirror: true
+    rotate: true
+    rotateSpeed: 4.5
+    shootSound: cannon
+    innacuraccy: 4
+    cooldownTime: 45
+    bullet: {
+      damage: 30
+      speed: 4.5
+      lifetime: 30
+      trailLength: 5
+      trailWidth: 1
+    }
+  }
+  {
+    x: 0
+    y: 1
+    name: mb04-dazzle-weapon1
+    reload: 360
+    mirror: false
+    alternating: true
+    rotate: true
+    rotateSpeed: 1.5
+    shootSound: big-shot
+    innacuraccy: 0
+    cooldownTime: 340
+    bullet: {
+      instantDisappear: true
+      damage: 0
+      spawnUnit: v04-huge-missile
+    }
+  }
+]
+
+researchCostMultiplier: 0.75

@@ -1,0 +1,17 @@
+type: Item
+
+name: Tryllinium
+description: Used electricity because of its high charge and conductivity.
+
+color: 544DEBFF
+hardness: 2
+cost: 2
+
+charge: 0.5
+
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+
+research: k01-elanite

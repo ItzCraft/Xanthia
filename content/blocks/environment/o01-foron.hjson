@@ -1,0 +1,11 @@
+type: Floor
+name: Liquid Foron
+description: A source of foron.
+
+variants: 3
+speedMultiplier: 0.4
+liquidDrop: l01-foron
+liquidMultiplier: 2
+isLiquid: true
+cacheLayer: water
+albedo: 0.7

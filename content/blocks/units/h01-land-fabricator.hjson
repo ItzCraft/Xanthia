@@ -1,0 +1,51 @@
+type: UnitFactory
+
+name: Land Fabricator
+description: Constructs sparkle and cue units. Outputted unit can be used directly or refrabricated.
+size: 3
+requirements: [
+k01-elanite/50
+k02-foronium/100
+k03-tryllinium/20
+]
+health: 660
+category: units
+regionSuffix: -dark
+
+plans: [
+  {
+    unit: mb01-sparkle
+    requirements: [
+      k01-elanite/15
+      k02-foronium/10
+    ]
+    time: 660
+  }
+  {
+    unit: mc01-cue
+    requirements: [
+      k01-elanite/25
+      k04-scaldium/35
+    ]
+    time: 575
+  }
+]
+
+consumes: {
+  power: 2
+}
+
+research: {
+  parent: "i01-core-fragment"
+ 	objectives: [
+	    {
+      type: OnSector
+     		preset: "foron-rivers"
+		    }
+ 	]
+}
+researchCost: [
+k02-foronium/250
+k01-elanite/200
+k03-tryllinium/125
+]

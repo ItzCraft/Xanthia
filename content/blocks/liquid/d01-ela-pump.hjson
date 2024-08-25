@@ -1,0 +1,47 @@
+type: Pump
+
+name: Ela Pump
+description: Pumps liquids.
+size: 2
+squareSprite: false
+category: liquid
+requirements: [
+k01-elanite/30
+]
+
+pumpAmount: 0.0375
+warmupSpeed: 0.01
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawPumpLiquid
+    }
+    {
+    type: DrawRegion
+    suffix: -rotator
+    spinSprite: true
+    rotateSpeed: 5
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}
+research: {
+  parent: "d03-ela-pipe"
+ 	objectives: [
+	    {
+      type: OnSector
+     		preset: "foron-rivers"
+		    }
+ 	]
+}
+researchCost: [
+k01-elanite/175
+]

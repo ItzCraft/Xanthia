@@ -1,0 +1,16 @@
+type: Item
+
+name: item
+description: Placeholder.
+
+color: 000000FF
+hardness: 1
+cost: 1
+
+hidden: true
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+
+research: k01-elanite

@@ -1,0 +1,21 @@
+type: Battery 
+
+name: Large Energetic Wall
+description: Protects structures from enemy projectiles and stores power.
+size: 2
+conductivePower: true
+consumes: {
+  powerBuffered: 35000
+}
+requirements: [
+k03-tryllinium/24
+k06-duramatter/36
+]
+health: 2835
+category: defense
+
+research: f09-energetic-wall
+researchCost: [
+k03-tryllinium/580
+k06-duramatter/645
+]

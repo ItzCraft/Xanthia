@@ -1,0 +1,7 @@
+type: Floor
+name: Trycited Floor
+description: Floor made out of Tritanium.
+variants: 4
+attributes: {
+  tritanium: 1
+}

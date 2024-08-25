@@ -1,0 +1,73 @@
+type: GenericCrafter
+
+name: Duramatter Molder
+description: Form duramatter using tryfluid and molten velorium.
+size: 2
+squareSprite: false
+requirements: [
+k01-elanite/60
+k02-foronium/40
+k03-tryllinium/15
+]
+research: g07-heavy-melter
+
+outputItem: k06-duramatter/1
+craftTime: 120
+consumes: {
+  liquids: [
+    l03-tryfluid/0.2
+    l04-molten-velorium/0.3
+  ]
+  power: 4
+}
+
+category: crafting
+
+craftEffect: {
+  type: ParticleEffect
+  particles: 5
+  cone: 360
+  followParent: true
+  rotWithParent: false
+  sizeFrom: 1.1
+  sizeTo: 0.3
+  lifetime: 60
+  length: 3
+  baseLength: 4
+  interp: pow2
+  sizeInterp: pow3In
+}
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: l03-tryfluid
+    padding: 2
+    alpha: 0.5
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: l04-molten-velorium
+    padding: 2
+    alpha: 0.5
+    }
+    {
+    type: DrawRegion
+    suffix: -rotator
+    spinSprite: true
+    rotateSpeed: -3
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}
+
+ambientSound: grinding
+ambientSoundVolume: 0.08

@@ -1,0 +1,72 @@
+type: GenericCrafter
+
+name: Solidifier
+description: Solidify foron into useable foronium.
+size: 2
+squareSprite: false
+requirements: [
+k01-elanite/50
+k03-tryllinium/10
+]
+research: {
+  parent: "i01-core-fragment"
+ 	objectives: [
+	    {
+      type: OnSector
+     		preset: "foron-rivers"
+		    }
+ 	]
+}
+
+outputItem: k02-foronium/1
+craftTime: 45
+consumes: {
+  liquids: [
+    l01-foron/0.2
+  ]
+  power: 1.5
+}
+
+category: crafting
+
+craftEffect: {
+  type: ParticleEffect
+  particles: 6
+  cone: 360
+  followParent: true
+  rotWithParent: false
+  sizeFrom: 1.2
+  sizeTo: 0.1
+  lifetime: 40
+  length: 3
+  baseLength: 5
+  interp: pow2
+  sizeInterp: pow3In
+}
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: l01-foron
+    padding: 2
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: l06-smoke
+    padding: 2
+    alpha: 0.2
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}
+
+ambientSound: grinding
+ambientSoundVolume: 0.08

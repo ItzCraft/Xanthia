@@ -1,0 +1,17 @@
+type: Item
+
+name: Velorium
+description: A radioactive mineral.
+
+color: C885ACFF
+hardness: 2
+cost: 3.2
+
+radioactivity: 0.75
+
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+
+research: k01-elanite

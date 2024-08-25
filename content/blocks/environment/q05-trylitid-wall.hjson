@@ -1,0 +1,4 @@
+type: StaticWall
+name: Trylitid Wall
+description: A wall made out of trylitid.
+variants: 3

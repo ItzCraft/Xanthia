@@ -1,0 +1,83 @@
+type: legs
+
+name: Insight
+description: later
+hitSize: 18
+singleTarget: true
+faceTarget: true
+health: 2500
+armor: 0
+speed: 0.8
+rotateSpeed: 1.5
+itemCapacity: 25
+outlineColor: 131824FF
+
+research: h02-land-refabricator
+
+legStraightness: 0.3
+legContinuousMove: true
+lockLegBase: true
+legGroupSize: 5
+legCount: 8
+allowLegStep: true
+legExtension: -4
+legLength: 16
+legSpeed: 0.3
+legForwardScl: 1.3
+legBaseOffset: 6
+legMaxLength: 1
+legMinLength: 0.8
+legMoveSpace: 1
+hovering: true
+groundLayer: 60
+
+weapons: [
+  {
+    x: 0
+    y: 3
+    top: false
+    name: mc03-insight-weapon
+    reload: 150
+    mirror: false
+    rotate: false
+    shootSound: cannon
+    inaccuracy: 2
+    bullet: {
+      type: MissileBulletType
+      trailLength: 19
+      trailWidth: 5
+      width: 4
+      height: 4
+      splashDamage: 45
+      splashDamageRadius: 15
+      splashDamagePierce: true
+      pierce: true
+      pierceCap: 3
+      pierceBuilding: true
+      speed: 3.5
+      lifetime: 45
+      frontColor: FFFFFFFF
+      backColor: 869CBEFF
+      trailColor: 869CBEFF
+      shootEffect: shootTitan
+      shootSmoke: shootSmokeTitan
+      hitEffect: titanExplosion
+      despawnEffect: titanExplosion
+    }
+    parts: [
+      {
+        layerOffset: -0.01
+        type: RegionPart
+        suffix: -side
+        mirror: true
+        under: true
+        outline: true
+        progress: recoil
+        moveX: 0.5
+        moveY: 0.1
+        moveRot: -10
+      }
+    ]
+  }
+]
+researchCostMultiplier: 2

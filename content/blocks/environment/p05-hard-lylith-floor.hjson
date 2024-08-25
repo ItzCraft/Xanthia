@@ -1,0 +1,9 @@
+type: Floor
+name: Hard Lylith Floor
+description: A floor made out of lylith. Hard.
+
+variants: 3
+
+attributes: {
+  scaldium: 1
+}

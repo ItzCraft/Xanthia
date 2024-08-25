@@ -1,0 +1,19 @@
+type: OverflowDuct
+
+name: Enclosed Underflow Gate
+description: Only outputs items to the front if the side is blocked.
+size: 1
+squareSprite: false
+
+speed: 6
+invert: true
+
+requirements: [
+k01-elanite/2
+k02-foronium/1
+]
+research: c04-enclosed-overflow-gate
+researchCost: [
+k01-elanite/250
+k02-foronium/175
+]

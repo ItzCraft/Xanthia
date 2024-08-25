@@ -1,0 +1,5 @@
+type: Prop
+name: Basilith Boulder
+
+variants: 2
+breakSound: rock-crush

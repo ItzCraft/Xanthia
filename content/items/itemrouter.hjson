@@ -1,0 +1,10 @@
+type: Item
+name: Router
+description: Router
+details: Router
+color: 808080
+hardness: 5
+cost: 99
+flammability: 99
+explosiveness: 99
+radioactivity: 99

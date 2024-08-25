@@ -1,0 +1,19 @@
+type: Liquid
+
+name: Tryfluid
+description: Used as crafting material for advanced items. Liquid version of tryllinium.
+
+color: 899DA3FF
+gasColor: A7B9BEFF
+barColor: 899DA3FF
+lightColor: A7B9BEFF
+
+flammability: 0
+temperature: 0.5
+heatCapacity: 0
+viscosity: 0.9
+
+coolant: false
+
+research: k03-tryllinium
+alwaysUnlocked: false

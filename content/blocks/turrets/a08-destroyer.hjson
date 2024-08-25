@@ -1,0 +1,66 @@
+type: PowerTurret
+name: Destroyer
+description: fires some of strong lightning that weaken enemies. 
+size: 4
+category: turret
+requirements: [
+k01-elanite/500
+k02-foronium/475
+k03-tryllinium/400
+k06-duramatter/360
+k07-tritanium/300
+]
+outlineColor: 313131FF
+targetAir: true
+targetGround: true
+reload: 45
+range: 185
+inaccuracy: 15
+shootY: 2
+shootSound: shootAlt
+heatColor: ff1303
+
+consumes: {
+  power: 28
+}
+
+shootType: {
+  type:  FlakBulletType
+  speed: 3
+  lifetime: 85
+  splashDamage: 130
+  splashDamageRadius: 35
+  width: 25
+  height: 35
+  ammoMultiplier: 1
+  hitColor: ff1303
+  backColor: 9e2118
+  trailColor: eb4034
+  frontColor: ff1303
+  lightningColor: f5958e
+  trailEffect: colorSpark
+  trailRotation: true
+  trailInterval: 5
+  lightning: 6
+  lightningLength: 15
+  lightningCone: 35
+  lightningLengthRand: 30
+  lightningDamage: 65
+  homingPower: 0.2
+  homingDelay: 25
+  homingRange: 75
+  flakInterval: 25
+  despawnShake: 5
+  fragBullet: {
+    type: LaserBulletType
+    colors: [eb4034, ff1303, f5958e, 9e2118]
+    damage: 45
+    width: 19
+    sideAngle: 225
+    sideWidth: 2
+    sideLength: 25
+    lifetime: 15
+    drawSize: 350
+    length: 95
+  }
+}

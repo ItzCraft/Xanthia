@@ -1,0 +1,17 @@
+type: Liquid
+
+name: Foron
+description: Used in coolant. Can be solidified to foronium.
+
+color: 8A73C6FF
+gasColor: DDD5F3FF
+barColor: 8A73C6FF
+lightColor: A387EAFF
+
+temperature: 0.2
+heatCapacity: 0.7
+viscosity: 0.7
+boilPoint: 4
+capPuddles: false
+alwaysUnlocked: false
+research: k01-elanite

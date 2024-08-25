@@ -1,0 +1,5 @@
+type: StaticWall
+
+name: Veylite Wall
+description: Wall made out of veylite rock.
+color: cc4b27

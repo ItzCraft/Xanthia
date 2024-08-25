@@ -1,0 +1,4 @@
+type: Prop
+name: Tritanium Boulder
+variants: 3
+breakSound: rock-crush

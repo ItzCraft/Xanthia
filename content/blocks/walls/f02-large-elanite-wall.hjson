@@ -1,0 +1,15 @@
+type: Wall
+
+name: Large Elanite Wall
+description: Protects structures from enemy projectiles.
+size: 2
+requirements: [
+k01-elanite/24
+]
+health: 1440
+category: defense
+
+research: f01-elanite-wall
+researchCost: [
+k01-elanite/500
+]

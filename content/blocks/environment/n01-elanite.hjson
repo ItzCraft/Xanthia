@@ -1,0 +1,7 @@
+type: OverlayFloor
+
+name: Elanite
+description: Source of elanite.
+
+itemDrop: k01-elanite
+wallOre: true

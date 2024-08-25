@@ -1,0 +1,27 @@
+type: ConsumeGenerator
+name: Tryllinium Generator
+description: producing Electricity using Tryllinium.
+health: 120
+size: 2
+squareSprite: false
+requirements: [
+k03-tryllinium/180
+k01-elanite/150
+]
+research: e05-rotatory-turbine
+researchCost: [
+k03-tryllinium/650
+k01-elanite/475
+]
+hasItems: true
+
+powerProduction: 2.444
+itemDuration: 40
+consumes: {
+  items: [
+    k03-tryllinium/3
+  ]
+}
+category: power
+ambientSound: glow
+ambientSoundVolume: 0.56

@@ -1,0 +1,18 @@
+type: OverflowDuct
+
+name: Enclosed Overflow Gate
+description: Only outputs items to the side if the front is blocked.
+size: 1
+squareSprite: false
+
+speed: 6
+
+requirements: [
+k01-elanite/2
+k02-foronium/1
+]
+research: c03-enclosed-router
+researchCost: [
+k01-elanite/250
+k02-foronium/175
+]

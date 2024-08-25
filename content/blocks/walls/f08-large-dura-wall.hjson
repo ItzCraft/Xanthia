@@ -1,0 +1,15 @@
+type: Wall
+
+name: Large Dura Wall
+description: Protects structures from enemy projectiles.
+size: 2
+requirements: [
+k06-duramatter/24
+]
+health: 2960
+category: defense
+
+research: f07-dura-wall
+researchCost: [
+k06-duramatter/560
+]

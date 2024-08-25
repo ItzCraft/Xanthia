@@ -1,0 +1,51 @@
+type: RegenProjector
+
+name: Renewer
+description: Regenerate nearby blocks. Require power.
+size: 1
+category: effect
+squareSprite: false
+requirements: [
+k01-elanite/20
+k02-foronium/10
+k03-tryllinium/10
+]
+
+baseColor: 2CDC78FF
+range: 8
+healPercent: 0.014
+
+effect: {
+  type: ParticleEffect
+  colorFrom: 2FA157FF
+  colorTo: 307046FF
+  particles: 3
+  line: false
+  strokeFrom: 0.6
+  strokeTo: 1.6
+  lifetime: 60
+  cone: 360
+  interp: pow2
+  sizeInterp: pow2Out
+}
+
+consumes: {
+  power: 0.6
+}
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPulseShape
+      square: true
+      color: 85c278
+      layer: 110
+    }
+  ]
+} 
+
+research: f01-elanite-wall

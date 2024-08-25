@@ -1,0 +1,15 @@
+type: Wall
+
+name: Dura Wall
+description: Protects structures from enemy projectiles.
+size: 1
+requirements: [
+k06-duramatter/6
+]
+health: 740
+category: defense
+
+research: f05-velorium-wall
+researchCost: [
+k06-duramatter/160
+]

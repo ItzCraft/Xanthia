@@ -1,0 +1,18 @@
+localizedName: Foron Rivers
+description: 
+''' 
+This sector have an Enemy Base. Also in this sector you will found alot of foron rivers
+''' 
+planet: xanthia
+sector: 43
+research: {
+  parent: "upgrade"
+	 objectives: [
+	    {
+      type: SectorComplete
+     		preset: "upgrade"
+		   }
+ 	]
+}
+difficulty: 3
+alwaysUnlocked: false

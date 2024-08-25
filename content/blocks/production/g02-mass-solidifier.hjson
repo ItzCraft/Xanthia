@@ -1,0 +1,75 @@
+type: GenericCrafter
+
+name: Mass Solidifier
+description: Solidify foron into useable foronium. Faster and more efficient than regular solidifier. Require smoke to function.
+size: 3
+squareSprite: false
+requirements: [
+k01-elanite/120
+k02-foronium/60
+k03-tryllinium/25
+]
+research: g01-solidifier
+
+outputItem: k02-foronium/3
+craftTime: 30
+consumes: {
+  liquids: [
+    l01-foron/0.5
+    l06-smoke/0.05
+  ]
+  power: 5
+}
+
+category: crafting
+
+craftEffect: {
+  type: ParticleEffect
+  particles: 5
+  cone: 360
+  followParent: true
+  rotWithParent: false
+  sizeFrom: 1.3
+  sizeTo: 0.3
+  lifetime: 60
+  length: 4
+  baseLength: 5
+  interp: pow2
+  sizeInterp: pow3In
+}
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: l01-foron
+    padding: 2
+    }
+    {
+    type: DrawRegion
+    suffix: -rotator
+    spinSprite: true
+    rotateSpeed: -5
+    }
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawSoftParticles
+    radius: 9
+    particleRad: 30
+    alpha: 0.2
+    particleSize: 7
+    color1: FFFFFFA1
+    color2: CFCFCFA1
+    }
+  ]
+}
+
+ambientSound: grinding
+ambientSoundVolume: 0.08

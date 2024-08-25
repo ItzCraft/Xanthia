@@ -1,0 +1,85 @@
+type: LaserTurret
+name: Molecule
+description: Fires a short range powerful energy beam at the enemy. Require coolant.
+size: 3
+category: turret
+researchCostMultiplier: 0.7
+research: a02-nuclei
+requirements: [
+k01-elanite/275
+k02-foronium/175
+k03-tryllinium/125
+k05-velorium/65
+]
+
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: regul-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -inner
+      mirror: true
+      under: true
+      outline: false
+      progress: warmup
+      moveX: 2.3
+      moveY: 0.5
+      layerOffset: -0.2
+      color: D4F7FFFF
+      
+      children: [
+        {
+          type: RegionPart
+          suffix: -side
+          mirror: true
+          under: false
+          outline: true
+          progress: recoil
+          moveX: 0.8
+          moveY: -0.3
+          moveRot: -5
+        }
+      ]
+    }
+  ]
+}
+
+shootEffect: shootBigSmoke
+outlineColor: 313131FF
+reload: 30
+firingMoveFract: 0.4
+shootDuration: 260
+minWarmup: 0.5
+cooldownTime: 120
+
+shootType: {
+  type: ContinuousLaserBulletType
+  length: 110
+  damage: 10
+  width: 7
+  incendAmount: 0
+  incendSpread: 0
+  incendChange: 0
+  colors: [2C6D8350, 5D9FB58E, A1D0E0D6]
+  shake: 0.6
+}
+
+range: 110
+shootSound: laserBig
+loopSound: beam
+loopSoundVolume: 1.5
+recoil: 2.5
+shootCone: 10
+rotateSpeed: 2.3
+shootY: 3.5
+consumes: {
+  power: 4.5
+}

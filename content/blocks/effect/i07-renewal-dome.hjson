@@ -1,0 +1,52 @@
+type: RegenProjector
+
+name: Renewal Dome
+description: Regenerate nearby blocks. Require power. Larger range and faster speed than regular renewer.
+size: 2
+category: effect
+squareSprite: false
+requirements: [
+k01-elanite/30
+k02-foronium/40
+k03-tryllinium/30
+k05-velorium/10
+]
+
+baseColor: 2CDC78FF
+range: 16
+healPercent: 0.025
+
+effect: {
+  type: ParticleEffect
+  colorFrom: 2FA157FF
+  colorTo: 307046FF
+  particles: 4
+  line: false
+  strokeFrom: 0.6
+  strokeTo: 1.6
+  lifetime: 60
+  cone: 360
+  interp: pow2
+  sizeInterp: pow2Out
+}
+
+consumes: {
+  power: 1.5
+}
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPulseShape
+      square: true
+      color: 85c278
+      layer: 110
+    }
+  ]
+} 
+
+research: i06-renewer

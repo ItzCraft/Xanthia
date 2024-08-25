@@ -1,0 +1,23 @@
+type: LiquidJunction
+
+name: Pipe Junction
+description: Acts as bridge between two crossing pipes.
+size: 1
+squareSprite: false
+category: liquid
+requirements: [
+k01-elanite/5
+]
+
+research: {
+  parent: "d03-ela-pipe"
+ 	objectives: [
+	    {
+      type: OnSector
+     		preset: "foron-rivers"
+		    }
+ 	]
+}
+researchCost: [
+k01-elanite/100
+]

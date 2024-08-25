@@ -1,0 +1,20 @@
+name: "xanthia-3"
+displayName: "Xanthia"
+author: 
+'''
+Delevopers: Decaract & ItzCraft
+Spriters: Decaract, Nahan
+Testers: DarkSniper, Nahan, ItzCraft
+Contributors: Arbuzer, Lalik Sasik
+'''
+description: 
+'''
+Discover and explore a brand new planet with its own campaign: Xanthia, a mountainous hot planet with more dangers and threat hiding there.
+
+Right now in alpha??????? (i will upload it to mod browser when this mod will be in beta)
+'''
+version: "v0.2"
+minGameVersion: "146"
+dependencies: [ ]
+hidden: false
+subtitle: "V0.2!"

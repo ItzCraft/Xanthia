@@ -1,0 +1,15 @@
+type: Item
+
+name: Tritanium
+description: Tritanium. Very radioactive and hot material. Used in best units and turrets.
+
+color: 2f7d37
+cost: 3
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+radioactivity: 1.2
+flammability: 0.7
+explosiveness: 0.6
+research: l07-tricyte

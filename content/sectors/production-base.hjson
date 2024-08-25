@@ -1,0 +1,18 @@
+localizedName: Production Base
+description: 
+''' 
+This is a small enemy base. You should be worried about enemies here. 
+'''
+planet: xanthia
+sector: 83
+research: {
+  parent: "lylith-gorges"
+	 objectives: [
+	    {
+      type: SectorComplete
+     		preset: "lylith-gorges"
+		   }
+ 	]
+}
+difficulty: 4
+alwaysUnlocked: false

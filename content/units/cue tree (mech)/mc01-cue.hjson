@@ -1,0 +1,67 @@
+type: legs
+
+name: Cue
+description: Can move over terrain. Durable but lack of armor. Equipped with short range powerful cannons.
+hitSize: 10
+singleTarget: true
+faceTarget: true
+health: 465
+armor: 0
+speed: 1
+rotateSpeed: 2
+itemCapacity: 20
+outlineColor: 131824FF
+
+research: {
+  parent: "h01-land-fabricator"
+ 	objectives: [
+	    {
+      type: OnSector
+     		preset: "foron-rivers"
+		    }
+ 	]
+}
+researchCost: [
+k01-elanite/125
+k04-scaldium/100
+]
+
+legStraightness: 0.3
+legContinuousMove: true
+lockLegBase: true
+legGroupSize: 4
+legCount: 6
+allowLegStep: true
+legExtension: -2
+legLength: 10
+legSpeed: 0.3
+legForwardScl: 0.7
+legMoveSpace: 1
+hovering: true
+groundLayer: 60
+
+weapons: [
+  {
+    x: 4.5
+    y: -0.4
+    name: mc01-cue-weapon
+    reload: 30
+    mirror: true
+    alternate: true
+    rotate: false
+    shootSound: blaster
+    inaccuracy: 3
+    bullet: {
+      trailLength: 7
+      trailWidth: 2
+      splashDamage: 13
+      splashDamageRadius: 15
+      speed: 4
+      lifetime: 30
+      frontColor: FFFFFFFF
+      backColor: 869CBEFF
+      trailColor: 869CBEFF
+    }
+  }
+]
+researchCostMultiplier: 2

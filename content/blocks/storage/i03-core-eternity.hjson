@@ -1,0 +1,25 @@
+type: CoreBlock
+
+name: Core: «Eternity»
+description: The main base, when destroyed a sector is lost. Has way more item capacity and active unit than Core: Rebirth.
+size: 5
+squareSprite: false
+
+health: 4500
+itemCapacity: 7500
+unitCapModifier: 18
+unitType: ma03-chord
+
+requirements: [
+k01-elanite/4350
+k02-foronium/3750
+k05-velorium/3300
+k06-duramatter/2750
+k07-tritanium/1900
+]
+
+category: effect
+hasItems: true
+hasColor: true
+
+research: i02-core-rebirth

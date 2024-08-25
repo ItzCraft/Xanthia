@@ -1,0 +1,4 @@
+type: StaticWall
+name: Tritanium Wall
+description: A wall made out of Tritanium.
+variants: 3

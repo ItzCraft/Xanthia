@@ -1,0 +1,19 @@
+type: Liquid
+
+name: Tricyte
+description: very hot and radioctive liquid.
+
+gas: false
+color: 1fc435
+gasColor: 2aa33b
+barColor: 2aa33b
+lightColor: 8ed197
+
+flammability: 0.4
+temperature: 4.5
+heatCapacity: 1
+boilPoint: 9
+
+coolant: false
+alwaysUnlocked: false
+research: k02-foronium

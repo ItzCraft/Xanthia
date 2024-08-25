@@ -1,0 +1,48 @@
+type: GenericCrafter
+
+name: Heavy Melter
+description: Melt velorium until it reach its liquid form.
+
+size: 2
+squareSprite: false
+requirements: [
+k01-elanite/40
+k02-foronium/60
+k03-tryllinium/10
+]
+research: g01-solidifier
+
+outputLiquid: l04-molten-velorium/0.3
+craftTime: 180
+consumes: {
+  items: [
+    k05-velorium/3
+  ]
+  power: 3
+}
+
+category: crafting
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: l04-molten-velorium
+    padding: 2
+    }
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawArcSmelt
+    }
+  ]
+}
+
+ambientSound: machine
+ambientSoundVolume: 0.08

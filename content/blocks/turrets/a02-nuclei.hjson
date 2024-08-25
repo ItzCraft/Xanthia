@@ -1,0 +1,90 @@
+type: ItemTurret
+name: Nuclei
+description: Fires a piercing bullet quickly. Deals reduced damage to buildings.
+size: 2
+category: turret
+requirements: [
+k01-elanite/30
+k02-foronium/50
+]
+research: {
+  parent: "a01-quark"
+ 	objectives: [
+	    {
+      type: OnSector
+     		preset: "foron-rivers"
+		    }
+ 	]
+}
+researchCost: [
+k01-elanite/320
+k02-foronium/200
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+
+outlineColor: 313131FF
+targetAir: true
+targetGround: true
+reload: 20
+range: 170
+inaccuracy: 3
+shootY: 2
+shootSound: shootAlt
+shake: 1
+
+ammoTypes: {
+  k01-elanite: {
+    type: BasicBulletType
+    width: 5
+    height: 8
+    speed: 3.6
+    lifetime: 60
+    damage: 40
+    buildingDamageMultiplier: 0.4
+    pierce: true
+    pierceCap: 3
+    pierceBuilding: true
+    trailLength: 6
+    trailWidth: 1.5
+  }
+  k04-scaldium: {
+    type: BasicBulletType
+    width: 4
+    height: 6
+    speed: 2.5
+    lifetime: 35
+    status: melting
+    statusDuration: 240
+    damage: 26
+    buildingDamageMultiplier: 0.3
+    pierce: true
+    pierceCap: 3
+    pierceBuilding: true
+    trailLength: 3
+    trailWidth: 1
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: regul-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      outline: true
+      progress: warmup
+      heatProgress: warmup
+      moveX: 1.8
+      moveY: 1.1
+      moveRot: -20
+      heatColor:  AD98E3B1
+    }
+  ]
+}

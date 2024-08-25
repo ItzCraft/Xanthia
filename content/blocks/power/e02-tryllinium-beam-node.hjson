@@ -1,0 +1,29 @@
+type: BeamNode
+name: Tryllinium Beam node
+description: It transmits energy linearly, unlike the Tryllinium Node.
+size: 1
+category: power
+health: 30
+consumesPower: false
+outputsPower: true
+range: 6
+laserColor1: AFF8FFFF
+laserColor2: 6697FAFF
+lasers: 4
+requirements: [
+  k03-tryllinium/6
+  k05-velorium/2
+]
+research: {
+  parent: "e01-tryllinium-node"
+ 	objectives: [
+	    {
+      type: OnSector
+     		preset: "foron-rivers"
+		    }
+ 	]
+}
+researchCost: [
+  k03-tryllinium/750
+  k05-velorium/150
+]

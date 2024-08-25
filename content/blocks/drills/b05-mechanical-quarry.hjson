@@ -1,0 +1,26 @@
+type: Drill
+name: Mechanical Quarry
+description: Mine resources from the ground. Require power.
+size: 3
+squareSprite: false
+requirements: [
+k01-elanite/180
+k02-foronium/120
+k03-tryllinium/85
+]
+consumes: {
+  power: 2.77
+}
+tier: 3
+drillTime: 600
+drillEffect: drillSteam
+research: b03-scaldium-extractor
+researchCost: [
+k01-elanite/1280
+k02-foronium/780
+k03-tryllinium/640
+]
+category: production
+
+ambientSound: machine
+ambientSoundVolume: 0.2

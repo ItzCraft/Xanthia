@@ -1,0 +1,18 @@
+type: Wall
+name: Purifier
+description: Cleans the air from smoke. 
+size: 2
+squareSprite: false
+requirements: [
+k01-elanite/125
+k03-tryllinium/75
+]
+consumes: {
+  power: 6
+}
+research: e05-rotatory-turbine
+researchCost: [
+k01-elanite/475
+k03-tryllinium/350
+]
+category: power

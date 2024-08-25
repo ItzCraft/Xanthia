@@ -1,0 +1,5 @@
+type: Prop
+name: Veylite Boulder
+
+variants: 2
+breakSound: rock-crush

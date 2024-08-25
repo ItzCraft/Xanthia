@@ -1,0 +1,53 @@
+type: Pump
+
+name: Impetuous Pump
+description: Pumps liquids. Faster than regular pump. Require smoke to function.
+size: 3
+squareSprite: false
+category: liquid
+requirements: [
+k01-elanite/70
+k02-foronium/80
+k05-velorium/30
+]
+
+pumpAmount: 0.15
+warmupSpeed: 0.01
+
+consumes: {
+  liquids: [
+    l06-smoke/0.2
+  ]
+}
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawPumpLiquid
+    }
+    {
+    type: DrawRegion
+    suffix: -rotator
+    spinSprite: true
+    rotateSpeed: 6
+    }
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawSoftParticles
+    radius: 9
+    particleRad: 30
+    alpha: 0.2
+    particleSize: 7
+    color1: FFFFFFA1
+    color2: CFCFCFA1
+    }
+  ]
+}
+research: d01-ela-pump

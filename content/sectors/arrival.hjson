@@ -1,0 +1,11 @@
+localizedName: Arrival
+description: 
+''' 
+Well, this is a start of your conquering the Xanthia planet! Goodluck.
+''' 
+captureWave: 12
+planet: xanthia
+sector: 0
+research: i01-core-fragment
+difficulty: 1
+alwaysUnlocked: true

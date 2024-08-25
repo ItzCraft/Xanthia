@@ -1,0 +1,18 @@
+type: Item
+
+name: Elanite
+description: Used in basic construction. Slightly flammable.
+
+color: AC8675FF
+hardness: 1
+cost: 1
+
+flammability: 0.1
+
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+
+alwaysUnlocked: false
+research: i01-core-fragment

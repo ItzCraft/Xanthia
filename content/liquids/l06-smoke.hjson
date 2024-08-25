@@ -1,0 +1,19 @@
+type: Liquid
+
+name: Smoke
+description: A smoke that can be used to power turbine.
+
+gas: true
+color: FFFFFFFF
+gasColor: 989AA4FF
+barColor: 989AA4FF
+lightColor: C5C7CFFF
+
+flammability: 0.15
+temperature: 0.7
+heatCapacity: 0.2
+viscosity: 0.5
+
+coolant: false
+alwaysUnlocked: false
+research: k04-scaldium

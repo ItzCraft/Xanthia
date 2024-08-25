@@ -1,0 +1,15 @@
+type: Wall
+
+name: Large Velorium Wall
+description: Protects structures from enemy projectiles.
+size: 2
+requirements: [
+k05-velorium/24
+]
+health: 2640
+category: defense
+
+research: f05-velorium-wall
+researchCost: [
+k05-velorium/520
+] 

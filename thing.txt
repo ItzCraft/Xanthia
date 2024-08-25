@@ -1,0 +1,36 @@
+thing to not forgot:
+
+a: turret
+b: drill
+c: distribution
+d: liquids (block)
+e: powah
+f: defense
+g: production (factory)
+h: units (block)
+i: effect
+j: logic
+
+k: items
+l: liquid
+
+m: unit
+
+n: ore
+o: liquid (floor)
+p: floor
+q: wall
+
+r: i ain't wanna be sus with the 34
+
+s: map/sector
+
+t: props (boulder)
+u: props (tree)
+
+v: missile
+
+TODO LIST:
+- resprite mechanical quarry (b05)
+- resprite melody (ma02)
+- why are you reading this go play the mod

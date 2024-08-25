@@ -1,0 +1,27 @@
+type: AttributeCrafter
+name: Energy charge bomb
+description: Using reactive property of Tryllinium when surged with electricity. explode violently while focusing the impact to the ground to crack open the surface. block creates holes in the floor. Drilling to the liquid. Be careful when using it.
+details: wait is this a new mechanic on hjson?????? 
+size: 3
+health: 210
+category: production
+outputLiquid: l07-tricyte/0.1
+baseEfficiency: 0 
+minEfficiency: 0.01
+displayEfficiency: 1
+attribute: tritanium
+rebuildable: false
+requirements: [
+k01-elanite/540
+k02-foronium/475
+k05-velorium/475
+k06-duramatter/125
+]
+researchCostMultiplier: 4
+research: b05-mechanical-quarry
+consumes: {
+  power: 4.65
+  items: [
+    k03-tryllinium/2
+  ]
+}

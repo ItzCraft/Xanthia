@@ -1,0 +1,42 @@
+type: flying
+
+name: Note
+description: Lower tier core drone. Build stuff, idk. Why you ask?
+
+speed: 3.75
+accel: 0.1
+drag: 0.1
+flying: true
+health: 150
+hitSize: 7
+iemCapacity: 30
+engineOffset: 6
+faceTarget: true
+outlineColor: 313131FF
+
+mineTier: 1
+mineWalls: true
+mineRange: 80
+mineSpeed: 6.5
+buildRange: 230
+buildSpeed: 0.75
+
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 2
+    reload: 8
+    recoil: 1
+    inaccuracy: 7
+    shootSound: cannon
+    trailLength: 6
+    trailWidth: 1
+    bullet: {
+      speed: 5
+      lifetime: 28
+      damage: 7
+      buildingDamageMultiplier: 0.01
+    }
+  }
+ ] 

@@ -1,0 +1,16 @@
+type: BeamDrill
+name: "Force Drill"
+description: "Extract minerals from wall ores."
+size: 2
+squareSprite: false
+requirements: [
+k01-elanite/30
+]
+drillTime: 320
+range: 4
+tier: 2
+category: production
+research: i01-core-fragment
+researchCost: [
+k01-elanite/120
+]

@@ -1,0 +1,9 @@
+type: Floor
+name: Lylith Floor
+description: A floor made out of lylith.
+
+variants: 6
+
+attributes: {
+  scaldium: 0.5
+}

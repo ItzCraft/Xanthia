@@ -1,0 +1,22 @@
+type: PowerNode
+
+name: Tryllinium Node
+description: Distribute power.
+size: 1
+health: 15
+category: power
+requirements: [
+k01-elanite/2
+k03-tryllinium/1
+]
+researchCost: [
+k01-elanite/50
+k03-tryllinium/25
+]
+laserRange: 4
+maxNodes: 8
+
+laserColor1: AFF8FFFF
+laserColor2: 6697FAFF
+
+research: i01-core-fragment

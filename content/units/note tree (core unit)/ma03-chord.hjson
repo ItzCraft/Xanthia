@@ -1,0 +1,81 @@
+type: flying
+name: Chord
+description: Defend the Eternity core from enemy. Build structures. Faster than lower tier core drones. Fires missile and laser bullet at enemy.
+speed: 4.5
+accel: 0.06
+drag: 0.06
+flying: true
+health: 375
+hitSize: 12
+itemCapacity: 65
+engineOffset: 8.5
+faceTarget: true
+outlineColor: 313131
+mineTier: 3
+mineWalls: true
+mineRange: 120
+mineSpeed: 15
+buildRange: 270
+buildSpeed: 1.1
+
+weapons: [
+  {
+    name: ma03-chord-gun
+    x: 0
+    mirror: false
+    reload: 70
+    recoil: 3
+    inaccuracy: 2
+    shootSound: cannon
+    cooldownTime: 30
+    bullet: {
+      instantDisappear: true
+      damage: 0
+      spawnUnit: v05-chord-missle
+    }
+  }
+  {
+    name: ma03-chord-weapon
+    mirror: false
+    x: 0
+    top: false
+    reload: 60
+    mirror: false
+    rotate: false
+    shootSound: cannon
+    inaccuracy: 5
+    bullet: {
+      type: MissileBulletType
+      trailLength: 6
+      trailWidth: 1.5
+      width: 3
+      height: 3
+      splashDamage: 17.5
+      splashDamageRadius: 15
+      speed: 2.33
+      lifetime: 25
+      frontColor: FFFFFF
+      backColor: faba4b
+      trailColor: faba4b
+      shootEffect: spawnShockwave
+      shootSmoke: impactsmoke 
+      hitEffect: flakExplosionBig
+      despawnEffect: flakExplosionBig
+      buildingDamageMultiplier: 0.01
+    }
+    parts: [
+      {
+        layerOffset: -0.01
+        type: RegionPart
+        suffix: -side
+        mirror: true
+        under: true
+        outline: true
+        progress: recoil
+        moveX: 0.6
+        moveY: 0.2
+        moveRot: -17
+      }
+    ] 
+   }
+ ] 

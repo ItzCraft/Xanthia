@@ -1,0 +1,24 @@
+type: LiquidRouter
+
+name: Pipe Router
+description: Distribute liquids.
+size: 1
+category: liquid
+requirements: [
+k01-elanite/5
+]
+
+liquidPadding: 2
+
+research: {
+  parent: "d03-ela-pipe"
+ 	objectives: [
+	    {
+      type: OnSector
+     		preset: "foron-rivers"
+		    }
+ 	]
+}
+researchCost: [
+k01-elanite/100
+]

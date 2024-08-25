@@ -1,0 +1,44 @@
+type: GenericCrafter
+
+name: Scaldium Burner
+description: Burn scaldium and output smoke.
+
+size: 3
+requirements: [
+k01-elanite/100
+]
+research: i01-core-fragment
+
+outputLiquid: l06-smoke/0.216666666666667
+craftTime: 30
+consumes: {
+  items: [
+    k04-scaldium/1
+  ]
+}
+
+category: crafting
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: l06-smoke
+    padding: 2
+    }
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawArcSmelt
+    }
+  ]
+}
+
+ambientSound: machine
+ambientSoundVolume: 0.08

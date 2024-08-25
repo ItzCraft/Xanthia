@@ -1,0 +1,23 @@
+type: CoreBlock
+
+name: Core: «Rebirth»
+description: The main base, when destroyed a sector is lost. Has more item capacity and active unit than smaller core.
+size: 4
+squareSprite: false
+
+health: 2500
+itemCapacity: 5000
+unitCapModifier: 14
+unitType: ma02-melody
+
+requirements: [
+k01-elanite/400
+k02-foronium/450
+k05-velorium/250
+]
+
+category: effect
+hasItems: true
+hasColor: true
+
+research: i01-core-fragment

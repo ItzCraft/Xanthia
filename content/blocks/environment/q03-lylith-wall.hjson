@@ -1,0 +1,5 @@
+type: StaticWall
+
+name: Lylith Wall
+description: A wall made out of lylith.
+variants: 3

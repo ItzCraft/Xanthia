@@ -1,0 +1,43 @@
+type: UnitFactory
+
+name: Flying Fabricator
+description: Constructor flying "Drop" unit. Outputted unit can be used directly or refrabricated.
+size: 3
+requirements: [
+k01-elanite/200
+k02-foronium/200
+k05-velorium/125
+]
+health: 750
+category: units
+regionSuffix: -dark
+plans: [
+  {
+    unit: md01-drop
+    requirements: [
+      k01-elanite/35
+      k02-foronium/20
+      k05-velorium/15
+    ]
+    time: 430
+  }
+]
+
+consumes: {
+  power: 4.5
+}
+
+research: {
+  parent: "h01-land-fabricator"
+ 	objectives: [
+	    {
+      type: OnSector
+     		preset: "foron-rivers"
+		    }
+ 	]
+}
+researchCost: [
+k01-elanite/750
+k02-foronium/500
+k05-velorium/350
+]

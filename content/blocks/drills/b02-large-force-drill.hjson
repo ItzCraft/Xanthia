@@ -1,0 +1,35 @@
+type: BeamDrill
+
+name: Large Force Drill
+description: Extract minerals from wall ores. More efficient but require power to operate.
+size: 3
+squareSprite: false
+requirements: [
+k01-elanite/50
+k02-foronium/30
+k03-tryllinium/20
+]
+
+drillTime: 240
+range: 6
+tier: 3
+
+consumes: {
+  power: 0.7
+}
+
+category: production
+research: {
+  parent: "b01-force-drill"
+ 	objectives: [
+	    {
+      type: OnSector
+     		preset: "foron-rivers"
+		    }
+ 	]
+}
+researchCost: [
+k01-elanite/275
+k02-foronium/200
+k03-tryllinium/130
+]

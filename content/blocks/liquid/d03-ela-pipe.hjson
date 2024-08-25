@@ -1,0 +1,25 @@
+type: Conduit
+
+name: Ela Pipe
+description: Transports liquids forward.
+size: 1
+category: liquid
+requirements: [
+k01-elanite/2
+]
+
+junctionReplacement: d08-pipe-junction
+bridgeReplacement: d09-pipe-bridge
+
+research: {
+  parent: "i01-core-fragment"
+ 	objectives: [
+	     {
+      type: OnSector
+     		preset: "foron-rivers"
+		    }
+ 	]
+}
+researchCost: [
+k01-elanite/60
+]

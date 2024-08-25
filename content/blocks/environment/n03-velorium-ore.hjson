@@ -1,0 +1,7 @@
+type: OverlayFloor
+
+name: Velorium Ore
+description: Source of velorium.
+
+itemDrop: k05-velorium
+wallOre: false
