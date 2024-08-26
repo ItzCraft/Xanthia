@@ -10,7 +10,7 @@ k03-tryllinium/75
 consumes: {
   power: 6
 }
-research: e05-rotatory-turbine
+research: e05-rotary-turbine
 researchCost: [
 k01-elanite/475
 k03-tryllinium/350
