@@ -5,9 +5,9 @@
 Xanthia - a Mindustry modification what adds new planet with his small new mechanics. 
 
 Delevopers: Decaract & ItzCraft
-Spriters: Decaract, Nahan, Los Sasikos
+Spriters: Decaract, Nahan
 Testers: DarkSniper, Nahan, ItzCraft
-Contributors: Arbuzer
+Contributors: Arbuzer, Los Sasikos
 
 Also join our [discord sever](https://discord.com/invite/btUe3rhGuQ) 
 
