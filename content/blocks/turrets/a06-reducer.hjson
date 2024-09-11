@@ -32,7 +32,7 @@ shootType: {
   lightningColor: df60eb
   lightning: 4
   lightningLength: 20
-  lightningDamage: 27.5
+  lightningDamage: 35
   lightningCone: 45
   buildingDamageMultiplier: 0.8
 }
