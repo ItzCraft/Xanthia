@@ -1,8 +1,9 @@
 name: "xanthia-3"
-displayName: "Skibidi Sigma rizz(dont download)"
+displayName: "Xanthia"
 author: "noone"
-description: dont download pls
-version: "v0.2"
+description: uh no
+version: "v0.22"
+subtitle: "V0.22!"
 minGameVersion: "146"
 dependencies: [ ]
 hidden: false
