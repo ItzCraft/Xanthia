@@ -1,7 +1,7 @@
 type: legs
 
 name: Insight
-description: later
+description: fires a powerful bullet that does splash damage. Be careful if he attack you. 
 hitSize: 18
 singleTarget: true
 faceTarget: true
