@@ -1,4 +1,3 @@
-# THE BUNDLE ISNT DONE YET
 # Planets
 
 planet.xanthia-3-xanthia.name =
@@ -209,4 +208,44 @@ block.xanthia-3-f10-energetic-wall-large.name =
 block.xanthia-3-f10-energetic-wall-large.description =
 
 
-# UNITS 
+# UNITS
+
+# SPIDER
+unit.xanthia-3-mc01-cue.name =
+unit.xanthia-3-mc01-cue.description =
+unit.xanthia-3-mc02-hint.name =
+unit.xanthia-3-mc02-hint.descriprion =
+unit.xanthia-3-mc03-insight.name =
+unit.xanthia-3-mc03-insight.description =
+unit.xanthia-3-mc04-omen.name =
+unit.xanthia-3-mc04-omen.description =
+
+# AIR
+unit.xanthia-3-md01-drop.name =
+unit.xanthia-3-md01-drop.description =
+unit.xanthia-3-md02-drizzle.name =
+unit.xanthia-3-md02-drizzle.description =
+unit.xanthia-3-md03-rain.name =
+unit.xanthia-3-md03-rain.description =
+
+# CORE
+unit.xanthia-3-ma01-note.name =
+unit.xanthia-3-ma01-note.description =
+unit.xanthia-3-ma02-melody.name =
+unit.xanthia-3-ma02-melody.description =
+unit.xanthia-3-ma03-chord.name =
+unit.xanthia-3-ma03-chord.description =
+
+# TANKS
+unit.xanthia-3-mb01-sparkle.name =
+unit.xanthia-3-mb01-sparkle.description =
+unit.xanthia-3-mb02-glime.name =
+unit.xanthia-3-mb02-glime.description =
+unit.xanthia-3-mb03-brilliance.name =
+unit.xanthia-3-mb03-brilliance.description =
+unit.xanthia-3-mb04-dazzle.name =
+unit.xanthia-3-mb04-dazzle.description =
+
+
+
+The end? 
