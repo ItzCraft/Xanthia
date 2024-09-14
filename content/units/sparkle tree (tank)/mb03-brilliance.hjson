@@ -25,7 +25,7 @@ weapons: [
     shootSound: cannon
     inaccuracy: 3
     bullet: {
-      damage: 50
+      damage: 35
       speed: 4
       lifetime: 35
       trailLength: 5
