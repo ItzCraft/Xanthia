@@ -13,8 +13,8 @@ Discover and explore a brand new planet with its own campaign: Xanthia, a mounta
 
 Right now in alpha??????? (i will upload it to mod browser when this mod will be in beta)
 '''
-version: "v0.22"
-subtitle: "V0.22!"
+version: "v0.25"
+subtitle: "V0.25!"
 minGameVersion: "146"
 dependencies: [ ]
 hidden: false
