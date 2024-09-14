@@ -88,6 +88,5 @@ weapons: [
     }
   }
 ]
-research: i01-core-fragment
 
 researchCostMultiplier: 2
