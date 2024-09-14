@@ -1,0 +1,19 @@
+localizedName: Penetration
+description: 
+''' 
+Another enemy base. You can get a new resource "Velorium" here. 
+But firstly you will need to destroy 1 enemy core.
+'''
+planet: xanthia
+sector: 26
+research: {
+  parent: "production-base"
+	 objectives: [
+	    {
+      type: SectorComplete
+     		preset: "production-base"
+		   }
+ 	]
+}
+difficulty: 6
+alwaysUnlocked: false
