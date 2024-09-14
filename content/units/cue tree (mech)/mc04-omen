@@ -1,0 +1,170 @@
+type: legs
+name: Omen
+description: Large strong spider, that have 2 big weapons on his top. he is way bigger than Insight.
+hitSize: 30
+singleTarget: true
+faceTarget: true
+health: 3650
+armor: 0
+speed: 1
+rotateSpeed: 2
+itemCapacity: 40
+outlineColor: 131824FF
+research: h02-land-refabricator
+legStraightness: 0.7
+legContinuousMove: true
+lockLegBase: true
+legGroupSize: 2
+legCount: 6
+allowLegStep: true
+legExtension: 8
+legLength: 65
+legSpeed: 5.5
+legForwardScl: 1.1
+legBaseOffset: 6
+legMaxLength: 1
+legMinLength: 0.5
+legMoveSpace: 3
+hovering: true
+groundLayer: 60
+weapons: [
+  {
+    x: 0
+    y: 5.5
+    top: false
+    name: mc04-omen-weapon
+    reload: 225
+    mirror: false
+    rotate: false
+    shootSound: cannon
+    inaccuracy: 2
+    bullet: {
+      type: MissileBulletType
+      trailLength: 24
+      trailWidth: 8
+      width: 8
+      height: 8
+      splashDamage: 190
+      splashDamageRadius: 20
+      splashDamagePierce: true
+      pierce: true
+      pierceCap: 2
+      pierceBuilding: true
+      speed: 2.75
+      lifetime: 30
+      frontColor: FFFFFFFF
+      backColor: 869CBEFF
+      trailColor: 869CBEFF
+      shootEffect: shootTitan
+      shootSmoke: shootSmokeTitan
+      hitEffect: [
+        {
+        type: ParticleEffect
+        particles: 65
+        baseRotation: 90
+        cone: 360
+        sizeFrom: 7
+        sizeTo: 5
+        length: 65
+        baseLength: 50
+        colorFrom: 8fb7ac
+        colorTo: 8fb7ac
+        lifetime: 60
+        useRotation: true
+        interp: pow2
+        sizeInterp: pow3In
+        }, 
+       titanExplosion
+     ]
+    }
+    parts: [
+      {
+        layerOffset: -0.01
+        type: RegionPart
+        suffix: -side
+        mirror: true
+        under: true
+        outline: true
+      }
+    ]
+  }
+  {
+    x: 0
+    y: -4
+    top: true
+    name: mc04-omen-gun
+    reload: 135
+    mirror: true
+    rotate: false
+    shootSound: cannon
+    inaccuracy: 20
+    bullet: {
+      type: ArtilleryBulletType
+      trailLength: 18
+      trailWidth: 6
+      width: 6
+      height: 6
+      splashDamage: 85
+      splashDamageRadius: 10
+      speed: 4
+      lifetime: 55
+      frontColor: FFFFFFFF
+      backColor: 869CBEFF
+      lightRadius: 60
+      lightColor: f3e979
+      lightOpacity: 0.7
+      weaveScale: 10
+      weaveMag: 4
+      trailColor: 869CBEFF
+      shootEffect: shootTitan
+      shootSmoke: {
+        type: ParticleEffect
+        particles: 15
+        baseRotation: 120
+        cone: 0
+        sizeFrom: 1.5
+        sizeTo: 0.1
+        colorFrom: 8fb7ac
+        colorTo: 8fb7ac
+        lifetime: 15
+        useRotation: false
+        interp: pow2
+        sizeInterp: pow3In
+     }
+      hitEffect: {
+        type: ParticleEffect
+        particles: 65
+        baseRotation: 90
+        cone: 360
+        sizeFrom: 7
+        sizeTo: 5
+        length: 65
+        baseLength: 50
+        colorFrom: 8fb7ac
+        colorTo: 8fb7ac
+        lifetime: 60
+        useRotation: true
+        interp: pow2
+        sizeInterp: pow3In
+     }
+     fragBullets: 3
+     fragBullet: {
+       type: BasicBulletType
+       width: 4
+       height: 5
+       trailLength: 17
+       trailWidth: 6
+       speed: 2.75
+       lifetime: 85
+       keepVelocity: false
+       trailColor: 869CBEFF
+       frontColor: FFFFFFFF
+       backColor: 869CBEFF
+       splashDamage: 35
+       splashDamageRadius: 20
+       hitEffect: titanExplosion
+     }
+   }
+  }
+]
+researchCostMultiplier: 4
