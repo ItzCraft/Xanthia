@@ -8,7 +8,7 @@ rotateSpeed: 0.1
 hitSize: 5
 trailLength: 13
 useUnitCap: false
-health: 10000
+health: 6500
 autoFindTarget: false
 homingDelay: 0
 circleTarget: false
@@ -28,10 +28,10 @@ weapons: [
     shootCone: 360
     shake: 1.7
     bullet: {
-      damage: 300
+      damage: 200
       type: ExplosionBulletType
-      splashDamage: 550
-      splashDamageRadius: 80
+      splashDamage: 250
+      splashDamageRadius: 55
       scaledSplashDamage: true
       hitEffect: bigShockwave
     }
