@@ -37,7 +37,7 @@ weapons: [
     inaccuracy: 8
     bullet: {
       width: 8
-      damage: 45
+      damage: 28
       speed: 5
       lifetime: 35
       homingPower: 0.1
