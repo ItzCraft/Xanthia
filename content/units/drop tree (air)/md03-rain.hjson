@@ -17,12 +17,16 @@ itemCapacity: 45
 outlineColor: 131824FF
 engines: [
   {
-    x: -2
-    y: -13
+    x: -4.5
+    y: -11
+    radius: 3.7
+    rotation: 270
   }
   {
-    x: 2
-    y: -13
+    x: 4.5
+    y: -11
+    radius: 3.7
+    rotation: 270
   } 
 ]
 
@@ -83,7 +87,6 @@ weapons: [
     mirror: false
     alternate: false
     x: -1.5
-    lifetime: 75
     reload: 75
     rotate: true
     innacuracy: 15
@@ -91,8 +94,11 @@ weapons: [
     bullet: {
       type: MisslleBulletType
       lifetime: 99
-      damage: 25
-      splashDamage: 35
+      speed: 2.5
+      damage: 50
+      width: 12
+      height: 12
+      splashDamage: 45
       splashDamageRadius: 50
       homingPower: 0.3
       weaveMag: 7
@@ -113,6 +119,5 @@ weapons: [
   } 
  
 ]
-research: i01-core-fragment
 
 researchCostMultiplier: 2
