@@ -8,7 +8,7 @@ rotateSpeed: 0.2
 hitSize: 4
 trailLength: 5
 useUnitCap: false
-health: 10000
+health: 4500
 autoFindTarget: false
 homingDelay: 0
 circleTarget: false
@@ -29,7 +29,7 @@ weapons: [
     shake: 1.7
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 350
+      splashDamage: 150
       splashDamageRadius: 50
     }
   } 
