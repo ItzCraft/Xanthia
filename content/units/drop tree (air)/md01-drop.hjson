@@ -74,7 +74,7 @@ weapons: [
       shootEffect: sparkShoot
       hitEffect: pointHit
       maxRange: 100
-      damage: 35
+      damage: 26
     }
   }
 ]
