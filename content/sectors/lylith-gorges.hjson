@@ -1,8 +1,3 @@
-localizedName: Lylith Gorges
-description: 
-''' 
-Well, very dark sector. Be prepared for heavier enemies
-''' 
 planet: xanthia
 sector: 9
 research: {
