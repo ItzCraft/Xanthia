@@ -1,8 +1,3 @@
-localizedName: Upgrade
-description: 
-''' 
-Good. This sector is little harder than previous. But you will research here new items.
-''' 
 captureWave: 15
 planet: xanthia
 sector: 27
