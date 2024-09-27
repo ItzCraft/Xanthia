@@ -1,8 +1,3 @@
-localizedName: Arrival
-description: 
-''' 
-Well, this is a start of your conquering the Xanthia planet! Goodluck.
-''' 
 captureWave: 12
 planet: xanthia
 sector: 0
