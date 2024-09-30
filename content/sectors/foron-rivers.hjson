@@ -1,5 +1,5 @@
 planet: xanthia
-sector: 43
+sector: 13
 research: {
   parent: "upgrade"
 	 objectives: [
