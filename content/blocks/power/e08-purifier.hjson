@@ -7,6 +7,7 @@ requirements: [
 k01-elanite/125
 k03-tryllinium/75
 ]
+buildCostMultiplier: 0.3
 consumes: {
   power: 6
 }
