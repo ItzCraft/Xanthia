@@ -1,0 +1,14 @@
+captureWave: 18
+planet: xanthia
+sector: 76
+research: {
+  parent: "production-base"
+         objectives: [
+            {
+      type: SectorComplete
+                     preset: "production-base"
+                   }
+         ]
+}
+difficulty: 4
+alwaysUnlocked: false
