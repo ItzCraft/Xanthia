@@ -6,8 +6,8 @@ health: 50
 size: 2
 squareSprite: false
 requirements: [
-k01-elanite/60
-k03-tryllinium/20
+k01-elanite/145
+k03-tryllinium/120
 ]
 research: e01-tryllinium-node
 researchCost: [
@@ -16,7 +16,7 @@ k03-tryllinium/120
 ]
 hasLiquids: true
 
-powerProduction: 5.9
+powerProduction: 3.44444
 itemDuration: 60
 consumes: {
   liquids: [
