@@ -5,23 +5,42 @@ health: 120
 size: 2
 squareSprite: false
 requirements: [
-k03-tryllinium/180
-k01-elanite/150
+k01-elanite/125
+k03-tryllinium/70
 ]
-research: e05-rotatory-turbine
+research: e05-rotary-turbine
 researchCost: [
 k03-tryllinium/650
 k01-elanite/475
 ]
 hasItems: true
 
-powerProduction: 2.444
-itemDuration: 40
+powerProduction: 1.7777
+itemDuration: 120
 consumes: {
   items: [
-    k03-tryllinium/3
+    k03-tryllinium/2
   ]
 }
 category: power
 ambientSound: glow
 ambientSoundVolume: 0.56
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawParticles
+      reverse: false
+      particleRad: 20
+      color: 3671b5
+    }
+    {
+      type: DrawDefault
+
+    }
+   ]
+}
