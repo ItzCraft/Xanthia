@@ -1,5 +1,3 @@
-### If you downloaded this mod, remember that right now you not supposed to play it.
-
 
 # Xanthia
 Xanthia - a Mindustry modification what adds new planet with his small new mechanics. 
