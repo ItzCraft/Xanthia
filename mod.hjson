@@ -11,10 +11,10 @@ description:
 '''
 Discover and explore a brand new planet with its own campaign: Xanthia, a mountainous hot planet with more dangers and threat hiding there.
 
-Right now in alpha??????? (i will upload it to mod browser when this mod will be in beta)
+remember that Xanthia is in beta test right now. Everything is subject to change.
 '''
-version: "v0.25"
-subtitle: "V0.25!"
+version: "v0.3"
+subtitle: "V0.3!"
 minGameVersion: "146"
 dependencies: [ ]
 hidden: false
