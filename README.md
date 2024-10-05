@@ -6,6 +6,7 @@ Delevopers: Decaract & ItzCraft
 Spriters: Decaract, Nahan
 Testers: DarkSniper, Nahan, ItzCraft and you! 
 Contributors: Arbuzer, Los Sasikos
+Translators: Kev-Villy
 
 Also join our [discord sever](https://discord.com/invite/btUe3rhGuQ) 
 
