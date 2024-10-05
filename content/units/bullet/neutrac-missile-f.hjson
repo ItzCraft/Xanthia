@@ -11,7 +11,7 @@ trailLength: 2
 useUnitCap: false
 health: 200
 autoFindTarget: true
-homingDelay: 20
+homingDelay: 0
 circleTarget: false
 faceTarget: true
 trailColor: DEB46DFF
