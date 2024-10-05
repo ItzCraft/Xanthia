@@ -18,7 +18,7 @@ trailColor: DEB46DFF
 aimDst: 5
 drawCell: false
 outlines: false
-range: 2
+range: 3
 loopSound: missileTrail
 loopSoundVolume: 0.3
 
