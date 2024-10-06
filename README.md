@@ -14,4 +14,4 @@ Testers: DarkSniper, Nahan, ItzCraft
 
 Contributors: Arbuzer, Los Sasikos
 
-Translators: Kev-Villy
+Translators: Kev-Vily
