@@ -9,7 +9,15 @@ k01-elanite/120
 k02-foronium/60
 k03-tryllinium/25
 ]
-research: g01-solidifier
+research: {
+  parent: "g01-solidifier"
+         objectives: [
+            {
+      type: SectorComplete
+                     preset: "penetration"
+                    }
+         ]
+} 
 
 outputItem: k02-foronium/3
 craftTime: 30
