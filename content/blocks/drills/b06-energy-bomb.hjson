@@ -18,7 +18,6 @@ k05-velorium/475
 k06-duramatter/125
 ]
 researchCostMultiplier: 4
-research: b05-mechanical-quarry
 consumes: {
   power: 4.65
   items: [
