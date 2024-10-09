@@ -14,7 +14,15 @@ consumes: {
 tier: 3
 drillTime: 600
 drillEffect: drillSteam
-research: b03-scaldium-extractor
+research: {
+  parent: "b03-scaldium-extractor"
+         objectives: [
+            {
+      type: OnSector
+                     preset: "penetration"
+                    }
+         ]
+}
 researchCost: [
 k01-elanite/1280
 k02-foronium/780
