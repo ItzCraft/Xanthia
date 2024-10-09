@@ -12,11 +12,11 @@ description:
 '''
 Discover and explore a brand new planet with its own campaign: Xanthia, a mountainous hot planet with more dangers and threat hiding there.
 
-remember that Xanthia is in beta test right now. Everything is subject to change.
+Remember that Xanthia is in beta test right now. Everything is subject to change.
 '''
 version: "v0.3"
 subtitle: "V0.3!"
 minGameVersion: "146"
 dependencies: [ ]
 hidden: false
-hideBrowser: true
+hideBrowser: false
