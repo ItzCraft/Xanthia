@@ -1,4 +1,5 @@
 planet: xanthia
+captureWave: 24
 sector: 9
 research: {
   parent: "foron-rivers"
