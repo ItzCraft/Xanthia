@@ -9,7 +9,7 @@ armor: 0
 speed: 1
 rotateSpeed: 2
 itemCapacity: 40
-outlineColor: 1b2030FF
+outlineColor: 131824FF
 research: h02-land-refabricator
 legStraightness: 0.7
 legContinuousMove: true
