@@ -14,7 +14,7 @@ accel: 0.1
 drag: 0.15
 rotateSpeed: 3
 itemCapacity: 30
-outlineColor: 131824FF
+outlineColor: 1b2030FF
 
 defaultCommand: repair
 
