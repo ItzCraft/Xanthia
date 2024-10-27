@@ -11,7 +11,7 @@ armor: 0
 speed: 0.8
 rotateSpeed: 1.5
 itemCapacity: 25
-outlineColor: 131824FF
+outlineColor: 1b2030FF
 
 legStraightness: 0.3
 legContinuousMove: true
