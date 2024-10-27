@@ -14,7 +14,7 @@ accel: 0.1
 drag: 0.1
 rotateSpeed: 2
 itemCapacity: 45
-outlineColor: 131824FF
+outlineColor: 1b2030FF
 engines: [
   {
     x: -4.5
