@@ -10,7 +10,7 @@ armor: 0
 speed: 1
 rotateSpeed: 2
 itemCapacity: 20
-outlineColor: 1b2030FF
+outlineColor: 131824FF
 
 research: {
   parent: "h01-land-fabricator"
