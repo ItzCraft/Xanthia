@@ -10,7 +10,7 @@ hitSize: 12
 itemCapacity: 65
 engineOffset: 8.5
 faceTarget: true
-outlineColor: 313131
+outlineColor: 131824FF
 mineTier: 3
 mineWalls: true
 mineRange: 120
