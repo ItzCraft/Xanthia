@@ -1,4 +1,6 @@
 type: Unloader
+name: Enclosed Unloader
+description: Unloading... 
 health: 50
 requirements: [
 k01-elanite/24
