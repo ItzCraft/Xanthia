@@ -1,0 +1,13 @@
+type: Unloader
+health: 50
+itemCapacity: 0
+requirements: [
+k01-elanite/24
+k02-foronium/8
+] 
+category: effect
+research: c06-enclosed-bridge
+researchCost: [
+k01-elanite/250
+k02-foronium/125
+]
