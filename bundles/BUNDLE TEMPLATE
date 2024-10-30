@@ -77,6 +77,8 @@ block.xanthia-3-c05-enclosed-underflow-gate.name =
 block.xanthia-3-c05-enclosed-underflow-gate.description =
 block.xanthia-3-c06-enclosed-bridge.name =
 block.xanthia-3-c06-enclosed-bridge.description =
+block.xanthia-3-c07-enclosed-unloader.name =
+lock.xanthia-3-c07-enclosed-unloader.description =
 
 
 # Drills
