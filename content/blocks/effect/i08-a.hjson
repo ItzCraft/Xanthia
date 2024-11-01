@@ -24,7 +24,7 @@ research: {
     objectives: [
       {
         type: SectorComplete
-        preset: "???"
+        preset: "valley-of-enemies"
       }
     ]
 }
