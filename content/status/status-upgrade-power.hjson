@@ -1,1 +1,5 @@
-
+name: Upgrade: «Balance»
+description: "The first upgrade Called «Balance». Increases damage, build speed and speed boosts."
+damageMultiplier: 1.5
+buildSpeedMultiplier: 1.25
+speedMultiplier: 1.5
