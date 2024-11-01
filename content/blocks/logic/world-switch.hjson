@@ -1,0 +1,7 @@
+type: SwitchBlock
+name: World Switch
+targetable: false
+configurable: false
+buildVisibility: editorOnly
+category: logic
+requirements: []
