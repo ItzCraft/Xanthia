@@ -1,0 +1,47 @@
+type: Battery
+name: Upgrader
+description: "The source of power. The technology was found in enemy base. \n This is a Lore block"
+requirements: [
+k01-elanite/650
+k02-foronium/400
+k05-velorium/375
+]
+category: effect
+hasPower: true
+size: 3
+health: 350
+allowDerelictRepair: true
+destructible: true
+breakable: true
+targetable: true
+buildCostMultiplier: 0.3 
+consumes: {
+  power: 9
+  powerBuffered: 0
+}
+research: {
+  parent: "i01-core-fragment"
+    objectives: [
+      {
+        type: SectorComplete
+        preset: "???"
+      }
+    ]
+}
+researchCost: [
+k01-elanite/2750
+k02-foronium/2500
+k05-velorium/1900
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+     type: DrawGlowRegion
+     color: f0d17d
+    }
+  ]
+}
