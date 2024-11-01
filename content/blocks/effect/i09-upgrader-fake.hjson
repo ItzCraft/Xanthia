@@ -1,0 +1,21 @@
+type: Block
+name: Upgrader
+description: "how are you reading that"
+requirements: [
+k01-elanite/650
+k02-foronium/400
+k05-velorium/375
+]
+category: effect
+hasPower: true
+size: 3
+health: 350
+allowDerelictRepair: true
+destructible: true
+breakable: true
+targetable: true
+buildCostMultiplier: 0.3 
+buildVisibility: sandboxOnly
+consumes: {
+  power: 9
+  } 
