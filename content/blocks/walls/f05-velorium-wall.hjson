@@ -6,6 +6,7 @@ size: 1
 requirements: [
 k05-velorium/6
 ]
+buildCostMultiplier: 0.4
 health: 660
 category: defense
 
