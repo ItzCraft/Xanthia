@@ -6,6 +6,7 @@ category: turret
 requirements: [
 k01-elanite/30
 ]
+fogRadiusMultiplier: 0.4
 research: i01-core-fragment
 researchCost: [
 k01-elanite/180
