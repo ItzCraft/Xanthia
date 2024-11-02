@@ -3,6 +3,7 @@ name: Neutrac
 description: Fires a barrage of multiple missiles at the enemy over long distance. Cannot attack air
 size: 2
 category: turret
+fogRadiusMultiplier: 0.25
 researchCostMultiplier: 0.7
 research: {
   parent: "a01-quark"
