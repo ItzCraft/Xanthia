@@ -2,11 +2,11 @@ captureWave: 42
 planet: xanthia
 sector: 15
 research: {
-  parent: "arrival"
+  parent: "creation"
     objectives: [
       {
         type: SectorComplete
-        preset: "arrival"
+        preset: "creation"
       }
     ]
 }
