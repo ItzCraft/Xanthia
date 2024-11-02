@@ -11,6 +11,7 @@ k05-velorium/75
 k06-duramatter/25
 ]
 buildCostMultiplier: 0.4
+fogRadiusMultiplier: 0.5
 outlineColor: 313131FF
 targetAir: true
 targetGround: true
