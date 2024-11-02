@@ -9,6 +9,7 @@ k01-elanite/120
 k02-foronium/60
 k03-tryllinium/25
 ]
+buildCostMultiplier: 0.4
 research: {
   parent: "g01-solidifier"
          objectives: [
