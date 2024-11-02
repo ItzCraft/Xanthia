@@ -10,6 +10,7 @@ k03-tryllinium/75
 k05-velorium/75
 k06-duramatter/25
 ]
+buildCostMultiplier: 0.4
 outlineColor: 313131FF
 targetAir: true
 targetGround: true
