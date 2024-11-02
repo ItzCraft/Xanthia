@@ -11,8 +11,8 @@ laserColor1: AFF8FFFF
 laserColor2: 6697FAFF
 lasers: 4
 requirements: [
-  k03-tryllinium/6
-  k05-velorium/2
+  k03-tryllinium/3
+  k05-velorium/1
 ]
 research: {
   parent: "e01-tryllinium-node"
@@ -24,6 +24,6 @@ research: {
  	]
 }
 researchCost: [
-  k03-tryllinium/750
-  k05-velorium/150
+  k03-tryllinium/230
+  k05-velorium/45
 ]
