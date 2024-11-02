@@ -6,10 +6,11 @@ size: 2
 requirements: [
 k06-duramatter/24
 ]
+buildCostMultiplier: 0.4
 health: 2960
 category: defense
 
 research: f07-dura-wall
 researchCost: [
-k06-duramatter/560
+k06-duramatter/400
 ]
