@@ -4,6 +4,7 @@ description: Fires a short range powerful energy beam at the enemy. Require cool
 size: 3
 category: turret
 researchCostMultiplier: 0.7
+fogRadiusMultiplier: 0.3
 research: a02-nuclei
 requirements: [
 k01-elanite/275
