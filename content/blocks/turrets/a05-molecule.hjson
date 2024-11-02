@@ -11,6 +11,7 @@ k02-foronium/175
 k03-tryllinium/125
 k05-velorium/65
 ]
+buildCostMultiplier: 0.3
 
 coolant: {
   type: ConsumeCoolant
