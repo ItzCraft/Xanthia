@@ -6,6 +6,7 @@ size: 1
 requirements: [
 k02-foronium/6
 ]
+buildCostMultiplier: 0.5
 health: 660
 category: defense
 
