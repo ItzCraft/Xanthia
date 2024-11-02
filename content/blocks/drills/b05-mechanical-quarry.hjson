@@ -8,6 +8,7 @@ k01-elanite/180
 k02-foronium/120
 k03-tryllinium/85
 ]
+buildCostMultiplier: 0.3
 consumes: {
   power: 2.77
 }
