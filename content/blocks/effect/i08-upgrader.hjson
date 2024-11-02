@@ -14,7 +14,7 @@ allowDerelictRepair: true
 destructible: true
 breakable: true
 targetable: true
-buildCostMultiplier: 0.3 
+buildCostMultiplier: 0.2
 consumes: {
   power: 9
   powerBuffered: 0
