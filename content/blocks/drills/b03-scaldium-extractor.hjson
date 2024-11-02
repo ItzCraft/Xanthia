@@ -26,7 +26,7 @@ attribute: scaldium
 baseEfficiency: 0
 boostScale: 0.25
 minEfficiency: 0.01
-
+buildCostMultiplier: 0.4
 category: production
 
 drawer: {
