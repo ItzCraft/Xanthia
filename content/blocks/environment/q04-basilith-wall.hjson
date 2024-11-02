@@ -1,4 +1,4 @@
 type: StaticWall
-
 name: Basilith Wall
 description: A wall made out of basilith.
+variants: 3
