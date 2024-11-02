@@ -11,7 +11,7 @@ k02-foronium/40
 k03-tryllinium/30
 k05-velorium/10
 ]
-
+buildCostMultiplier: 0.4
 baseColor: 2CDC78FF
 range: 16
 healPercent: 0.025
