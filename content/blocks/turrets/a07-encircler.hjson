@@ -9,6 +9,7 @@ k01-elanite/145
 k05-velorium/100
 k06-duramatter/65
 ]
+buildCostMultiplier: 0.4
 outlineColor: 313131FF
 targetAir: true
 targetGround: false
