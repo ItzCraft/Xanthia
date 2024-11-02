@@ -15,6 +15,6 @@ requirements: [
 ]
 research: e01-tryllinium-node
 researchCost: [
-  k03-tryllinium/565
-  k01-elanite/450
+  k03-tryllinium/235
+  k01-elanite/150
 ]
