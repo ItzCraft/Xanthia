@@ -15,6 +15,7 @@ k01-elanite/240
 k03-tryllinium/120
 ]
 hasLiquids: true
+buildCostMultiplier: 0.5
 
 powerProduction: 3.44444
 itemDuration: 60
