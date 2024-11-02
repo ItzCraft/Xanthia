@@ -1,0 +1,14 @@
+captureWave: 42
+planet: xanthia
+sector: 15
+research: {
+  parent: "arrival"
+    objectives: [
+      {
+        type: SectorComplete
+        preset: "arrival"
+      }
+    ]
+}
+difficulty: 6
+alwaysUnlocked: false
