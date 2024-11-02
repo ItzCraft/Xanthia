@@ -9,7 +9,7 @@ k01-elanite/50
 k02-foronium/30
 k03-tryllinium/20
 ]
-
+buildCostMultiplier: 0.3
 drillTime: 240
 range: 6
 tier: 3
