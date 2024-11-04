@@ -10,7 +10,7 @@ requirements: [
   k05-velorium/50
 ]
 research: {
-  parent: h01-land-fabrocator
+  parent: h01-land-fabricator
   objectives: [
     {
       type: OnSector
