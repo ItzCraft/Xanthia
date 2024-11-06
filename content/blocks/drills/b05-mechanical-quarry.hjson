@@ -20,7 +20,7 @@ research: {
          objectives: [
             {
       type: OnSector
-                     preset: "penetration"
+                     preset: "protection"
                     }
          ]
 }
