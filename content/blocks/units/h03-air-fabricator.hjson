@@ -1,6 +1,6 @@
 type: UnitFactory
 
-name: Flying Fabricator
+name: Air Fabricator
 description: Constructor flying "Drop" unit. Outputted unit can be used directly or refrabricated.
 size: 3
 requirements: [
