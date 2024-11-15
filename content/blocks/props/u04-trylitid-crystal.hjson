@@ -1,3 +1,7 @@
-type: Prop
+type: TallBlock
 name: Trylitid Crystal
 variants: 2
+
+lightRadius: 45
+lightColor: cdd3ff
+emitLight: true
