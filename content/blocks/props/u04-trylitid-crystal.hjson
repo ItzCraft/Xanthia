@@ -3,5 +3,5 @@ name: Trylitid Crystal
 variants: 2
 
 lightRadius: 45
-lightColor: cdd3ff
+lightColor: cdd3ff88
 emitLight: true
