@@ -2,6 +2,6 @@ type: TallBlock
 name: Trylitid Crystal
 variants: 2
 
-lightRadius: 45
-lightColor: cdd3ff88
+lightRadius: 90
+lightColor: cdd3ffa8
 emitLight: true
