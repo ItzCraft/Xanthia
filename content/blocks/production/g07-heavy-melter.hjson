@@ -1,7 +1,7 @@
 type: GenericCrafter
 
 name: Heavy Melter
-description: Melt velorium until it reach its liquid form.
+description: Melts velorium until it reach its liquid form.
 
 size: 2
 squareSprite: false
