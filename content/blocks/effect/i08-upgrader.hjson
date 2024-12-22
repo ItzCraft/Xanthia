@@ -1,6 +1,6 @@
 type: Battery
 name: Upgrader
-description: "The source of power. The technology was found in enemy base. \n This is a Lore block"
+description: "The source of power. The technology was found in enemy base."
 requirements: [
 k01-elanite/650
 k02-foronium/400
