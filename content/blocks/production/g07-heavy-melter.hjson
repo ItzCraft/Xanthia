@@ -11,7 +11,7 @@ k02-foronium/60
 k03-tryllinium/10
 ]
 
-outputLiquid: l04-molten-velorium/0.3
+outputLiquid: l04-molten-velorium/0.4
 craftTime: 180
 consumes: {
   items: [
