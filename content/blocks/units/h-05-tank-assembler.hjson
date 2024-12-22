@@ -11,10 +11,10 @@ power: 17
 }
 category: units
 requirements: [
-  k01-elanite/1100
-  k02-foronium/850
-  k05-velorium/675
-  k06-duramatter/535
+  k01-elanite/950
+  k02-foronium/700
+  k05-velorium/600
+  k06-duramatter/430
 ]
 plans: [
   {
