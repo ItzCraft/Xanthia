@@ -43,8 +43,8 @@ weapons: [
       type: ExplosionBulletType
       homingPower: 1
       homingRange: 20
-      splashDamage: 10
-      splashDamageRadius: 20
+      splashDamage: 20
+      splashDamageRadius: 25
     }
   } 
 ]
