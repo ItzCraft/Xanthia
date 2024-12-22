@@ -43,8 +43,8 @@ weapons: [
       type: ExplosionBulletType
       status: melting
       statusDuration: 300
-      splashDamage: 15
-      splashDamageRadius: 15
+      splashDamage: 18
+      splashDamageRadius: 23
     }
   } 
 ]
