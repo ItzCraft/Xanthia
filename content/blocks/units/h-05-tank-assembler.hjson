@@ -6,7 +6,7 @@ consumes: {
 power: 17
   liquid: {
     liquid: l04-molten-velorium
-    amount: 0.6
+    amount: 0.7
   }
 }
 category: units
