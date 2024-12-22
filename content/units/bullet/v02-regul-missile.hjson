@@ -29,8 +29,8 @@ weapons: [
     shake: 1.7
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 150
-      splashDamageRadius: 50
+      splashDamage: 165
+      splashDamageRadius: 60
     }
   } 
 ]
