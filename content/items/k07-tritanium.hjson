@@ -9,7 +9,7 @@ hiddenOnPlanets: [
 serpulo
 erekir
 ]
-radioactivity: 1.2
-flammability: 0.7
-explosiveness: 0.6
+radioactivity: 1.9
+flammability: 0.45
+explosiveness: 0.9
 research: l07-tricyte
