@@ -1,0 +1,14 @@
+type: Block
+name: Meteorite Basalt
+description: "You not supposed to read that."
+size: 7
+category: effect
+health: 48284
+destructible: false
+breakable: false
+targetable: false
+allowDerelictRepair: false
+requirements: [
+ k05-velorium: 11842
+]
+buildVisibility: editorOnly
