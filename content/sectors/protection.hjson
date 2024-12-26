@@ -2,7 +2,7 @@ captureWave: 18
 planet: xanthia
 sector: 76
 research: {
-  parent: "production-base"
+  parent: "lylith-gorges"
          objectives: [
             {
       type: SectorComplete
