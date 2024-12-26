@@ -14,8 +14,8 @@ Discover and explore a brand new planet with its own campaign: Xanthia, a mounta
 
 Remember that Xanthia is in beta test right now. Everything is subject to change.
 '''
-version: "V0.3.2"
-subtitle: "V0.3.2!"
+version: "V0.3.3"
+subtitle: "V0.3.3!"
 minGameVersion: "146"
 dependencies: [ ]
 hidden: false
