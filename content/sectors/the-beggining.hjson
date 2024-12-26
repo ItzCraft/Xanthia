@@ -1,0 +1,13 @@
+planet: xanthia
+sector: 3
+research: {
+  parent: "creation"
+	 objectives: [
+	    {
+      type: SectorComplete
+     		preset: "creation"
+		   }
+ 	]
+}
+difficulty: 4
+alwaysUnlocked: false
