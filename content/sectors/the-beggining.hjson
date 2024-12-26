@@ -1,11 +1,11 @@
 planet: xanthia
 sector: 4
 research: {
-  parent: "creation"
+  parent: "valley-of-enemies"
 	 objectives: [
 	    {
       type: SectorComplete
-     		preset: "creation"
+     		preset: "valley-of-enemies"
 		   }
  	]
 }
