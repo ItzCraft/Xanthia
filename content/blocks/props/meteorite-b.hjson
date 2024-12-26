@@ -9,6 +9,6 @@ breakable: false
 targetable: false
 allowDerelictRepair: false
 requirements: [
- k05-velorium: 11842
+k01-elanite/1
 ]
 buildVisibility: editorOnly
