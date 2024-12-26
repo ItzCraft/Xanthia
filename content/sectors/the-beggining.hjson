@@ -1,5 +1,5 @@
 planet: xanthia
-sector: 3
+sector: 4
 research: {
   parent: "creation"
 	 objectives: [
