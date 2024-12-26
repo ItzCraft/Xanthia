@@ -8,12 +8,12 @@ Thankyou :3 for reading.
 
 
 ## Credits
-Delevopers: Decaract & ItzCraft
+Coders: Decaract & ItzCraft
 
 Spriters: Decaract, Nahan
 
-Testers: DarkSniper, Nahan, ItzCraft
+Testers: DarkSniper, Nahan, ItzCraft, AnDashik
 
-Contributors: Arbuzer, Los Sasikos
+Contributors: Arbuzer, Los Sasikos, AnDashik
 
 Translators: Kev-Vily
