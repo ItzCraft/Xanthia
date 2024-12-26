@@ -2,7 +2,7 @@
 planet: xanthia
 sector: 26
 research: {
-  parent: "production-base"
+  parent: "protection"
 	 objectives: [
 	    {
       type: SectorComplete
