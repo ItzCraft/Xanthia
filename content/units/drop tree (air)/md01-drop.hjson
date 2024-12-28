@@ -79,18 +79,8 @@ weapons: [
     }
   }
 ]
-research: {
-  parent: "h03-flying-fabricator"
- 	objectives: [
-	    {
-      type: OnSector
-     		preset: "foron-rivers"
-		    }
- 	]
-}
 researchCost: [
-k01-elanite/450
-k05-velorium/250
+k01-elanite/250
+k05-velorium/100
 ]
-
 researchCostMultiplier: 2
