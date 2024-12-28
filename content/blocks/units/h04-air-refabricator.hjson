@@ -1,0 +1,43 @@
+type: Reconstructor
+name: Air refabricator
+description: Upgrades Drops to T2 tier. 
+size: 3
+health: 1050
+category: units
+requirements: [
+  k01-elanite/325
+  k02-foronium/200
+  k05-velorium/175
+]
+research: {
+  parent: h03-air-fabricator
+  objectives: [
+    {
+      type: OnSector
+      preset: the-beggining
+    }
+  ]
+}
+researchCost: [
+  k01-elanite/3650
+  k02-foronium/3150
+  k05-velorium/2200
+]
+constructTime: 850
+consumes: {
+ power: 7.77
+  items: {
+    items: [
+      k01-elanite/75
+      k02-foronium/45
+      k05-velorium/35
+    ]
+  }
+  liquid: {
+    liquid: l04-molten-velorium
+    amount: 0.333333
+  }
+}
+upgrades: [
+ [md01-drop, md02-drizzle]
+]
