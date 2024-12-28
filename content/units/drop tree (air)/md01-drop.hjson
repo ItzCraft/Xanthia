@@ -15,6 +15,7 @@ drag: 0.1
 rotateSpeed: 4
 itemCapacity: 25
 outlineColor: 131824FF
+research: h03-air-fabricator
 
 defaultCommand: repair
 
