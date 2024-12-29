@@ -35,10 +35,10 @@ drawer: {
     padding: 2
     }
     {
-    type: DrawDefault
+    type: DrawArcSmelt
     }
     {
-    type: DrawArcSmelt
+    type: DrawDefault
     }
   ]
 }
