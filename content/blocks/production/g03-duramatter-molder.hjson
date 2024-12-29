@@ -32,11 +32,11 @@ craftEffect: {
   cone: 360
   followParent: true
   rotWithParent: false
-  sizeFrom: 1.1
-  sizeTo: 0.3
-  lifetime: 60
-  length: 3
-  baseLength: 4
+  sizeFrom: 1.5
+  sizeTo: 0.4
+  lifetime: 65
+  length: 3.5
+  baseLength: 5
   interp: pow2
   sizeInterp: pow3In
   colorFrom: d0d3e7
