@@ -13,8 +13,8 @@ k05-velorium/10
 ]
 buildCostMultiplier: 0.4
 baseColor: 2CDC78FF
-range: 16
-healPercent: 0.025
+range: 18
+healPercent: 0.05
 
 effect: {
   type: ParticleEffect
