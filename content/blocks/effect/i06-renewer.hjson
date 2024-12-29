@@ -13,7 +13,7 @@ k03-tryllinium/10
 
 baseColor: 2CDC78FF
 range: 8
-healPercent: 0.014
+healPercent: 0.04
 
 effect: {
   type: ParticleEffect
