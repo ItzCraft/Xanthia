@@ -2,7 +2,7 @@ type: PowerNode
 
 name: Tryllinium  Heavy Node
 description: Distribute power.
-size: 2
+size: 3
 health: 330
 category: power
 requirements: [
