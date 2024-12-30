@@ -5,9 +5,9 @@ description: Used electricity because of its high charge and conductivity.
 
 color: 544DEBFF
 hardness: 2
-cost: 2
+cost: 1.6
 
-charge: 0.5
+charge: 0.55
 
 hiddenOnPlanets: [
 serpulo
