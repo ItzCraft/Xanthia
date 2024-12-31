@@ -38,10 +38,10 @@ ammoTypes: {
     frontColor: bf34d1
     backColor: 46154d
     trailColor: bf34d1
-    trailLength: 1.754
-    trailWidth: 1
-    width: 3
-    height: 3.5
+    trailLength: 4.754
+    trailWidth: 4
+    width: 6
+    height: 6.5
     speed: 2.67
     lifetime: 45
     damage: 15
@@ -52,10 +52,10 @@ ammoTypes: {
       frontColor: bf34d1
       backColor: 46154d
       trailColor: bf34d1
-      trailLength: 1.4
-      trailWidth: 0.75
-      width: 1.8
-      height: 2.3
+      trailLength: 4.4
+      trailWidth: 3.75
+      width: 4.8
+      height: 5.3
       damage: 5
       speed: 1
       lifetime: 15
@@ -65,10 +65,10 @@ ammoTypes: {
       frontColor: dde2eb
       backColor: 717275
       trailColor: dde2eb
-      trailLength: 2
-      trailWidth: 1.2
-      width: 3.5
-      height: 4
+      trailLength: 5
+      trailWidth: 4.2
+      width: 6.5
+      height: 8
       speed: 2.67
       lifetime: 45
       damage: 30
@@ -79,10 +79,10 @@ ammoTypes: {
         frontColor: dde2eb
         backColor: 717275
         trailColor: dde2eb
-        trailLength: 1.7
-        trailWidth: 1
-        width: 2.4
-        height: 2.8
+        trailLength: 4.7
+        trailWidth: 4
+        width: 5
+        height: 5.8
         damage: 14
         speed: 1.2
         lifetime: 15
