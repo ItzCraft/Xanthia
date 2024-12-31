@@ -59,7 +59,8 @@ ammoTypes: {
       damage: 5
       speed: 1
       lifetime: 15
-    },
+    }
+ },
     k06-duramatter: {
       type: BasicBulletType
       frontColor: dde2eb
