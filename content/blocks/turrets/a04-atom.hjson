@@ -44,7 +44,7 @@ ammoTypes: {
     height: 6.5
     speed: 2.67
     lifetime: 45
-    damage: 15
+    damage: 45
     fragBullets: 3
     fragAngle: 45
     fragBullet: {
@@ -56,7 +56,7 @@ ammoTypes: {
       trailWidth: 5.75
       width: 4.8
       height: 5.3
-      damage: 5
+      damage: 16
       speed: 1
       lifetime: 15
     }
@@ -72,7 +72,7 @@ ammoTypes: {
       height: 8
       speed: 2.67
       lifetime: 45
-      damage: 30
+      damage: 75
       fragBullets: 5
       fragAngle: 45
       fragBullet: {
@@ -84,7 +84,7 @@ ammoTypes: {
         trailWidth: 5
         width: 5
         height: 5.8
-        damage: 14
+        damage: 30
         speed: 1.2
         lifetime: 15
       }
