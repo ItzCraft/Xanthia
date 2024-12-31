@@ -13,7 +13,7 @@ researchCost: [
 k01-elanite/50
 k03-tryllinium/25
 ]
-laserRange: 8
+laserRange: 4
 maxNodes: 6
 
 laserColor1: AFF8FFFF
