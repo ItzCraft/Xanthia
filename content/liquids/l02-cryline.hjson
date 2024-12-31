@@ -9,9 +9,9 @@ barColor: 76eaf5
 lightColor: 7dc1c7
 
 temperature: -0.2
-heatCapacity: 0.5
-viscosity: 0.5
-boilPoint: 3
+heatCapacity: 0.9
+viscosity: 0.9
+boilPoint: 5
 capPuddles: false
 alwaysUnlocked: false
 research: l03-tryfluid
