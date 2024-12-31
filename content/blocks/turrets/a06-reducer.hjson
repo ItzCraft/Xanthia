@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Reducer
-description: fires some of strong lightning that weaken enemies. 
+description: Fires some of strong lightning that weaken enemies. And heals your structures.
 size: 3
 category: turret
 requirements: [
@@ -15,6 +15,7 @@ fogRadiusMultiplier: 0.7
 outlineColor: 313131FF
 targetAir: true
 targetGround: true
+targetHealing: true
 reload: 30
 range: 140
 inaccuracy: 5
