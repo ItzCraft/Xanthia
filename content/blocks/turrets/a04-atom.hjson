@@ -16,7 +16,10 @@ coolant: {
   allowLiquid: true
   amount: 0.1
 }
-maxAmmo: 202
+targetAir: true
+targetGround: true
+
+maxAmmo: 20
 ammoPerShot: 2
 inaccuracy: 2
 recoil: 3
