@@ -28,7 +28,7 @@ cooldownTime: 10
 targetUnderBlocks: false
 range: 138
 fogRadiusMultiplier: 0.8
-reload: 10
+reload: 75
 shootEffect: shootSmall
 smokeEffect: shootSmokeSquareSparse
 shootSound: artillery
