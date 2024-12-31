@@ -1,0 +1,93 @@
+type: ItemTurret
+name: Atom
+description: ""
+size: 3
+squareSprite: false
+outlineColor: 313131FF
+category: turret
+requirements: [
+ k01-elanite/275,
+ k02-foronium/215 
+]
+health: 200
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+maxAmmo: 202
+ammoPerShot: 2
+inaccuracy: 2
+recoil: 3
+recoilTime: 0.5
+cooldownTime: 10
+targetUnderBlocks: false
+range: 138
+fogRadiusMultiplier: 0.8
+reload: 10
+shootEffect: shootSmall
+smokeEffect: shootSmokeSquareSparse
+shootSound: artillery
+ammoTypes: {
+  k02-foronium: {
+    type: BasicBulletType
+    frontColor: bf34d1
+    backColor: 46154d
+    trailColor: bf34d1
+    trailLength: 1.754
+    trailWidth: 1
+    width: 3
+    height: 3.5
+    speed: 2.67
+    lifetime: 45
+    damage: 15
+    fragBullets: 3
+    fragAngle: 45
+    fragBullet: {
+      type: BasicBulletType
+      frontColor: bf34d1
+      backColor: 46154d
+      trailColor: bf34d1
+      trailLength: 1.4
+      trailWidth: 0.75
+      width: 1.8
+      height: 2.3
+      damage: 5
+      speed: 1
+      lifetime: 15
+    },
+    k06-duramatter: {
+      type: BasicBulletType
+      frontColor: dde2eb
+      backColor: 717275
+      trailColor: dde2eb
+      trailLength: 2
+      trailWidth: 1.2
+      width: 3.5
+      height: 4
+      speed: 2.67
+      lifetime: 45
+      damage: 30
+      fragBullets: 5
+      fragAngle: 45
+      fragBullet: {
+        type: BasicBulletType
+        frontColor: dde2eb
+        backColor: 717275
+        trailColor: dde2eb
+        trailLength: 1.7
+        trailWidth: 1
+        width: 2.4
+        height: 2.8
+        damage: 14
+        speed: 1.2
+        lifetime: 15
+      }
+  }
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: regul
+}
