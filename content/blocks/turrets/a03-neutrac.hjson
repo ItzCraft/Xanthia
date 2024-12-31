@@ -119,6 +119,6 @@ recoil: 0.7
 cooldownTime: 200
 
 shoot: {
-  shots: 10
+  shots: 7
   shotDelay: 5
 }
