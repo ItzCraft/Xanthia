@@ -28,9 +28,9 @@ weapons: [
    collides: false
    hitSound:  explosionbig
    speed: 3
-   splashDamageRadius: 15
+   splashDamageRadius: 160
    splashDamage: 500
-   status: blasted
+   status: melting
    statusDuration: 9000
    instantDisappear: true
    killShooter: true
