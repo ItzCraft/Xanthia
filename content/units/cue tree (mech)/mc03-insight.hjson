@@ -1,8 +1,6 @@
-
 type: legs
-
 name: Insight
-description: fires a powerful bullet that does splash damage. Be careful if he attack you. 
+description: Shoots powerful ligthinings what have piercing.
 hitSize: 18
 singleTarget: true
 faceTarget: true
@@ -20,61 +18,92 @@ legGroupSize: 5
 legCount: 8
 allowLegStep: true
 legExtension: -4
-legLength: 16
+legLength: 27
 legSpeed: 0.3
-legForwardScl: 1.3
+legForwardScl: 1.5
 legBaseOffset: 6
-legMaxLength: 1
-legMinLength: 0.8
+legMaxLength: 1.2
+legMinLength: 1
 legMoveSpace: 1
 hovering: true
 groundLayer: 60
 
 weapons: [
   {
-    x: 0
-    y: 3
-    top: false
-    name: mc03-insight-weapon
-    reload: 150
-    mirror: false
-    rotate: false
-    shootSound: cannon
+    name: mc03-insight-gun
+    x: 7.5
+    y: -9
+    mirror: true
+    top: true
+    alternate: true
+    reload: 60
+    shootEffect: lightningShoot
+    shootSound: spark
     inaccuracy: 2
+    shoot: {
+     shots: 7
+     shotDelay: 0
+    }
     bullet: {
-      type: MissileBulletType
-      trailLength: 19
-      trailWidth: 5
-      width: 4
-      height: 4
-      splashDamage: 45
-      splashDamageRadius: 15
-      splashDamagePierce: true
-      pierce: true
-      pierceCap: 3
-      pierceBuilding: true
-      speed: 3.5
-      lifetime: 45
-      frontColor: FFFFFFFF
-      backColor: 869CBEFF
-      trailColor: 869CBEFF
-      shootEffect: shootTitan
-      shootSmoke: shootSmokeTitan
-      hitEffect: titanExplosion
-      despawnEffect: titanExplosion
+     type: LightningBulletType
+     damage: 5
+     lightningLength: 31
+     lightningDamage: 5
+     lightningCone: 0
+     pierce: true
+     pierceCap: 3
+     pierceBuilding: true
+     hitEffect: hitLancer
     }
     parts: [
       {
-        layerOffset: -0.01
         type: RegionPart
         suffix: -side
         mirror: true
+        alternate: true
         under: true
         outline: true
         progress: recoil
-        moveX: 0.5
-        moveY: 0.1
-        moveRot: -10
+        moveY: -2
+      }
+    ]
+  },
+  {
+    name: mc03-insight-gun2
+    x: 12
+    y: -9
+    mirror: true
+    top: true
+    alternate: true
+    reload: 60
+    shootEffect: lightningShoot
+    shootSound: spark
+    inaccuracy: 2
+    shoot: {
+     shots: 7
+     shotDelay: 0
+    }
+    bullet: {
+     type: LightningBulletType
+     damage: 5
+     lightningLength: 31
+     lightningDamage: 5
+     lightningCone: 15
+     pierce: true
+     pierceCap: 3
+     pierceBuilding: true
+     hitEffect: hitLancer
+    }
+    parts: [
+      {
+        type: RegionPart
+        suffix: -side2
+        mirror: true
+        alternate: true
+        under: true
+        outline: true
+        progress: recoil
+        moveY: -2
       }
     ]
   }

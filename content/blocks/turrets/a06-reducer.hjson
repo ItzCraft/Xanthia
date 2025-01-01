@@ -17,7 +17,7 @@ targetAir: true
 targetGround: true
 targetHealing: true
 reload: 30
-range: 140
+range: 180
 inaccuracy: 5
 shootY: 2
 shootSound: shootAlt
@@ -34,7 +34,7 @@ shootType: {
   height: 0
   lightningColor: df60eb
   lightning: 6
-  lightningLength: 35
+  lightningLength: 30
   lightningDamage: 30
   lightningCone: 45
   buildingDamageMultiplier: 0.75

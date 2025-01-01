@@ -29,8 +29,8 @@ ammoTypes: {
   k03-tryllinium: {
     type: BasicBulletType
     speed: 3.7
-    damage: 10.5
-    lifetime: 84
+    damage: 200.5
+    lifetime: 63
     width: 30
     height: 30
     frontColor: 6cafd9
@@ -39,7 +39,7 @@ ammoTypes: {
     shootSmoke: shootBigSmoke
     lightningColor: 6cafd9
     lightning: 10
-    lightningLength: 15
+    lightningLength: 20
     lightningDamage: 95
     lightningInterval: 2
     buildingDamageMultiplier: 0.3

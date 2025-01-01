@@ -1,169 +1,85 @@
 type: legs
 name: Omen
-description: Large strong spider, that have 2 big weapons on his top. he is way bigger than Insight.
+description: Have powerful Railgun that shoots very strong laser. Also constructing self destructing units "Retribution"
 hitSize: 30
 singleTarget: true
 faceTarget: true
-health: 3650
+health: 5650
 armor: 0
-speed: 0.76
-rotateSpeed: 2
-itemCapacity: 40
+speed: 0.6
+rotateSpeed: 1.2
+itemCapacity: 25
 outlineColor: 131824FF
-legStraightness: 0.6
+
+legStraightness: 0.3
 legContinuousMove: true
 lockLegBase: true
-legGroupSize: 1
+legGroupSize: 5
 legCount: 6
 allowLegStep: true
-legExtension: 8
-legLength: 65
-legSpeed: 5.2
-legForwardScl: 1.2
+legExtension: -6
+legLength: 76
+legSpeed: 0.9
+legForwardScl: 1.5
 legBaseOffset: 6
-legMaxLength: 1.6
-legMinLength: 0.8
+legMaxLength: 1.2
+legMinLength: 0.7
 legMoveSpace: 1
 hovering: true
 groundLayer: 60
-weapons: [
+
+abilities: [
   {
-    x: 0
-    y: 5.5
-    top: false
-    name: mc04-omen-weapon
-    reload: 225
-    mirror: false
-    rotate: false
-    shootSound: cannon
-    inaccuracy: 2
-    bullet: {
-      type: MissileBulletType
-      trailLength: 24
-      trailWidth: 8
-      width: 8
-      height: 8
-      splashDamage: 190
-      splashDamageRadius: 20
-      splashDamagePierce: true
-      pierce: true
-      pierceCap: 2
-      pierceBuilding: true
-      speed: 2.75
-      lifetime: 30
-      frontColor: FFFFFFFF
-      backColor: 869CBEFF
-      trailColor: 869CBEFF
-      shootEffect: shootTitan
-      shootSmoke: shootSmokeTitan
-      hitEffect: [
-        {
-        type: ParticleEffect
-        particles: 65
-        baseRotation: 90
-        cone: 360
-        sizeFrom: 7
-        sizeTo: 5
-        length: 65
-        baseLength: 50
-        colorFrom: 8fb7ac
-        colorTo: 8fb7ac
-        lifetime: 60
-        useRotation: true
-        interp: pow2
-        sizeInterp: pow3In
-        }, 
-       titanExplosion
-     ]
-    }
-    parts: [
+    type: UnitSpawnAbility
+    spawnTime: 500
+    unit: mc04b-retribution
+    spawnX: 0
+    spawnY: -11
+  }
+] 
+
+weapons: [
+ {
+   name: mc04-omen-gun
+   x: 15
+   y: 7
+   mirror: true
+   top: true
+   alternate: true
+   reload: 240
+   bullet: {
+     type: RailBulletType
+     length: 400
+     damage: 5
+     shootEffect: railShoot
+     smokeEffect: shootBig
+     pointEffect: railTrail
+     hitEffect: titanExplosion
+     pierceDamageFactor: 0.45
+   }
+   parts: [
       {
-        layerOffset: -0.01
         type: RegionPart
-        suffix: -side
+        suffix: -back
         mirror: true
+        alternate: true
         under: true
         outline: true
-      }
+        progress: recoil
+        y: -9
+        moveY: -6.5
+      },
+      {
+        type: RegionPart
+        suffix: -nozzle
+        mirror: true
+        alternate: true
+        under: true
+        outline: true
+        progress: recoil
+        moveY: -6.5
+     }
     ]
-  }
-  {
-    x: 0
-    y: -4
-    top: true
-    name: mc04-omen-gun
-    reload: 135
-    mirror: true
-    rotate: false
-    shootSound: cannon
-    inaccuracy: 20
-    bullet: {
-      type: ArtilleryBulletType
-      trailLength: 18
-      trailWidth: 6
-      width: 6
-      height: 6
-      splashDamage: 85
-      splashDamageRadius: 10
-      speed: 4
-      lifetime: 55
-      frontColor: FFFFFFFF
-      backColor: 869CBEFF
-      lightRadius: 60
-      lightColor: f3e979
-      lightOpacity: 0.7
-      weaveScale: 10
-      weaveMag: 4
-      trailColor: 869CBEFF
-      shootEffect: shootTitan
-      shootSmoke: {
-        type: ParticleEffect
-        particles: 15
-        baseRotation: 120
-        cone: 0
-        sizeFrom: 1.5
-        sizeTo: 0.1
-        colorFrom: 8fb7ac
-        colorTo: 8fb7ac
-        lifetime: 15
-        useRotation: false
-        interp: pow2
-        sizeInterp: pow3In
-     }
-      hitEffect: {
-        type: ParticleEffect
-        particles: 65
-        baseRotation: 90
-        cone: 360
-        sizeFrom: 7
-        sizeTo: 5
-        length: 65
-        baseLength: 50
-        colorFrom: 8fb7ac
-        colorTo: 8fb7ac
-        lifetime: 60
-        useRotation: true
-        interp: pow2
-        sizeInterp: pow3In
-     }
-     fragBullets: 3
-     fragBullet: {
-       type: BasicBulletType
-       width: 4
-       height: 5
-       trailLength: 17
-       trailWidth: 6
-       speed: 2.75
-       lifetime: 85
-       keepVelocity: false
-       trailColor: 869CBEFF
-       frontColor: FFFFFFFF
-       backColor: 869CBEFF
-       splashDamage: 35
-       splashDamageRadius: 20
-       hitEffect: titanExplosion
-     }
-   }
-  }
+ }
 ]
-researchCostMultiplier: 4
+researchCostMultiplier: 3.5
