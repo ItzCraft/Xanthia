@@ -7,9 +7,9 @@ flying: true
 lowAltitude: true
 singleTarget: false
 faceTarget: true
-accel: 0.1
+accel: 0.5
 drag: 0.1
-rotateSpeed: 2
+rotateSpeed: 3
 outlineColor: 131824FF
 drawCell: false
 
@@ -24,13 +24,15 @@ weapons: [
   bullet: {
    collidesTiles: false
    collides: false
-   hitSound:  explosion
-   speed: 0
-   splashDamageRadius: 5
-   splashDamage: 5
+   hitSound:  explosionbig
+   speed: 3
+   splashDamageRadius: 15
+   splashDamage: 250
+   status: blasted
+   statusDuration: 9000
    instantDisappear: true
    killShooter: true
-   hittable: false
+   hittable: true
    collidesAir: false
   }
  }
