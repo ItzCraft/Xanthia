@@ -1,4 +1,3 @@
-
 type: legs
 name: Insight
 description: Shoots powerful ligthinings what have piercing.
@@ -50,7 +49,7 @@ weapons: [
      damage: 5
      lightningLength: 31
      lightningDamage: 5
-     lightningCone: 15
+     lightningCone: 0
      pierce: true
      pierceCap: 3
      pierceBuilding: true
