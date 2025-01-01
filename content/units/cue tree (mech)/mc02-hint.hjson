@@ -60,6 +60,7 @@ weapons: [
   }
   parts: [
       {
+        layerOffset: -0.001
         type: RegionPart
         suffix: -side
         mirror: true
