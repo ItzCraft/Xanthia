@@ -9,9 +9,9 @@ barColor: C885ACFF
 lightColor: E1ABCBFF
 
 explosiveness: 0.4
-flammability: 1.2
-temperature: 0.7
-heatCapacity: 0.2
+flammability: 0
+temperature: 1
+heatCapacity: 0.8
 viscosity: 0.2
 
 coolant: false
