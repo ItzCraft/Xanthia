@@ -1,7 +1,9 @@
 type: flying
 name: Retribution
 description: An a self destructing unit what was made by Omen
-speed: 3
+health: 2200
+armor: 50
+speed: 4
 hitSize: 6
 flying: true
 lowAltitude: true
@@ -27,7 +29,7 @@ weapons: [
    hitSound:  explosionbig
    speed: 3
    splashDamageRadius: 15
-   splashDamage: 250
+   splashDamage: 500
    status: blasted
    statusDuration: 9000
    instantDisappear: true
@@ -37,3 +39,29 @@ weapons: [
   }
  }
 ]
+
+ parts: [
+  {
+ type: HoverPart
+ x: 5.5
+ y: 5.5
+ mirror: true
+ radius: 8
+ phase: 126
+ stroke: 2
+ layerOffset: -0.001
+ color: c0e0ff
+ },
+  
+  {
+ type: HoverPart
+ x: 5.5
+ y: -5.5
+ mirror: true
+ radius: 8
+ phase: 126
+ stroke: 2
+ layerOffset: -0.001
+ color: c0e0ff
+ }
+ ]
