@@ -32,7 +32,7 @@ weapons: [
   x: 11.5
   y: 3
   name: mc02-hint-gun
-  reload: 150
+  reload: 100
   mirror: true
   rotate: false
   alternate: false
