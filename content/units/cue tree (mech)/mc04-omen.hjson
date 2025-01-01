@@ -38,6 +38,29 @@ abilities: [
   }
 ] 
 
+parts: [
+ {
+  type: FlarePart
+   x: 15
+   y: -13.5
+   radius: 0
+   radiusTo: 11
+   color1: 87b0be
+   color2: d0f0ff
+   progress: warmup 
+ },
+ {
+   type: FlarePart
+   x: -15
+   y: -13.5
+   radius: 0
+   radiusTo: 11
+   color1: 87b0be
+   color2: d0f0ff
+   progress: warmup  
+ }
+]
+
 weapons: [
  {
    name: mc04-omen-gun
@@ -47,6 +70,7 @@ weapons: [
    top: true
    alternate: true
    reload: 240
+   shootSound: big-shot
    bullet: {
      type: RailBulletType
      length: 400
