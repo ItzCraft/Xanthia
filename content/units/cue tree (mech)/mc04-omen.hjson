@@ -1,14 +1,14 @@
 type: legs
 name: Omen
-description: Have powerful Railgun that shoots very strong laser. Also constructing self destructing units "Retribution"
+description: Has two powerful railgun. Also constructing self destructing units "Retribution".
 hitSize: 30
 singleTarget: true
 faceTarget: true
 health: 5650
-armor: 0
-speed: 0.6
+armor: 20
+speed: 0.65
 rotateSpeed: 1.2
-itemCapacity: 25
+itemCapacity: 55
 outlineColor: 131824FF
 
 legStraightness: 0.3
@@ -31,10 +31,10 @@ groundLayer: 60
 abilities: [
   {
     type: UnitSpawnAbility
-    spawnTime: 500
+    spawnTime: 4800
     unit: mc04b-retribution
     spawnX: 0
-    spawnY: -13.5
+    spawnY: -13.25
   }
 ] 
 
@@ -50,7 +50,7 @@ weapons: [
    bullet: {
      type: RailBulletType
      length: 400
-     damage: 5
+     damage: 750
      shootEffect: railShoot
      smokeEffect: shootBig
      pointEffect: railTrail
