@@ -1,0 +1,75 @@
+type: legs
+name: Hint
+description: Fires powerful piercing energy orb. Can move over terrain.
+hitSize: 14
+singleTarget: true
+faceTarget: true
+health: 1600
+armor: 0
+speed: 1
+rotateSpeed: 2
+itemCapacity: 20
+outlineColor: 131824FF
+
+research: h02-land-refabricator
+
+legStraightness: 0.3
+legContinuousMove: true
+lockLegBase: true
+legGroupSize: 5
+legCount: 8
+allowLegStep: true
+legExtension: -2
+legLength: 21
+legSpeed: 0.4
+legForwardScl: 0.7
+legMoveSpace: 1
+hovering: true
+groundLayer: 60
+
+weapons: [
+ {
+  x: 11.5
+  y: 3
+  name: mc02-hint-gun
+  reload: 150
+  mirror: true
+  rotate: false
+  alternate: false
+  top: false
+  shootSound: cannon
+  bullet: {
+   type: BasicBulletType
+   speed: 6
+   damage: 5
+   lifetime: 20
+   width: 15
+   height: 15
+   frontColor: 6cafd9
+   backColor: 000000
+   shootEffect: shootBig
+   shootSmoke: shootBigSmoke
+   bulletInterval: 5
+   intervalBullets: 1
+   intervalBullet: {
+    type: LightningBulletType
+    damage: 5
+    lightningLength: 7
+    lightningColor: 6cafd9
+   }
+  }
+  parts: [
+      {
+        type: RegionPart
+        suffix: -side
+        mirror: true
+        alternate: false
+        under: true
+        outline: true
+        progress: recoil
+        moveY: -3
+      }
+    ]
+ }
+]
+researchCostMultiplier: 2
