@@ -34,7 +34,7 @@ abilities: [
     spawnTime: 500
     unit: mc04b-retribution
     spawnX: 0
-    spawnY: -11
+    spawnY: -13.5
   }
 ] 
 
@@ -66,7 +66,7 @@ weapons: [
         under: true
         outline: true
         progress: recoil
-        y: -9
+        y: -12
         moveY: -6.5
       },
       {
