@@ -63,5 +63,16 @@ weapons: [
  stroke: 2
  layerOffset: -0.001
  color: c0e0ff
+ },
+
+  {
+ type: FlarePart
+ x: 0
+ y: 0
+ radius: 0
+ radiusTo: 16
+ color1: 87b0be
+ color2: d0f0ff
+ progress: warmup
  }
  ]
