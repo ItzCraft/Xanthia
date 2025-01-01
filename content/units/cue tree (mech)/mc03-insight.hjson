@@ -71,7 +71,7 @@ weapons: [
   },
   {
     name: mc03-insight-gun2
-    x: 7.5
+    x: 12
     y: -9
     mirror: true
     top: true
