@@ -15,7 +15,7 @@ outlineColor: 313131FF
 targetAir: true
 targetGround: false
 reload: 60 
-range: 100
+range: 200
 inaccuracy: 5
 shootY: 4
 shootSound: shootAlt
@@ -28,9 +28,9 @@ consumes: {
 ammoTypes: {
   k03-tryllinium: {
     type: BasicBulletType
-    speed: 3.5
-    damage: 0
-    lifetime: 56
+    speed: 3.7
+    damage: 10.5
+    lifetime: 84
     width: 30
     height: 30
     frontColor: 6cafd9
@@ -38,9 +38,9 @@ ammoTypes: {
     shootEffect: shootBig
     shootSmoke: shootBigSmoke
     lightningColor: 6cafd9
-    lightning: 6
+    lightning: 10
     lightningLength: 15
-    lightningDamage: 55
+    lightningDamage: 95
     lightningInterval: 2
     buildingDamageMultiplier: 0.3
   }

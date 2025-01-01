@@ -55,9 +55,9 @@ recoil: 2
 shootCone: 10
 rotateSpeed: 2.3
 consumes: {
-  power: 4.33
+  power: 5.0
 }
-liquidConsumed: 0.2
+liquidConsumed: 0.4
 targetInterval: 3.5
 range: 95
 shootY: 3.5
@@ -67,10 +67,10 @@ ammoTypes: {
     drawFlare: false
     hitColor: ffffffCC
     type: ContinuousFlameBulletType
-    damage: 7
+    damage: 14
     length: 95
     knockback: 0.4
-    pierceCap: 1
+    pierceCap: 2
     colors: [2C6D8350, 5D9FB58E, A1D0E0D6]
     lightColor: ffffffCC
     drawFlare: true
