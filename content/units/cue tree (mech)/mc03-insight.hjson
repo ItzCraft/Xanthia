@@ -5,10 +5,10 @@ hitSize: 18
 singleTarget: true
 faceTarget: true
 health: 2500
-armor: 0
+armor: 8
 speed: 0.8
 rotateSpeed: 1.5
-itemCapacity: 25
+itemCapacity: 50
 outlineColor: 131824FF
 
 legStraightness: 0.3
@@ -39,7 +39,7 @@ weapons: [
     reload: 60
     shootEffect: lightningShoot
     shootSound: spark
-    inaccuracy: 2
+    inaccuracy: 0
     shoot: {
      shots: 7
      shotDelay: 0
@@ -48,7 +48,7 @@ weapons: [
      type: LightningBulletType
      damage: 5
      lightningLength: 31
-     lightningDamage: 5
+     lightningDamage: 10
      lightningCone: 0
      pierce: true
      pierceCap: 3
@@ -61,7 +61,7 @@ weapons: [
         suffix: -side
         mirror: true
         alternate: true
-        under: true
+        under: false
         outline: true
         progress: recoil
         moveY: -2
@@ -70,7 +70,7 @@ weapons: [
   },
   {
     name: mc03-insight-gun2
-    x: 12
+    x: 15
     y: -9
     mirror: true
     top: true
@@ -78,7 +78,7 @@ weapons: [
     reload: 60
     shootEffect: lightningShoot
     shootSound: spark
-    inaccuracy: 2
+    inaccuracy: 0
     shoot: {
      shots: 7
      shotDelay: 0
@@ -87,7 +87,7 @@ weapons: [
      type: LightningBulletType
      damage: 5
      lightningLength: 31
-     lightningDamage: 5
+     lightningDamage: 10
      lightningCone: 15
      pierce: true
      pierceCap: 3
@@ -100,7 +100,7 @@ weapons: [
         suffix: -side2
         mirror: true
         alternate: true
-        under: true
+        under: false
         outline: true
         progress: recoil
         moveY: -2
