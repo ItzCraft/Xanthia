@@ -1,0 +1,37 @@
+type: flying
+name: Retribution
+description: An a self destructing unit what was made by Omen
+speed: 3
+hitSize: 6
+flying: true
+lowAltitude: true
+singleTarget: false
+faceTarget: true
+accel: 0.1
+drag: 0.1
+rotateSpeed: 2
+outlineColor: 131824FF
+drawCell: false
+
+controller: SuicideAi
+hidden: true
+
+weapons: [
+ {
+  shootOnDeath: true
+  shootSound: explosion
+  mirror: false
+  bullet: {
+   collidesTiles: false
+   collides: false
+   hitSound:  explosion
+   speed: 0
+   splashDamageRadius: 5
+   splashDamage: 5
+   instantDisappear: true
+   killShooter: true
+   hittable: false
+   collidesAir: false
+  }
+ }
+]
