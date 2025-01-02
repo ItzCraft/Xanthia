@@ -17,6 +17,7 @@ k05-velorium/1050
 ]
 laserRange: 20
 maxNodes: 13
+buildCostMultiplier: 0.6
 
 laserColor1: AFF8FFFF
 laserColor2: 6697FAFF
