@@ -29,7 +29,7 @@ weapons: [
    hitSound:  explosionbig
    speed: 3
    splashDamageRadius: 120
-   splashDamage: 650
+   splashDamage: 750
    status: melting
    statusDuration: 9000
    color: c0e0ff
@@ -37,6 +37,22 @@ weapons: [
    killShooter: true
    hittable: true
    collidesAir: false
+   FragOnHit: true
+	  fragBullets: 6
+	  fragBullet:
+   {
+	  type:    
+       type: LaserBulletType
+       colors: [869CBEFF, 97c0ce, e0f8ff]
+       damage: 300
+       width: 24
+       sideAngle: 15
+       sideWidth: 9
+       sideLength: 18
+       lifetime: 40
+       drawSize: 120
+       length: 39
+	 }
   }
  }
 ]
