@@ -31,7 +31,7 @@ groundLayer: 60
 abilities: [
   {
     type: UnitSpawnAbility
-    spawnTime: 4800
+    spawnTime: 2000
     unit: mc04b-retribution
     spawnX: 0
     spawnY: -13.25
