@@ -40,19 +40,20 @@ weapons: [
    FragOnHit: true
 	  fragBullets: 6
 	  fragBullet:
-   {
-	  type:    
-       type: LaserBulletType
-       colors: [869CBEFF, 97c0ce, e0f8ff]
-       damage: 300
-       width: 24
-       sideAngle: 15
-       sideWidth: 9
-       sideLength: 18
-       lifetime: 40
-       drawSize: 120
-       length: 39
-	 }
+   {   
+	width: 8
+    drawFlare: false
+    hitColor: ffffffCC
+    type: ContinuousFlameBulletType
+    hitEffect: hitFlameBeam
+    damage: 21
+    length: 95
+    knockback: 2
+    pierceCap: 4
+    colors: [4d669a70, 77a0bea0, c0e0ffd0]
+    lightColor: ffffffCC
+    drawFlare: false
+ }
   }
  }
 ]
