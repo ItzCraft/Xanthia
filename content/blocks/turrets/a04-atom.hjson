@@ -20,7 +20,13 @@ targetAir: true
 targetGround: true
 
 research: {
-
+  parent: "a03-neutrac"
+  objectives: [
+     {
+       type: OnSector
+       preset: "protection"
+     }
+  ]
 }
 
 maxAmmo: 20
