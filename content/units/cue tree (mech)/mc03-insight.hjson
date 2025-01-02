@@ -1,6 +1,6 @@
 type: legs
 name: Insight
-description: Shoots powerful ligthinings what have piercing.
+description: Has 4 strong torrents with wide range and can easily penetrate defense.
 hitSize: 18
 singleTarget: true
 faceTarget: true
@@ -31,8 +31,8 @@ groundLayer: 60
 weapons: [
   {
     name: mc03-insight-gun
-    x: 7.5
-    y: -9
+    x: 7
+    y: -8.75
     mirror: true
     top: true
     alternate: true
@@ -46,9 +46,9 @@ weapons: [
     }
     bullet: {
      type: LightningBulletType
-     damage: 5
-     lightningLength: 31
-     lightningDamage: 10
+     damage: 30
+     lightningLength: 23
+     lightningDamage: 30
      lightningCone: 0
      pierce: true
      pierceCap: 3
@@ -70,8 +70,8 @@ weapons: [
   },
   {
     name: mc03-insight-gun2
-    x: 15
-    y: -9
+    x: 16.5
+    y: -8.75
     mirror: true
     top: true
     alternate: true
@@ -85,9 +85,9 @@ weapons: [
     }
     bullet: {
      type: LightningBulletType
-     damage: 5
-     lightningLength: 31
-     lightningDamage: 10
+     damage: 30
+     lightningLength: 23
+     lightningDamage: 30
      lightningCone: 15
      pierce: true
      pierceCap: 3
