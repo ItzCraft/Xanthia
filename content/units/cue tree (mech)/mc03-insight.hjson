@@ -48,25 +48,13 @@ weapons: [
      type: LightningBulletType
      damage: 20
      lightningLength: 28
-     lightningDamage: 20
+     lightningDamage: 30
      lightningCone: 0
      pierce: true
      pierceCap: 3
      pierceBuilding: true
      hitEffect: hitLancer
     }
-    parts: [
-      {
-        type: RegionPart
-        suffix: -side
-        mirror: true
-        alternate: true
-        under: false
-        outline: true
-        progress: recoil
-        moveY: -2
-      }
-    ]
   },
   {
     name: mc03-insight-gun2-side2
@@ -87,25 +75,13 @@ weapons: [
      type: LightningBulletType
      damage: 20
      lightningLength: 28
-     lightningDamage: 20
+     lightningDamage: 30
      lightningCone: 0
      pierce: true
      pierceCap: 3
      pierceBuilding: true
      hitEffect: hitLancer
     }
-    parts: [
-      {
-        type: RegionPart
-        suffix: -side2
-        mirror: true
-        alternate: true
-        under: false
-        outline: true
-        progress: recoil
-        moveY: -2
-      }
-    ]
-  }
+    }
 ]
 researchCostMultiplier: 2
