@@ -32,7 +32,6 @@ weapons: [
    splashDamage: 1000
    status: melting
    statusDuration: 9000
-   hitEffect: crossExplosion
    color: c0e0ff
    instantDisappear: true
    killShooter: true
