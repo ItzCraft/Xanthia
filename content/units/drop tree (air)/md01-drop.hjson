@@ -28,6 +28,7 @@ buildSpeed: 0.2
 
 abilities: {
  type: EnergyFieldAbility
+ statusDuration: 240
  maxTargets: 5
  healPercent: 0.5
  sameTypeHealMult: 0.25
