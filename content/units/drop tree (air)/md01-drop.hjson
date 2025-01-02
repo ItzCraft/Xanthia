@@ -26,7 +26,8 @@ mineSpeed: 7
 buildRange: 150
 buildSpeed: 0.2
 
-abilities: {
+abilities: [
+{
  type: EnergyFieldAbility
  damage: 15
  range: 25
@@ -39,6 +40,7 @@ abilities: {
  shootSound: spark
  status: electrified
 }
+]
 
 parts: [
  {
