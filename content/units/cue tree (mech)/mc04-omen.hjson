@@ -4,7 +4,7 @@ description: Has two powerful railgun. Also constructing self destructing units 
 hitSize: 30
 singleTarget: true
 faceTarget: true
-health: 5650
+health: 4750
 armor: 20
 speed: 0.65
 rotateSpeed: 1.2
@@ -51,7 +51,7 @@ weapons: [
    bullet: {
      type: RailBulletType
      length: 400
-     damage: 1000
+     damage: 640
      shootEffect: railShoot
      smokeEffect: shootBig
      pointEffect: railTrail
