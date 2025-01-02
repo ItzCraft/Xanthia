@@ -1,7 +1,6 @@
 type: legs
-
 name: Cue
-description: Can move over terrain. Durable but lack of armor. Equipped with short range powerful cannons.
+description: Can move over terrain. Durable but lack of armor. Equipped with short range powerful guns.
 hitSize: 10
 singleTarget: true
 faceTarget: true
@@ -33,7 +32,7 @@ legGroupSize: 4
 legCount: 6
 allowLegStep: true
 legExtension: -2
-legLength: 10
+legLength: 13
 legSpeed: 0.3
 legForwardScl: 0.7
 legMoveSpace: 1
@@ -42,25 +41,38 @@ groundLayer: 60
 
 weapons: [
   {
-    x: 4.5
-    y: -0.4
-    name: mc01-cue-weapon
-    reload: 30
+    x: -4.5
+    name: mc01-cue-gun
+    reload: 45
     mirror: true
     alternate: true
     rotate: false
     shootSound: blaster
     inaccuracy: 3
+    recoil: 3
     bullet: {
       trailLength: 7
       trailWidth: 2
-      splashDamage: 13
-      splashDamageRadius: 15
+      splashDamage: 12
+      splashDamageRadius: 10
       speed: 4
       lifetime: 30
       frontColor: FFFFFFFF
       backColor: 869CBEFF
       trailColor: 869CBEFF
+      fragBullets: 1
+      fragBullet: {
+       type: LaserBulletType
+       colors: [869CBEFF, e0f8ff, 97c0ce]
+       damage: 8
+       width: 8
+       sideAngle: 5
+       sideWidth: 3
+       sideLength: 6
+       lifetime: 10
+       drawSize: 40
+       length: 13
+      }
     }
   }
 ]
