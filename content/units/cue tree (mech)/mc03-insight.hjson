@@ -36,7 +36,7 @@ weapons: [
     mirror: true
     top: true
     alternate: true
-    reload: 60
+    reload: 120
     shootEffect: lightningShoot
     shootSound: spark
     inaccuracy: 0
@@ -48,7 +48,7 @@ weapons: [
      type: LightningBulletType
      damage: 20
      lightningLength: 28
-     lightningDamage: 30
+     lightningDamage: 40
      lightningCone: 0
      pierce: true
      pierceCap: 3
@@ -75,7 +75,7 @@ weapons: [
      type: LightningBulletType
      damage: 20
      lightningLength: 28
-     lightningDamage: 30
+     lightningDamage: 25
      lightningCone: 0
      pierce: true
      pierceCap: 3
