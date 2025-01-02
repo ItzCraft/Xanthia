@@ -35,11 +35,11 @@ abilities: [
  useAmmo: false
  maxTargets: 5
  healPercent: 1
- sameTypeHealMult: 0.15
+ sameTypeHealMult: 0.25
  statusDuration: 240
  shootSound: spark
  status: electrified
- blinkSize: 0.035
+ blinkSize: 0.015
  blinkScl: 10
 }
 ]
