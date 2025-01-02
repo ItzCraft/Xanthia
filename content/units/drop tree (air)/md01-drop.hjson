@@ -1,7 +1,7 @@
 type: flying
 
 name: Drop
-description: Armored light support aircraft. Repairs damaged structures automatically and has light point defense.
+description: Armored light support aircraft. Repairs damaged structures automatically and has energy field.
 flying: true
 lowAltitude: true
 hitSize: 9
@@ -26,59 +26,24 @@ mineSpeed: 7
 buildRange: 150
 buildSpeed: 0.2
 
-weapons: [
-  {
-    x: 0
-    y: 2
-    reload: 60
-    rotate: true
-    rotateSpeed: 9
-    rotationLimit: 20
-    shootSound: blaster
-    inaccuracy: 5
-    recoil: 1.5
-    bullet: {
-      type: MissileBulletType
-      homingPower: 0.1
-      weaveMag: 4
-      weaveScale: 3
-      trailLength: 7
-      trailWidth: 2
-      keepVelocity: false
-      splashDamage: 8
-      splashDamageRadius: 20
-      speed: 3
-      lifetime: 60
-      frontColor: 84F491FF
-      backColor: 62AE7FFF
-      trailColor: 62AE7FFF
-      healPercent: 2
-      collidesTeam: true
-      shootEffect: shootHeal
-      smokeEffect: hitLaser
-      hitEffect: hitLaser
-      despawnEffect: hitLaser
-    }
-  }
-  {
-  type: PointDefenseWeapon
-  x: 4.2
-  y: 0
-  mirror: true
-  alternate: true
-  name: md01-drop-point-defense
-  reload: 60
-  targetInterval: 5
-  targetSwitchInterval: 10
-  bullet: {
-      shootSound: laserShoot
-      shootEffect: sparkShoot
-      hitEffect: pointHit
-      maxRange: 100
-      damage: 26
-    }
-  }
+abilities: {
+ type: EnergyFieldAbility
+ maxTargets: 5
+ healPercent: 0.5
+ sameTypeHealMult: 0.25
+}
+
+parts: [
+ {
+  type: RegionPart
+  suffix: -glow
+  color: 9aff96
+  blending: additive
+  outline: false
+  mirror: false
+ }
 ]
+
 researchCost: [
 k01-elanite/250
 k05-velorium/100
