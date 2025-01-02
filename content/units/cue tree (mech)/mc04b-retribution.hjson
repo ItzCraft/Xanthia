@@ -16,7 +16,7 @@ outlineColor: 131824FF
 drawCell: false
 
 controller: SuicideAi
-hidden: true
+hidden: false
 
 weapons: [
  {
@@ -28,8 +28,8 @@ weapons: [
    collides: false
    hitSound:  explosionbig
    speed: 3
-   splashDamageRadius: 100
-   splashDamage: 235
+   splashDamageRadius: 120
+   splashDamage: 500
    status: melting
    statusDuration: 9000
    instantDisappear: true
