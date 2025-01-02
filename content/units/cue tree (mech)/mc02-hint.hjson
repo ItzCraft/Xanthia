@@ -40,9 +40,9 @@ weapons: [
   shootSound: cannon
   bullet: {
    type: BasicBulletType
-   speed: 8
-   damage: 50
-   lifetime: 20
+   speed: 4
+   damage: 75
+   lifetime: 40
    width: 15
    height: 15
    frontColor: c0e0ff
@@ -53,7 +53,7 @@ weapons: [
    intervalBullets: 1
    intervalBullet: {
     type: LightningBulletType
-    damage: 10
+    damage: 25
     lightning: 3
     lightningLength: 7
     lightningColor: c0e0ff
