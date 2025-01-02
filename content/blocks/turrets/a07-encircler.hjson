@@ -29,20 +29,19 @@ ammoTypes: {
   k03-tryllinium: {
     type: BasicBulletType
     speed: 3.7
-    damage: 200.5
+    damage: 100.5
     lifetime: 63
     width: 30
     height: 30
     frontColor: 6cafd9
-    backColor: 000000
+    backColor: 4c8fb9
     shootEffect: shootBig
     shootSmoke: shootBigSmoke
     lightningColor: 6cafd9
-    lightning: 10
+    lightning: 12
     lightningLength: 20
-    lightningDamage: 95
+    lightningDamage: 47.5
     lightningInterval: 2
-    buildingDamageMultiplier: 0.3
   }
 }
 drawer: {
