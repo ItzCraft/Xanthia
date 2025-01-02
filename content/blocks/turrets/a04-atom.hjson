@@ -6,8 +6,8 @@ squareSprite: false
 outlineColor: 313131FF
 category: turret
 requirements: [
- k01-elanite/275,
- k02-foronium/215 
+ k01-elanite/185,
+ k02-foronium/145 
 ]
 health: 200
 coolant: {
@@ -18,6 +18,10 @@ coolant: {
 }
 targetAir: true
 targetGround: true
+
+research: {
+
+}
 
 maxAmmo: 20
 ammoPerShot: 2
