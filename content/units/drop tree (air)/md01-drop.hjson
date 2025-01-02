@@ -28,16 +28,23 @@ buildSpeed: 0.2
 
 abilities: {
  type: EnergyFieldAbility
- statusDuration: 240
+ damage: 15
+ range: 25
+ reload: 125
+ useAmmo: false
  maxTargets: 5
- healPercent: 0.5
+ healPercent: 1
  sameTypeHealMult: 0.25
+ statusDuration: 240
+ shootSound: spark
+ status: electrified
 }
 
 parts: [
  {
   type: RegionPart
   suffix: -glow
+  progress: warmup
   color: 9aff96
   blending: additive
   outline: false
