@@ -29,8 +29,8 @@ buildSpeed: 0.2
 abilities: [
 {
  type: EnergyFieldAbility
- damage: 15
- range: 25
+ damage: 20
+ range: 30
  reload: 125
  useAmmo: false
  maxTargets: 5
@@ -39,6 +39,8 @@ abilities: [
  statusDuration: 240
  shootSound: spark
  status: electrified
+ blinkSize: 0.035
+ blinkScl: 10
 }
 ]
 
