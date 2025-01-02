@@ -70,9 +70,9 @@ weapons: [
  x: 0
  y: 0
  radius: 0
- radiusTo: 16
- color1: 87b0be
- color2: d0f0ff
+ radiusTo: 32
+ color1: 97c0ce
+ color2: e0f8ff
  progress: warmup
  }
  ]
