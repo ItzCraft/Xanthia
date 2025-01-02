@@ -30,7 +30,7 @@ groundLayer: 60
 
 weapons: [
   {
-    name: mc03-insight-gun
+    name: mc03-insight-gun-side
     x: 7
     y: -8.75
     mirror: true
@@ -69,7 +69,7 @@ weapons: [
     ]
   },
   {
-    name: mc03-insight-gun2
+    name: mc03-insight-gun2-side2
     x: 16.5
     y: -8.75
     mirror: true
