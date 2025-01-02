@@ -4,7 +4,7 @@ description: Has 4 strong torrents with wide range and can easily penetrate defe
 hitSize: 18
 singleTarget: true
 faceTarget: true
-health: 2500
+health: 2235
 armor: 8
 speed: 0.8
 rotateSpeed: 1.5
@@ -46,9 +46,9 @@ weapons: [
     }
     bullet: {
      type: LightningBulletType
-     damage: 30
+     damage: 20
      lightningLength: 28
-     lightningDamage: 30
+     lightningDamage: 20
      lightningCone: 0
      pierce: true
      pierceCap: 3
@@ -85,10 +85,10 @@ weapons: [
     }
     bullet: {
      type: LightningBulletType
-     damage: 30
+     damage: 20
      lightningLength: 28
-     lightningDamage: 30
-     lightningCone: 15
+     lightningDamage: 20
+     lightningCone: 0
      pierce: true
      pierceCap: 3
      pierceBuilding: true
