@@ -42,19 +42,37 @@ weapons: [
 	  fragBullets: 6
 	  fragBullet:
    {   
+	
 	width: 8
     drawFlare: false
     hitColor: ffffffCC
     type: ContinuousFlameBulletType
     hitEffect: hitFlameBeam
-    damage: 21
-    length: 95
-    knockback: 2
+    damage: 63
+    length: 115
+    knockback: 4
     pierceCap: 4
     colors: [5d76aa70, 87b0cea0, d0f0ffd0]
     lightColor: ffffffCC
     drawFlare: false
- }
+ },
+	{
+	type: BasicBulletType
+    speed: 3.7
+    damage: 100.5
+    lifetime: 63
+    width: 30
+    height: 30
+    frontColor: 6cafd9
+    backColor: 4c8fb9
+    shootEffect: shootBig
+    shootSmoke: shootBigSmoke
+    lightningColor: 6cafd9
+    lightning: 4
+    lightningLength: 20
+    lightningDamage: 47.5
+    lightningInterval: 2
+  }
   }
  }
 ]
