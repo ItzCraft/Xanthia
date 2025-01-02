@@ -1,7 +1,6 @@
 type: flying
-
 name: Drizzle
-description: Fires barrage of missiles that is purposed to heal allied structures. Also mounted with point defense.
+description: Fires a missile that have burning lasers as a fragments. 
 flying: true
 lowAltitude: true
 hitSize: 13
@@ -27,36 +26,28 @@ buildSpeed: 0.45
 
 weapons: [
   {
-    x: 4
+    x: 5
     y: 5
-    name: md02-drizzle-weapon
+    name: md02-drizzle-gun
     layerOffset: -0.01
-    reload: 60
+    reload: 90
     mirror: true
     alternate: true
     rotate: false
-    baseRotation: -20
     shootSound: blaster
-    inaccuracy: 2
-    shootCone: 30
     recoil: 2
-    recoil: 1.5
-    shoot: {
-    shots: 3
-    shotDelay: 10
-    }
     bullet: {
       type: MissileBulletType
-      homingPower: 0.15
-      weaveMag: 5
-      weaveScale: 5
-      trailLength: 10
+      homingPower: 0.3
+      weaveMag: 2
+      weaveScale: 2
+      trailLength: 12
       trailWidth: 2.3
       keepVelocity: false
-      splashDamage: 30
-      splashDamageRadius: 30
-      speed: 4
-      lifetime: 65
+      splashDamage: 15
+      splashDamageRadius: 20
+      speed: 3.5
+      lifetime: 50
       frontColor: 84F491FF
       backColor: 62AE7FFF
       trailColor: 62AE7FFF
@@ -66,25 +57,18 @@ weapons: [
       smokeEffect: hitLaser
       hitEffect: hitLaser
       despawnEffect: hitLaser
-    }
-  }
-  {
-  type: PointDefenseWeapon
-  x: 10
-  y: -3
-  layerOffset: 0.01
-  mirror: true
-  alternate: true
-  name: md02-drizzle-point-defense
-  reload: 45
-  targetInterval: 5
-  targetSwitchInterval: 10
-  bullet: {
-      shootSound: laserShoot
-      shootEffect: sparkShoot
-      hitEffect: pointHit
-      maxRange: 100
-      damage: 35
+      fragBullets: 3
+      fragBullet: {
+       type: ContinuousFlameBulletType
+       width: 7
+       drawFlare: false
+       hitColor: 62AE7FFF
+       damage: 10
+       length: 54
+       knockback: 2
+       colors: [62AE7FFF, 84F491FF]
+       lightColor: 84F491FF
+      }
     }
   }
 ]
