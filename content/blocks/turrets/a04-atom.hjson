@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Atom
-description: ""
+description: "Fires basic bullets that fire 3 or 5 fragments in all directions upon impact."
 size: 3
 squareSprite: false
 outlineColor: 313131FF
