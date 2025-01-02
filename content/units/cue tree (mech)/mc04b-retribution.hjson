@@ -29,7 +29,7 @@ weapons: [
    hitSound:  explosionbig
    speed: 3
    splashDamageRadius: 120
-   splashDamage: 1000
+   splashDamage: 650
    status: melting
    statusDuration: 9000
    color: c0e0ff
