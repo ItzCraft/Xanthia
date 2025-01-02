@@ -30,12 +30,12 @@ abilities: [
 {
  type: EnergyFieldAbility
  damage: 20
- range: 30
+ range: 60
  reload: 125
  useAmmo: false
  maxTargets: 5
  healPercent: 1
- sameTypeHealMult: 0.25
+ sameTypeHealMult: 0.15
  statusDuration: 240
  shootSound: spark
  status: electrified
