@@ -31,7 +31,8 @@ weapons: [
    splashDamageRadius: 120
    splashDamage: 750
    status: melting
-   statusDuration: 9000
+   statusDuration: 900
+   hitEffect: titanExplosion
    color: c0e0ff
    instantDisappear: true
    killShooter: true
@@ -50,7 +51,7 @@ weapons: [
     length: 95
     knockback: 2
     pierceCap: 4
-    colors: [4d669a70, 77a0bea0, c0e0ffd0]
+    colors: [5d76aa70, 87b0cea0, d0f0ffd0]
     lightColor: ffffffCC
     drawFlare: false
  }
