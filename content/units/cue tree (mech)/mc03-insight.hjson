@@ -47,7 +47,7 @@ weapons: [
     bullet: {
      type: LightningBulletType
      damage: 30
-     lightningLength: 23
+     lightningLength: 28
      lightningDamage: 30
      lightningCone: 0
      pierce: true
@@ -86,7 +86,7 @@ weapons: [
     bullet: {
      type: LightningBulletType
      damage: 30
-     lightningLength: 23
+     lightningLength: 28
      lightningDamage: 30
      lightningCone: 15
      pierce: true
