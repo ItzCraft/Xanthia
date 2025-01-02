@@ -46,7 +46,7 @@ weapons: [
    width: 30
    height: 30
    pierce: true
-   pierceCap: 5
+   pierceCap: 2
    pierceBuilding: true
    frontColor: c0e0ff
    backColor: 000000
