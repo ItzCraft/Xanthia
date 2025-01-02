@@ -1,7 +1,7 @@
 type: flying
 name: Retribution
 description: An a self destructing unit what was made by Omen, Equipped with heavy duty armor, it can easily enter the inside defense, obliterate the supply line and ofcourse the turret. 
-health: 2200
+health: 1975
 armor: 50
 speed: 4
 hitSize: 6
