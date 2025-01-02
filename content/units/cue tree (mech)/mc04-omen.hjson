@@ -72,7 +72,7 @@ weapons: [
       },
       {
        type: FlarePart
-       x: 15
+       x: 7.5
        y: -13.5
        mirror: true
        radius: 0
