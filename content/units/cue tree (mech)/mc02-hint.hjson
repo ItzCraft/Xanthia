@@ -41,7 +41,7 @@ weapons: [
   bullet: {
    type: BasicBulletType
    speed: 2
-   damage: 130
+   damage: 85
    lifetime: 80
    width: 30
    height: 30
