@@ -53,18 +53,18 @@ weapons: [
     bullet: {
       trailLength: 7
       trailWidth: 2
-      splashDamage: 12
+      splashDamage: 24
       splashDamageRadius: 10
-      speed: 4
-      lifetime: 30
+      speed: 5
+      lifetime: 24
       frontColor: FFFFFFFF
       backColor: 869CBEFF
       trailColor: 869CBEFF
-      fragBullets: 1
+      fragBullets: 3
       fragBullet: {
        type: LaserBulletType
        colors: [869CBEFF, e0f8ff, 97c0ce]
-       damage: 8
+       damage: 7
        width: 8
        sideAngle: 5
        sideWidth: 3
