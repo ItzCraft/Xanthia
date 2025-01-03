@@ -91,7 +91,7 @@ weapons: [
     trailLength: 6
     trailWidth: 2
     }
-     bulletInterval: 2
+     bulletInterval: 2.5
      intervalBullets: 2
      intervalBullet: {
     width: 5.5
