@@ -70,23 +70,38 @@ weapons: [
      fragOnHit: true
      fragBullets: 3
      fragBullet: {
-      type: artillery
-      bulletInterval: 25
-      intervalBullets: 3
-      intervalBullet: {
-       width: 6
-       drawFlare: false
-       hitColor: f0ffffCC 
-       type: ContinuousFlameBulletType
-       hitEffect: hitFlameBeam
-       damage: 84
-       length: 86.25
-       knockback: 4
-       pierceCap: 4
-       colors: [5d76ca70, 87b0eea0, f0f0ffd0]
-       lightColor: ffffffCC  
-       } 
-     }
+    type: ArtilleryBulletType
+    frontColor: deefff
+    backColor: 85bae1
+    sprite: shell
+    speed: 2
+    lifetime: 4 
+    damage: 90
+    splashDamage: 60
+    splashDamageRadius: 15
+    width: 5
+    height: 5
+    trailEffect: artilleryTrail
+    trailColor: deefff
+    shootEffect: shootSmall
+    trailLength: 1
+    trailWidth: 0.5
+    }
+     bulletInterval: 25
+     intervalBullets: 3
+     intervalBullet: {
+    width: 6
+    drawFlare: false
+    hitColor: f0ffffCC
+    type: ContinuousFlameBulletType
+    hitEffect: hitFlameBeam
+    damage: 42
+    length: 86.25
+    knockback: 4
+    pierceCap: 4
+    colors: [5d76ca70, 87b0eea0, f0f0ffd0]
+    lightColor: f0ffffCC  
+	 }
    }
    parts: [
       {
@@ -117,10 +132,6 @@ weapons: [
         mirror: true
         alternate: true
         under: true
-        outline: true
-        progress: recoil
-        moveY: -6.5
-     }
     ]
   }
 ]
