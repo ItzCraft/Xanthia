@@ -7,7 +7,7 @@ lowAltitude: true
 hitSize: 9
 singleTarget: true
 faceTarget: true
-health: 400
+health: 670
 armor: 8
 speed: 3.2
 accel: 0.1
