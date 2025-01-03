@@ -7,7 +7,7 @@ requirements: [
 k05-velorium/6
 ]
 
-health: 660
+health: 720
 category: defense
 
 research: f03-foronium-wall
