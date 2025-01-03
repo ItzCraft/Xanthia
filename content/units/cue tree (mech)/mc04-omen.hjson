@@ -103,7 +103,7 @@ weapons: [
     lightColor: f0ffffCC  
 	 }
    }
-   }
+   
    parts: [
       {
         type: RegionPart
@@ -133,7 +133,8 @@ weapons: [
         mirror: true
         alternate: true
         under: true
-  }
-]
+   }
+  ]
+ }
 ]
 researchCostMultiplier: 3.5
