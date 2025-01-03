@@ -34,7 +34,8 @@ weapons: [
   name: mc02-hint-gun
   reload: 100
   mirror: true
-  rotate: false
+  rotate: true
+  rotationLimit: 20
   alternate: false
   top: false
   shootSound: cannon
