@@ -6,7 +6,7 @@ size: 2
 requirements: [
 k02-foronium/24
 ]
-buildCostMultiplier: 0.4
+
 health: 1840
 category: defense
 
