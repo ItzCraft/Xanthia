@@ -20,13 +20,13 @@ engines: [
     x: 6.5
     y: -4
     radius: 3.7
-    rotation: 270
+    rotation: 292.5
   }
   {
     x: -6.5
     y: -4
     radius: 3.7
-    rotation: 270
+    rotation: 292.5
   }
 ]
 
@@ -159,9 +159,9 @@ weapons: [
     shootCone: 35
     shootSound: none
     bullet: {
-     type: BulletType
+     type: FireBulletType
      splashDamage: 90
-     splashDamageRadius: 45
+     splashDamageRadius: 25
      layerOffset: -0.01
      lifetime: 25
      colorFrom: 62ae75ff
