@@ -4,7 +4,7 @@ description: Has two powerful railgun. Also constructing self destructing units 
 hitSize: 30
 singleTarget: true
 faceTarget: true
-health: 4195
+health: 15040
 armor: 14
 speed: 0.65
 rotateSpeed: 1.2
@@ -27,6 +27,8 @@ legMinLength: 0.7
 legMoveSpace: 1
 hovering: true
 groundLayer: 60
+legSplashDamage: 50
+legSplashRange: 20
 
 abilities: [
   {
@@ -59,27 +61,27 @@ weapons: [
      lifetime: 40
      absorbable: false
      pierce: true
-     pierceCap: 4
+     pierceCap: 5
      pierceBuilding: true
      frontColor: deefff
      backColor: 85bae1
      shootEffect: shootBig
      shootSmoke: shootBigSmoke
-     hitEffect: titanExplosion
+     hitEffect: titanSmoke
      damage: 820
      fragBullet: true
      fragOnHit: true
-     fragBullets: 3
+     fragBullets: 6
      fragBullet: {
     type: ArtilleryBulletType
     frontColor: deefff
     backColor: 85bae1
     sprite: shell
     speed: 2
-    lifetime: 4 
+    lifetime: 8 
     damage: 90
     splashDamage: 120
-    splashDamageRadius: 4.5
+    splashDamageRadius: 45
     width: 15
     height: 15
     trailEffect: artilleryTrail
