@@ -53,7 +53,7 @@ weapons: [
     bullet: {
       trailLength: 7
       trailWidth: 2
-      splashDamage: 24
+      splashDamage: 12
       splashDamageRadius: 10
       speed: 5
       lifetime: 24
