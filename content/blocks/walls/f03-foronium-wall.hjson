@@ -6,7 +6,7 @@ size: 1
 requirements: [
 k02-foronium/6
 ]
-health: 660
+health: 604
 category: defense
 
 research: {
