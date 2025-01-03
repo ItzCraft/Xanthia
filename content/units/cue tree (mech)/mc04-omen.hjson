@@ -68,7 +68,7 @@ weapons: [
      shootEffect: shootBig
      shootSmoke: shootBigSmoke
      hitEffect: titanSmoke
-     hitColor: deefff
+     hitColor: bedfff
      damage: 820
      fragBullet: true
      fragOnHit: true
@@ -92,7 +92,7 @@ weapons: [
     trailWidth: 2
     }
      bulletInterval: 2.5
-     intervalBullets: 2
+     intervalBullets: 3
      intervalBullet: {
     width: 5.5
     drawFlare: false
