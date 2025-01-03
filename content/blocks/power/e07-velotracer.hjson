@@ -16,7 +16,7 @@ consumes: {
     k05-velorium/1 
   ],
   liquids: [
-    l05-tryfluid/1.66666
+    l03-tryfluid/1.66666
   ]
 }
 
