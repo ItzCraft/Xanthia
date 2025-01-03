@@ -68,7 +68,7 @@ weapons: [
      shootEffect: shootBig
      shootSmoke: shootBigSmoke
      hitEffect: titanSmoke
-     hitColor: bedfff
+     hitColor: a3b9ff
      damage: 820
      fragBullet: true
      fragOnHit: true
