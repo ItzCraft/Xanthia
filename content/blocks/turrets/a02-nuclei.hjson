@@ -2,7 +2,7 @@ type: ItemTurret
 name: Nuclei
 description: Fires a piercing bullet quickly. Deals reduced damage to buildings.
 size: 2
-health: 440
+health: 740
 category: turret
 fogRadiusMultiplier: 0.3
 requirements: [
