@@ -10,13 +10,13 @@ squareSprite: false
 category: power
 powerProduction: 15
 health: 585
-outputLiquid: l02-cryline/0.777
+outputLiquid: l02-cryline/0.06666
 consumes: {
   items: [
-    k05-velorium/1 
+    k05-velorium/1
   ],
   liquids: [
-    l03-tryfluid/1.66666
+    l03-tryfluid/0.1222222
   ]
 }
 
