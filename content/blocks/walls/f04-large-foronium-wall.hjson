@@ -7,7 +7,7 @@ requirements: [
 k02-foronium/24
 ]
 
-health: 1840
+health: 2016
 category: defense
 
 research: {
