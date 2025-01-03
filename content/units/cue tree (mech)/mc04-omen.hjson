@@ -49,6 +49,8 @@ weapons: [
    top: true
    alternate: true
    reload: 240
+   rotate: true
+   rotationLimit: 30
    shootSound: big-shot
    bullet: {
      type: BasicBulletType
@@ -69,10 +71,10 @@ weapons: [
      shootSmoke: shootBigSmoke
      hitEffect: titanSmoke
      hitColor: a3b9ff
-     damage: 820
+     damage: 260
      fragBullet: true
      fragOnHit: true
-     fragBullets: 6
+     fragBullets: 5
      fragBullet: {
     type: ArtilleryBulletType
     frontColor: deefff
@@ -80,8 +82,8 @@ weapons: [
     sprite: shell
     speed: 2
     lifetime: 8 
-    damage: 90
-    splashDamage: 100
+    damage: 10
+    splashDamage: 25
     splashDamageRadius: 45
     width: 15
     height: 15
@@ -99,8 +101,8 @@ weapons: [
     hitColor: f0ffffCC
     type: ContinuousFlameBulletType
     hitEffect: hitFlameBeam
-    damage: 63
-    length: 70.25
+    damage: 11
+    length: 8
     knockback: 4
     pierceCap: 8
     colors: [5d76ca70, 87b0eea0, f0f0ffd0]
