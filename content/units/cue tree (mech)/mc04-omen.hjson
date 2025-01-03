@@ -57,8 +57,8 @@ weapons: [
      trailColor: deefff
      trailLength: 16
      trailWidth: 2
-     speed: 10
-     lifetime: 40
+     speed: 15
+     lifetime: 26.7
      absorbable: false
      pierce: true
      pierceCap: 5
@@ -68,6 +68,7 @@ weapons: [
      shootEffect: shootBig
      shootSmoke: shootBigSmoke
      hitEffect: titanSmoke
+     hitColor: deefff
      damage: 820
      fragBullet: true
      fragOnHit: true
@@ -80,7 +81,7 @@ weapons: [
     speed: 2
     lifetime: 8 
     damage: 90
-    splashDamage: 120
+    splashDamage: 100
     splashDamageRadius: 45
     width: 15
     height: 15
