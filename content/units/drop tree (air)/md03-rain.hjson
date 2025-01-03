@@ -1,7 +1,7 @@
 type: flying
 
 name: Rain
-description: Fires barrage of missiles that is purposed to heal allied structures. Also have a gun on his top. What fires big missle.
+description: Uses flamethrowers to burn enemies. Also can have bombing weapon on his back.
 flying: true
 lowAltitude: true
 hitSize: 21
@@ -17,16 +17,14 @@ itemCapacity: 45
 outlineColor: 131824FF
 engines: [
   {
-    x: -4.5
-    y: -11
+    x: -9
+    y: 2.5
     radius: 3.7
-    rotation: 270
   }
   {
-    x: 4.5
-    y: -11
+    x: 9
+    y: 2.5
     radius: 3.7
-    rotation: 270
   } 
 ]
 
@@ -43,94 +41,136 @@ abilities: [
 {
 type: ShieldArcAbility
 cooldown: 800
-max: 230
-radius: 90
-angle: 270
-regen: 0.944
-width: 15
+max: 200
+radius: 40
+angle: 90
+regen: 0.546
+width: 10
 whenShooting: true
 }
 ]
 
+parts: [
+     {
+      type: ShapePart
+      layer: 110
+      progress: warmup
+      rotateSpeed: 1.8
+      sides: 3
+      hollow: true
+      color: a7ffa6
+      stroke: 0
+      strokeTo: 0.8
+      radius: 6
+      y: -14
+     },
+     {
+      type: ShapePart
+      layer: 110
+      progress: warmup
+      rotateSpeed: -1.8
+      sides: 3
+      hollow: true
+      color: a7ffa6
+      stroke: 0
+      strokeTo: 0.8
+      radius: 7.5
+      y: -14
+     },
+    {
+     type: ShapePart 
+      layer: 110
+      progress: warmup
+      rotateSpeed: 1.5
+      sides: 60
+      hollow: true
+      color: a7ffa6
+      stroke: 0
+      strokeTo: 0.8
+      radius: 5.5
+      y: -14
+     },
+    {
+      type: HaloPart
+      layer: 110
+      progress: warmup
+      rotateSpeed: 1.5
+      tri: true
+      shapes: 3
+      triLength: 0
+      triLengthTo: 2.4
+      radius: 9
+      haloRadius: 10
+      haloRotateSpeed: -1.3
+      color: a7ffa6
+      haloRotation: 0
+      shapeRotation: 180
+      y: -14
+    }
+]
+
 weapons: [
   {
-    x: 0
-    y: 7
-    damage: 0
+    x: 5
+    y: -15
+    name: md03-rain-gun
     layerOffset: -0.01
-    reload: 45
+    reload: 90
     mirror: true
-    alternate: true
-    rotate: false
-    baseRotation: -20
-    shootSound: blaster
-    inaccuracy: 2
-    shootCone: 30
-    recoil: 2
-    recoil: 1.5
-    shoot: {
-    shots: 3
-    shotDelay: 10
-    }
+    alternate: false
+    shootCone: 180
+    shootSound: none
     bullet: {
-      type: MissileBulletType
-      homingPower: 0.15
-      weaveMag: 5
-      weaveScale: 5
-      trailLength: 10
-      trailWidth: 2.3
-      keepVelocity: false
-      splashDamage: 35
-      splashDamageRadius: 35
-      speed: 3.8
-      lifetime: 80
-      frontColor: 84F491FF
-      backColor: 62AE7FFF
-      trailColor: 62AE7FFF
-      healPercent: 6
-      collidesTeam: true
-      shootEffect: shootHeal
-      smokeEffect: hitLaser
-      hitEffect: hitLaser
-      despawnEffect: hitLaser
+      type: BombBulletType
+      layerOffset: -0.01
+      width: 15
+      height: 21
+      hitEffect: flakExplosion
+      shootEffect: none
+      smokeEffect: none
+      splashDamage: 45
+      splashDamageRadius: 25
     }
+    parts: [
+     {
+       type: RegionPart
+        suffix: -side
+        mirror: true
+        alternate: false
+        under: true
+        outline: true
+        progress: warmup
+        moveX: -3
+     }
+    ]
   }
   {
-    name: md03-rain-weapon
-    mirror: false
+    name: md03-rain-flamethrower
+    layerOffset: -0.0001
+    mirror: true
     alternate: false
-    x: -1.5
-    reload: 75
-    rotate: true
-    innacuracy: 15
-    recoil: 3.5
+    top: false
+    x: 9.5
+    y: 16
+    rotation: 45
+    reload: 10
+    shootCone: 35
+    shootSound: none
     bullet: {
-      type: MisslleBulletType
-      lifetime: 99
-      speed: 2.5
-      damage: 50
-      width: 12
-      height: 12
-      splashDamage: 45
-      splashDamageRadius: 50
-      homingPower: 0.3
-      weaveMag: 7
-      weaveScale: 5.5
-      trailLength: 13
-      trailWidth: 2.88
-      keepVelocity: false
-      frontColor: 84F491FF
-      backColor: 62AE7FFF
-      trailColor: 62AE7FFF
-      healPercent: 6
-      collidesTeam: true
-      shootEffect: shootHeal
-      smokeEffect: hitLaser
-      hitEffect: hitLaser
-      despawnEffect: hitLaser     
+     type: BulletType
+     splashDamage: 20
+     splashDamageRadius: 30
+     layerOffset: -0.01
+     lifetime: 15
+     pierce: true
+     collidesAir: false
+     statusDurarion: 360
+     shootEffect: shootPyraFlame
+     hitEffect: hitFlameSmall
+     status: burning
+     hittable: false
     }
   } 
- 
 ]
 
 researchCostMultiplier: 2
