@@ -2,6 +2,7 @@ type: PowerTurret
 name: Reducer
 description: Fires some of strong lightning that weaken enemies. And heals your structures.
 size: 3
+health: 1470
 category: turret
 requirements: [
 k01-elanite/130
