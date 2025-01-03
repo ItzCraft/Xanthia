@@ -7,7 +7,7 @@ color: 544DEBFF
 hardness: 2
 cost: 1.6
 
-charge: 0.55
+charge: 1
 
 hiddenOnPlanets: [
 serpulo
