@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Magnetic Detector
+description: "Detects the approach of a [#b466e8]Magnetic storm [white]45 seconds before it appears."
+size: 3
+category: effect
+health: 340
+destructible: true
+breakable: true
+targetable: true
+allowDerelictRepair: false
+consumes: {
+  power: 4.5
+}
+requirements: [
+  k01-elanite/400
+  k02-foronium/345
+  k05-velorium/320
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+     type: DrawGlowRegion
+     color: f48cff
+    }
+    {
+      type: DrawDefault
+    } 
+  ]
+}
