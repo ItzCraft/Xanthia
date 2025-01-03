@@ -37,8 +37,9 @@ weapons: [
     shootSound: blaster
     recoil: 2
     shoots: {
+    firstShotDelay: 2
     shots: 3
-    shotDelay: 2
+    shotDelay: 1
     }
     bullet: {
       type: MissileBulletType
