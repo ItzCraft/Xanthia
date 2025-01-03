@@ -9,7 +9,7 @@ faceTarget: true
 health: 2360
 armor: 10
 speed: 3
-accel: 0.1
+accel: 0.4
 drag: 0.15
 rotateSpeed: 3
 itemCapacity: 30
@@ -38,7 +38,7 @@ weapons: [
     recoil: 2
     shoots: {
     shots: 3
-    shotDelay: 4
+    shotDelay: 2
     }
     bullet: {
       type: MissileBulletType
@@ -48,7 +48,7 @@ weapons: [
       trailLength: 12
       trailWidth: 2.3
       keepVelocity: false
-      splashDamage: 15
+      splashDamage: 110
       splashDamageRadius: 20
       speed: 3.5
       lifetime: 50
@@ -67,7 +67,7 @@ weapons: [
        width: 7
        drawFlare: false
        hitColor: 62AE7FFF
-       damage: 10
+       damage: 32
        length: 54
        knockback: 2
        healPercent: 6
