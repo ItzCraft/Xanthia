@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Magnetic Detector
-description: "Detects the approach of a [#b466e8]Magnetic storm [white]45 seconds before it appears."
+description: "Detects the approach of a [#b466e8]Magnetic storm [light-gray]45 seconds before it appears."
 size: 3
 category: effect
 health: 340
@@ -24,6 +24,7 @@ drawer: {
       suffix: "-rotator"
       spinSprite: true
       rotateSpeed: 1.2
+      layer: 100
     }
     {
       type: DrawGlowRegion
@@ -31,6 +32,7 @@ drawer: {
       rotate: true
       rotateSpeed: 1.2
       color: f48cff
+      layer: 100
     }
     {
      type: DrawGlowRegion
