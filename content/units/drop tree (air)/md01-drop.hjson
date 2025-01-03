@@ -41,6 +41,7 @@ abilities: [
  status: electrified
  blinkSize: 0.015
  blinkScl: 10
+ effectRadius: 1.5
 }
 ]
 
