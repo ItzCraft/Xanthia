@@ -26,7 +26,7 @@ research: {
        {
         type: SectorComplete
         preset: "penetration"
-        preset: "
+        preset: "h04-air-refabricator" 
        }
     ]
 } 
