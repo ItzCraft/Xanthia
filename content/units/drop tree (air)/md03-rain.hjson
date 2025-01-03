@@ -20,7 +20,13 @@ engines: [
     x: 6.5
     y: -4
     radius: 3.7
-    mirror: true
+    rotation: 270
+  }
+  {
+    x: -6.5
+    y: -4
+    radius: 3.7
+    rotation: 270
   }
 ]
 
@@ -37,7 +43,7 @@ abilities: [
 {
 type: ShieldArcAbility
 cooldown: 800
-max: 200
+max: 400
 radius: 40
 angle: 90
 regen: 0.546
@@ -146,25 +152,30 @@ weapons: [
     mirror: true
     alternate: false
     top: false
-    x: 9.5
+    x: -9.5
     y: 16
     rotation: 45
-    reload: 10
+    reload: 8
     shootCone: 35
     shootSound: none
     bullet: {
      type: BulletType
-     splashDamage: 20
-     splashDamageRadius: 30
+     splashDamage: 90
+     splashDamageRadius: 45
      layerOffset: -0.01
-     lifetime: 15
-     pierce: true
+     lifetime: 25
+     colorFrom: 62ae75ff
+     colorMid: 53a189ef
+     colorTo: 1d28266f
      collidesAir: false
      statusDurarion: 360
      shootEffect: shootPyraFlame
      hitEffect: hitFlameSmall
+     hitColor: 62ae75
      status: burning
      hittable: false
+     pierce: true
+     pierceCap: 3
     }
   } 
 ]
