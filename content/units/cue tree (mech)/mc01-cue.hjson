@@ -4,7 +4,7 @@ description: Can move over terrain. Durable but lack of armor. Equipped with sho
 hitSize: 10
 singleTarget: true
 faceTarget: true
-health: 465
+health: 975
 armor: 0
 speed: 1
 rotateSpeed: 2
