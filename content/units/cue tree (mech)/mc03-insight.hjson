@@ -36,7 +36,7 @@ weapons: [
     mirror: true
     top: true
     alternate: true
-    reload: 120
+    reload: 60
     shootEffect: lightningShoot
     shootSound: spark
     inaccuracy: 0
