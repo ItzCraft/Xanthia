@@ -29,7 +29,7 @@ weapons: [
    hitSound:  explosionbig
    speed: 3
    splashDamageRadius: 120
-   splashDamage: 750
+   splashDamage: 1000
    status: melting
    statusDuration: 900
    hitEffect: titanExplosion
