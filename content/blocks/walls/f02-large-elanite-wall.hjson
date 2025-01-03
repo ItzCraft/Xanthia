@@ -6,7 +6,7 @@ size: 2
 requirements: [
 k01-elanite/24
 ]
-health: 1440
+health: 2080
 category: defense
 
 research: f01-elanite-wall
