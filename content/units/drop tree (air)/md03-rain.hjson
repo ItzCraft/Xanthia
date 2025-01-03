@@ -1,7 +1,7 @@
 type: flying
 
 name: Rain
-description: Uses flamethrowers to burn enemies. Also can have bombing weapon on his back.
+description: Uses flamethrowers to burn enemies. And dropping bomb on site.
 flying: true
 lowAltitude: true
 hitSize: 21
@@ -17,15 +17,11 @@ itemCapacity: 45
 outlineColor: 131824FF
 engines: [
   {
-    x: -9
-    y: 2.5
+    x: 6.5
+    y: -4
     radius: 3.7
+    mirror: true
   }
-  {
-    x: 9
-    y: 2.5
-    radius: 3.7
-  } 
 ]
 
 defaultCommand: repair
