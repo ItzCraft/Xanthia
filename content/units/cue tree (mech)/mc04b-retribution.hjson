@@ -48,11 +48,11 @@ weapons: [
     hitColor: ffffffCC
     type: ContinuousFlameBulletType
     hitEffect: hitFlameBeam
-    damage: 63
+    damage: 84
     length: 115
     knockback: 4
     pierceCap: 4
-    colors: [5d76aa70, 87b0cea0, d0f0ffd0]
+    colors: [5d76ca70, 87b0eea0, f0f0ffd0]
     lightColor: ffffffCC
     drawFlare: false
 	 }
