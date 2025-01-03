@@ -20,6 +20,19 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
+      type: DrawRegion
+      suffix: "-rotator"
+      spinSprite: true
+      rotateSpeed: 1.2
+    }
+    {
+      type: DrawGlowRegion
+      suffix: "-rotator-glow"
+      rotate: true
+      rotateSpeed: 1.2
+      color: f48cff
+    }
+    {
      type: DrawGlowRegion
      color: f48cff
     }
