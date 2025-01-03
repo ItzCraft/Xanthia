@@ -36,6 +36,10 @@ weapons: [
     rotate: false
     shootSound: blaster
     recoil: 2
+    shoots: {
+    shots: 3
+    shotDelay: 4
+    }
     bullet: {
       type: MissileBulletType
       homingPower: 0.3
