@@ -49,7 +49,7 @@ weapons: [
    reload: 240
    shootSound: big-shot
    bullet: {
-     type: basicBulletType
+     type: BasicBulletType
      width: 10
      height: 18
      trailColor: deefff
