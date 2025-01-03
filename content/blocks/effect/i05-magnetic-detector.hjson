@@ -1,6 +1,6 @@
-type: GenericCrafter
+type: Radar
 name: Magnetic Detector
-description: "Detects the approach of a [#b466e8]Magnetic storm [light-gray]45 seconds before it appears."
+description: "Detects the approach of a [#b466e8]Magnetic storm [light-grey]45 seconds before it appears."
 size: 3
 category: effect
 health: 340
@@ -11,6 +11,10 @@ allowDerelictRepair: false
 consumes: {
   power: 4.5
 }
+discoveryTime: 2700
+fogRadius: 35
+rotateSpeed: 1.2
+glowColor: f48cff
 requirements: [
   k01-elanite/400
   k02-foronium/345
@@ -20,28 +24,12 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
-      type: DrawRegion
-      suffix: "-rotator"
-      spinSprite: true
-      rotateSpeed: 1.2
-      layer: 100
+      type: DrawDefault
     }
     {
       type: DrawGlowRegion
-      suffix: "-rotatorGlow"
-      rotate: true
-      rotateSpeed: 1.2
-      glowScale: 7
-      glowIntensity: 0.35
+      suffix: "-base-glow"
       color: f48cff
-      layer: 100
     }
-    {
-     type: DrawGlowRegion
-     color: f48cff
-    }
-    {
-      type: DrawDefault
-    } 
   ]
 }
