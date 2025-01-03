@@ -2,6 +2,7 @@ type: ItemTurret
 name: Encircler
 description: Fires a large charged ball that fires very powerful lightning when hit.
 size: 3
+health: 1150
 category: turret
 requirements: [
 k03-tryllinium/175
