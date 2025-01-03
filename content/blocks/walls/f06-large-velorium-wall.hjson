@@ -7,7 +7,7 @@ requirements: [
 k05-velorium/24
 ]
 
-health: 2640
+health: 2840
 category: defense
 
 research: f05-velorium-wall
