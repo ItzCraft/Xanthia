@@ -31,7 +31,7 @@ groundLayer: 60
 abilities: [
   {
     type: UnitSpawnAbility
-    spawnTime: 2000
+    spawnTime: 2400
     unit: mc04b-retribution
     spawnX: 0
     spawnY: -13.25
@@ -49,14 +49,44 @@ weapons: [
    reload: 240
    shootSound: big-shot
    bullet: {
-     type: RailBulletType
-     length: 400
-     damage: 640
-     shootEffect: railShoot
-     smokeEffect: shootBig
-     pointEffect: railTrail
-     hitEffect: titanExplosion
-     pierceDamageFactor: 0.45
+     type: basicBulletType
+     width: 10
+     height: 18
+     trailColor: deefff
+     trailLength: 16
+     trailWidth: 2
+     speed: 10
+     lifetime: 40
+     absorbable: false
+     pierce: true
+     pierceCap: 4
+     pierceBuilding: true
+     frontColor: deefff
+     backColor: 85bae1
+     shootEffect: shootBig
+     shootSmoke: shootBigSmoke
+     damage: 820
+     fragBullet: true
+     fragOnHit: true
+     fragBullets: 3
+     fragBullet: {
+    type: artillery
+     bulletInterval: 25
+     intervalBullets: 3
+     intervalBullet: {
+    width: 6
+    drawFlare: false
+    hitColor: f0ffffCC
+    type: ContinuousFlameBulletType
+    hitEffect: hitFlameBeam
+    damage: 84
+    length: 86.25
+    knockback: 4
+    pierceCap: 4
+    colors: [5d76ca70, 87b0eea0, f0f0ffd0]
+    lightColor: ffffffCC  
+	 } 
+
    }
    parts: [
       {
