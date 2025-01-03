@@ -2,6 +2,7 @@ type: ItemTurret
 name: Quark
 description: Fires triple bullets at once but at long delay.
 size: 1
+health: 210
 category: turret
 requirements: [
 k01-elanite/30
