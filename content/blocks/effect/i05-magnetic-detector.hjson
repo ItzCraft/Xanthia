@@ -28,9 +28,11 @@ drawer: {
     }
     {
       type: DrawGlowRegion
-      suffix: "-rotator-glow"
+      suffix: "-rotatorGlow"
       rotate: true
       rotateSpeed: 1.2
+      glowScale: 7
+      glowIntensity: 0.35
       color: f48cff
       layer: 100
     }
