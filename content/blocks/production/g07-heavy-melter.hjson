@@ -20,6 +20,17 @@ consumes: {
   power: 3
 }
 
+research: {
+  parent: "g01-solidifier"
+     objectives: [
+       {
+        type: SectorComplete
+        preset: "penetration"
+        preset: "
+       }
+    ]
+} 
+
 category: crafting
 
 drawer: {
