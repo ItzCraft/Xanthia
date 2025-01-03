@@ -20,17 +20,6 @@ consumes: {
   power: 3
 }
 
-research: {
-  parent: "g01-solidifier"
-     objectives: [
-       {
-        type: SectorComplete
-        preset: "penetration"
-        preset: "h04-air-refabricator" 
-       }
-    ]
-} 
-
 category: crafting
 
 drawer: {
