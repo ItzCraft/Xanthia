@@ -169,7 +169,11 @@ weapons: [
      colorTo: 1d28266f
      collidesAir: false
      statusDurarion: 360
-     shootEffect: shootPyraFlame
+     velMin: 0.5
+     velMax: 3
+     fireEffectChance: 0.1
+     fireEffectChance2: 0.1
+     trailEffect2: ballfire
      hitEffect: hitFlameSmall
      hitColor: 62ae75
      status: burning
