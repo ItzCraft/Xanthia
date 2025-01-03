@@ -11,7 +11,7 @@ requirements: [
 k03-tryllinium/8
 k06-duramatter/16
 ]
-health: 690
+health: 1030
 category: defense
 
 research: f07-dura-wall
