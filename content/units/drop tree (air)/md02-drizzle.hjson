@@ -66,6 +66,7 @@ weapons: [
        damage: 10
        length: 54
        knockback: 2
+       healPercent: 6
        colors: [62AE7FFF, 84F491FF]
        lightColor: 84F491FF
       }
