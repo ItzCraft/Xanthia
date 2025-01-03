@@ -2,6 +2,7 @@ type: ContinuousLiquidTurret
 name: Molecule
 description: Fires a short range powerful energy laser at the enemy. Require liquid and energy.
 size: 3
+health: 1120
 category: turret
 researchCostMultiplier: 0.7
 fogRadiusMultiplier: 0.6
