@@ -4,7 +4,7 @@ description: Fires powerful piercing energy orb. Can move over terrain.
 hitSize: 14
 singleTarget: true
 faceTarget: true
-health: 1150
+health: 4050
 armor: 10
 speed: 0.9
 rotateSpeed: 1.8
