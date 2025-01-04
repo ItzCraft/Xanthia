@@ -1,6 +1,6 @@
 type: ConsumeGenerator
 name: Velotracer
-desciption: "Combining Velorium and Tryfluid to make the elecriticy and it producing liquid Cryline as a excess product"
+description: "Combining Velorium and Tryfluid to make the elecriticy and it producing liquid Cryline as a excess product"
 size: 3
 requirements: [
   k03-tryllinium/375
