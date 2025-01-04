@@ -71,7 +71,7 @@ weapons: [
      shootSmoke: shootBigSmoke
      hitEffect: titanSmoke
      hitColor: a3b9ff
-     damage: 260
+     damage: 485
      fragBullet: true
      fragOnHit: true
      fragBullets: 5
@@ -83,8 +83,8 @@ weapons: [
     speed: 2
     lifetime: 8 
     damage: 10
-    splashDamage: 25
-    splashDamageRadius: 45
+    splashDamage: 75
+    splashDamageRadius: 30
     width: 15
     height: 15
     trailEffect: artilleryTrail
@@ -93,16 +93,16 @@ weapons: [
     trailLength: 6
     trailWidth: 2
     }
-     bulletInterval: 2.5
+     bulletInterval: 2
      intervalBullets: 3
      intervalBullet: {
-    width: 5.5
+    width: 7.2
     drawFlare: false
     hitColor: f0ffffCC
     type: ContinuousFlameBulletType
     hitEffect: hitFlameBeam
     damage: 11
-    length: 8
+    length: 65
     knockback: 4
     pierceCap: 8
     colors: [5d76ca70, 87b0eea0, f0f0ffd0]
