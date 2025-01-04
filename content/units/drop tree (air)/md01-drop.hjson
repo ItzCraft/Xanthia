@@ -57,7 +57,7 @@ parts: [
  }
 ]
 
-weapon: [
+weapons: [
  {
   shootSound: none
   bullet: {
