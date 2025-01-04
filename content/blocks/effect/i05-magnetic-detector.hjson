@@ -1,6 +1,6 @@
 type: Radar
 name: Magnetic Detector
-description: "[white]Detects the approach of a [#b466e8]Magnetic storm [white]45 seconds before it appears."
+description: "[white]Detects the approach of a [#b466e8]Magnetic storm [white]45 seconds before it appears. Can also be used as a radar to clear the fog of war"
 size: 3
 category: effect
 health: 340
