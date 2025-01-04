@@ -11,6 +11,7 @@ allowDerelictRepair: false
 consumes: {
   power: 4.5
 }
+buildCostMultiplier: 0.4
 discoveryTime: 2700
 fogRadius: 35
 rotateSpeed: 1.2
