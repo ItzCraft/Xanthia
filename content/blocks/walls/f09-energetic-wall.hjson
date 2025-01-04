@@ -8,8 +8,8 @@ consumes: {
   powerBuffered: 8000
 }
 requirements: [
-k03-tryllinium/8
-k06-duramatter/16
+k03-tryllinium/16
+k06-duramatter/4
 ]
 health: 1030
 category: defense
