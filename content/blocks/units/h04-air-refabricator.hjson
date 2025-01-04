@@ -28,9 +28,9 @@ consumes: {
  power: 7.77
   items: {
     items: [
-      k01-elanite/75
-      k02-foronium/45
-      k05-velorium/35
+      k01-elanite/50
+      k02-foronium/35
+      k05-velorium/30
     ]
   }
   liquid: {
