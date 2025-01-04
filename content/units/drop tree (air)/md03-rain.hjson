@@ -19,14 +19,14 @@ engines: [
   {
     x: 6.5
     y: -4
-    radius: 3.7
+    radius: 4
     rotation: 292.5
   }
   {
     x: -6.5
     y: -4
-    radius: 3.7
-    rotation: 292.5
+    radius: 4
+    rotation: 247.5
   }
 ]
 
@@ -155,31 +155,26 @@ weapons: [
     x: -9.5
     y: 16
     rotation: 45
-    reload: 8
+    reload: 6
     shootCone: 35
     shootSound: none
     bullet: {
-     type: FireBulletType
-     splashDamage: 90
-     splashDamageRadius: 25
+     type: BulletType
      layerOffset: -0.01
-     lifetime: 25
-     colorFrom: 62ae75ff
-     colorMid: 53a189ef
-     colorTo: 1d28266f
-     collidesAir: false
-     statusDurarion: 360
-     velMin: 0.5
-     velMax: 3
-     fireEffectChance: 0.1
-     fireEffectChance2: 0.1
-     trailEffect2: ballfire
-     hitEffect: hitFlameSmall
-     hitColor: 62ae75
-     status: burning
-     hittable: false
+     healPercent: 6
+     collidesTeam: True
+     damage: 76
+     lifetime: 10
+     speed: 4
      pierce: true
-     pierceCap: 3
+     pierceCap: 5
+     pierceBuilding: true
+     hitable: false
+     status: burning
+     statusDuration: 300
+     shootEffect: hitSmallFlame
+     hitEffect: hitFlamePlasma
+     hitColor: BACBE9
     }
   } 
 ]
