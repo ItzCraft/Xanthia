@@ -42,10 +42,10 @@ weapons: [
   bullet: {
    type: BasicBulletType
    speed: 2
-   damage: 55
+   damage: 45
    lifetime: 80
-   width: 30
-   height: 30
+   width: 22
+   height: 22
    pierce: true
    pierceCap: 2
    pierceBuilding: true
