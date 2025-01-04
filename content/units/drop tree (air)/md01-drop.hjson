@@ -57,6 +57,20 @@ parts: [
  }
 ]
 
+weapon: [
+ {
+  shootSound: none
+  bullet: {
+   type: BasicBulletType
+   damage: 0
+    shootEffect: none
+    smokeEffect: none
+    hitEffect: none
+    despawnEffect: none
+  }
+ }
+]
+
 researchCost: [
 k01-elanite/250
 k05-velorium/100
