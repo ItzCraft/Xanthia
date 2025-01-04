@@ -6,7 +6,7 @@ singleTarget: true
 faceTarget: true
 health: 2050
 armor: 10
-speed: 0.9
+speed: 0.7
 rotateSpeed: 1.8
 itemCapacity: 30
 outlineColor: 131824FF
@@ -21,7 +21,7 @@ legCount: 8
 allowLegStep: true
 legExtension: -2
 legLength: 21
-legSpeed: 0.4
+legSpeed: 0.3
 legForwardScl: 0.7
 legMoveSpace: 1
 hovering: true
