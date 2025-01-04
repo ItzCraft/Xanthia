@@ -11,6 +11,7 @@ allowDerelictRepair: false
 consumes: {
   power: 9
 }
+buildCostMultiplier: 0.5
 requirements: [
   k01-elanite/400
   k02-foronium/345
