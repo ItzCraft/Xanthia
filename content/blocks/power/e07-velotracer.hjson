@@ -8,7 +8,7 @@ requirements: [
 ]
 squareSprite: false
 category: power
-powerProduction: 15
+powerProduction: 11
 health: 585
 outputLiquid: l02-cryline/0.06666
 consumes: {
