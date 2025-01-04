@@ -17,9 +17,9 @@ fogRadius: 35
 rotateSpeed: 1.2
 glowColor: f48cff
 requirements: [
-  k01-elanite/400
-  k02-foronium/345
-  k05-velorium/320
+  k01-elanite/280
+  k02-foronium/215
+  k05-velorium/190
 ]
 drawer: {
   type: DrawMulti
