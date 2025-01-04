@@ -52,6 +52,7 @@ weapons: [
    rotate: true
    rotationLimit: 30
    shootSound: big-shot
+   shootCone: 15
    bullet: {
      type: BasicBulletType
      width: 15
