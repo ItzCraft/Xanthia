@@ -60,7 +60,7 @@ consumes: {
 }
 liquidConsumed: 0.4
 targetInterval: 3.5
-range: 95
+range: 135
 shootY: 3.5
 ammoTypes: {
   l01-foron: {
