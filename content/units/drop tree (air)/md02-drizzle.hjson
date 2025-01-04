@@ -1,13 +1,13 @@
 type: flying
 name: Drizzle
-description: "Fires a missile that have burning lasers as a fragments. [grey]Editor Comment: Dont make him mad, or he will become D' Rizzler and rizz you up.[]"
+description: Fires a missile that have burning lasers as a fragments. [grey]Editor Comment: Dont make him mad, or he will become D' Rizzler and rizz you up.[]"
 flying: true
 lowAltitude: true
 hitSize: 13
 singleTarget: true
 faceTarget: true
-health: 2360
-armor: 10
+health: 1860
+armor: 8
 speed: 3
 accel: 0.4
 drag: 0.15
