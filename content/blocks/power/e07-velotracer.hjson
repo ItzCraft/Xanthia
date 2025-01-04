@@ -6,6 +6,7 @@ requirements: [
   k03-tryllinium/375
   k05-velorium/170
 ]
+buildCostMultiplier: 0.45
 squareSprite: false
 category: power
 powerProduction: 11
