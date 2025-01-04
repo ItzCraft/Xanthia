@@ -35,10 +35,11 @@ weapons: [
   reload: 100
   mirror: true
   rotate: true
-  rotationLimit: 20
+  rotationLimit: 25
   alternate: false
   top: false
   shootSound: cannon
+  shootCone: 10
   bullet: {
    type: BasicBulletType
    speed: 2
