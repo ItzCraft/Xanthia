@@ -12,9 +12,10 @@ requirements: [
 research: {
   parent: h03-air-fabricator
   objectives: [
+    g07-heavy-melter
     {
       type: OnSector
-      preset: the-beggining
+      preset: storm-bastion
     }
   ]
 }
