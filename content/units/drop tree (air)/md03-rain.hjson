@@ -1,7 +1,7 @@
 type: flying
-
 name: Rain
 description: Uses flamethrowers to burn enemies. And dropping bomb on site.
+detail: Named Rain but shape like Umbrella, Named Rain but shoot Fire. 
 flying: true
 lowAltitude: true
 hitSize: 21
@@ -49,6 +49,13 @@ angle: 90
 regen: 0.546
 width: 10
 whenShooting: true
+},
+{
+type: RepairFieldAbility
+range: 80
+reload: 30
+amount: 25
+activeEffect: none
 }
 ]
 
@@ -176,7 +183,3 @@ weapons: [
      hitEffect: hitFlamePlasma
      hitColor: BACBE9
     }
-  } 
-]
-
-researchCostMultiplier: 2
