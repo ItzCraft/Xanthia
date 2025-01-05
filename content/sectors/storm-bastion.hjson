@@ -1,0 +1,18 @@
+captureWave: 23
+planet: xanthia
+sector: 23
+research: {
+  parent: "the-beggining"
+	 objectives: [
+	    {
+      type: SectorComplete
+     		preset: "the-beggining"
+		   }
+      {
+        type: SectorComplete 
+        preset: "penetration"
+      } 
+ 	]
+}
+difficulty: 6
+alwaysUnlocked: false
