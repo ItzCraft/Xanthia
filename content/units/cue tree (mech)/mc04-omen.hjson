@@ -4,7 +4,7 @@ description: Has two powerful railgun. Also constructing self destructing units 
 hitSize: 30
 singleTarget: true
 faceTarget: true
-health: 15040
+health: 7950
 armor: 14
 speed: 0.65
 rotateSpeed: 1.2
