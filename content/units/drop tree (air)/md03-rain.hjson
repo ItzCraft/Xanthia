@@ -1,7 +1,7 @@
 type: flying
 name: Rain
 description: Uses flamethrowers to burn enemies. And dropping bomb on site.
-detail: Named Rain but shape like Umbrella, Named Rain but shoot Fire. 
+details: Named Rain but shape like Umbrella, Named Rain but shoot Fire. 
 flying: true
 lowAltitude: true
 hitSize: 21
