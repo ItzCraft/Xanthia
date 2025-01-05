@@ -171,6 +171,8 @@ weapons: [
      healPercent: 6
      collidesTeam: True
      damage: 76
+     splashDamage: 76
+     splashDamageRadius: 30
      lifetime: 10
      speed: 4
      pierce: true
@@ -179,7 +181,7 @@ weapons: [
      hitable: false
      status: burning
      statusDuration: 300
-     shootEffect: none
+     shootEffect: shootPyraFlame
      hitEffect: hitFlamePlasma
      hitColor: BACBE9
     }
