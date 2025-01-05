@@ -79,4 +79,9 @@ weapons: [
     }
   }
 ]
-researchCostMultiplier: 2
+research: h04-air-refabricator
+researchCost: [
+ k01-elanite/450
+ k02-foronium/315
+ k05-velorium/295
+]
