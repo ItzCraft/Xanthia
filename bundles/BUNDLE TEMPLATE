@@ -32,10 +32,12 @@ sector.xanthia-3-valley-of-enemies.name =
 sector.xanthia-3-valley-of-enemies.description =
 sector.xanthia-3-the-beggining.name =
 sector.xanthia-3-the-beggining.description =
-#soon more
+sector.xanthia-3-storm-bastion.name = 
+sector.xanthia-3-storm-bastion.description
 
 # Objectives
 
+yes im lazy to copy + paste all objectives from bundle.properties
 
 # Items
 item.xanthia-3-k01-elanite.name =
@@ -57,6 +59,8 @@ item.xanthia-3-k07-tritanium.description =
 # liquids
 liquid.xanthia-3-l01-foron.name =
 liquid.xanthia-3-l01-foron.descripion =
+liquid.xanthia-3-l02-cryline.name =
+liquid.xanthia-3-l02-cryline.description = 
 liquid.xanthia-3-l03-tryfluid.name =
 liquid.xanthia-3-l03-tryfluid.description =
 liquid.xanthia-3-l04-molten-velorium.name =
