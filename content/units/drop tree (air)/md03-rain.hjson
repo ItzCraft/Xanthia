@@ -183,4 +183,5 @@ weapons: [
      hitEffect: hitFlamePlasma
      hitColor: BACBE9
     }
+  }
 ]
