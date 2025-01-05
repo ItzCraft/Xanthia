@@ -8,6 +8,17 @@ destructible: true
 breakable: true
 targetable: true
 allowDerelictRepair: false
+
+research: {
+  parent: i08-upgrader
+  objectives: [
+    {
+     type: OnSector
+     preset: storm-bastion
+    }
+  ]
+}
+
 consumes: {
   power: 4.5
 }
