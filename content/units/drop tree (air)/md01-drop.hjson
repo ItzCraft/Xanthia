@@ -2,6 +2,7 @@ type: flying
 
 name: Drop
 description: Armored light support aircraft. Repairs damaged structures automatically and has energy field.
+description: We be Ballin' with this guy,  "I put the new Forgis on the Jeep-" hehe
 flying: true
 lowAltitude: true
 hitSize: 9
