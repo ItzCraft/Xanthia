@@ -172,7 +172,7 @@ weapons: [
      hitable: false
      status: burning
      statusDuration: 300
-     shootEffect: none //hitSmallFlame Nahan, fix pls
+     shootEffect: none
      hitEffect: hitFlamePlasma
      hitColor: BACBE9
     }
