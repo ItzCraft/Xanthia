@@ -113,11 +113,11 @@ drawer: {
       rotateSpeed: 1.6
       sides: 3
       hollow: true
-      color: e1abcb
+      color: dd98ed
       stroke: 0
-      strokeTo: 1.5
+      strokeTo: 1.2
       radius: 5.5
-      y: -7
+      y: -8
     }
    {
       // triangle smol
@@ -127,11 +127,11 @@ drawer: {
       rotateSpeed: -1.6
       sides: 3
       hollow: true
-      color: e1abcb
+      color: dd98ed
       stroke: 0
-      strokeTo: 1.5
+      strokeTo: 1.2
       radius: 3.5
-      y: -7
+      y: -8
     }
      {
       // Pentagon
@@ -141,11 +141,11 @@ drawer: {
       rotateSpeed: 2
       sides: 5
       hollow: true
-      color: e1abcb
+      color: dd98ed
       stroke: 0
-      strokeTo: 1.9
+      strokeTo: 1.1
       radius: 7
-      y: -7
+      y: -8
     }
     {
       // circle
@@ -155,11 +155,11 @@ drawer: {
       rotateSpeed: 1
       sides: 60
       hollow: true
-      color: e1abcb
+      color: dd98ed
       stroke: 0
       strokeTo: 1.2
-      radius: 3
-      y: -7
+      radius: 2.5
+      y: -8
     }
   ]
 }
