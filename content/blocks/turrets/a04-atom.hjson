@@ -34,7 +34,6 @@ maxAmmo: 20
 ammoPerShot: 2
 inaccuracy: 2
 recoil: 3
-recoilTime: 0.5
 cooldownTime: 10
 targetUnderBlocks: false
 range: 138
@@ -104,5 +103,63 @@ ammoTypes: {
 
 drawer: {
   type: DrawTurret
-  basePrefix: regul
+  basePrefix: regul-
+  parts: [
+     {
+      // triangle big
+      type: ShapePart
+      layer: 100
+      progress: warmup
+      rotateSpeed: 1.6
+      sides: 3
+      hollow: true
+      color: e1abcb
+      stroke: 0
+      strokeTo: 1.5
+      radius: 5.5
+      y: -7
+    }
+   {
+      // triangle smol
+      type: ShapePart
+      layer: 100
+      progress: warmup
+      rotateSpeed: -1.6
+      sides: 3
+      hollow: true
+      color: e1abcb
+      stroke: 0
+      strokeTo: 1.5
+      radius: 3.5
+      y: -7
+    }
+     {
+      // Pentagon
+      type: ShapePart
+      layer: 100
+      progress: warmup
+      rotateSpeed: 2
+      sides: 5
+      hollow: true
+      color: e1abcb
+      stroke: 0
+      strokeTo: 1.9
+      radius: 7
+      y: -7
+    }
+    {
+      // circle
+      type: ShapePart
+      layer: 100
+      progress: warmup
+      rotateSpeed: 1
+      sides: 60
+      hollow: true
+      color: e1abcb
+      stroke: 0
+      strokeTo: 1.2
+      radius: 3
+      y: -7
+    }
+  ]
 }
