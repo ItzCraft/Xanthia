@@ -6,7 +6,7 @@ size: 1
 requirements: [
 k01-elanite/6
 ]
-health: 360
+health: 520
 category: defense
 
 research: a01-quark

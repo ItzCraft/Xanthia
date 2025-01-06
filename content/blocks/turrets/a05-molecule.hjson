@@ -1,7 +1,8 @@
-type: LaserTurret
+type: ContinuousLiquidTurret
 name: Molecule
-description: Fires a short range powerful energy beam at the enemy. Require coolant.
+description: Fires a short range powerful energy laser at the enemy. Require liquid and energy.
 size: 3
+health: 1120
 category: turret
 researchCostMultiplier: 0.7
 fogRadiusMultiplier: 0.6
@@ -12,15 +13,7 @@ k02-foronium/175
 k03-tryllinium/125
 k05-velorium/65
 ]
-buildCostMultiplier: 0.3
-
-coolant: {
-  type: ConsumeCoolant
-  allowGas: true
-  allowLiquid: true
-  amount: 0.2
-}
-
+buildCostMultiplier: 0.3 
 drawer: {
   type: DrawTurret
   basePrefix: regul-
@@ -56,32 +49,34 @@ drawer: {
 
 shootEffect: shootBigSmoke
 outlineColor: 313131FF
-reload: 30
-firingMoveFract: 0.4
-shootDuration: 260
-minWarmup: 0.5
-cooldownTime: 120
-
-shootType: {
-  type: ContinuousLaserBulletType
-  length: 110
-  damage: 10
-  width: 7
-  incendAmount: 0
-  incendSpread: 0
-  incendChange: 0
-  colors: [2C6D8350, 5D9FB58E, A1D0E0D6]
-  shake: 0.6
-}
-
-range: 110
 shootSound: laserBig
 loopSound: beam
 loopSoundVolume: 1.5
-recoil: 2.5
+recoil: 2
 shootCone: 10
 rotateSpeed: 2.3
-shootY: 3.5
 consumes: {
-  power: 4.5
+  power: 5.0
+}
+liquidConsumed: 0.4
+targetInterval: 3.5
+range: 135
+shootY: 3.5
+ammoTypes: {
+  l01-foron: {
+    width: 1.9
+    drawFlare: false
+    hitColor: ffffffCC
+    type: ContinuousFlameBulletType
+    damage: 14
+    length: 95
+    knockback: 0.4
+    pierceCap: 2
+    colors: [2C6D8350, 5D9FB58E, A1D0E0D6]
+    lightColor: ffffffCC
+    drawFlare: true
+    flareColor: A1D0E0D6
+    flareLenth: 2
+    flareWidth: 4
+  }
 }

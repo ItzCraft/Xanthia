@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: Magnetic Regulator
+description: "It regulates the magnetic effect on electricity. Reduces the power of a [#b466e8]Magnetic storm."
+size: 3
+category: effect
+health: 340
+destructible: true
+breakable: true
+targetable: true
+allowDerelictRepair: false
+consumes: {
+  power: 9
+}
+buildCostMultiplier: 0.5
+requirements: [
+  k01-elanite/400
+  k02-foronium/345
+  k05-velorium/320
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    } 
+  ]
+}

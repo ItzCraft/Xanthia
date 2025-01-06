@@ -6,8 +6,7 @@ size: 1
 requirements: [
 k02-foronium/6
 ]
-buildCostMultiplier: 0.5
-health: 660
+health: 604
 category: defense
 
 research: {

@@ -1,13 +1,14 @@
 type: flying
 
 name: Drop
-description: Armored light support aircraft. Repairs damaged structures automatically and has light point defense.
+description: Armored light support aircraft. Repairs damaged structures automatically and has energy field.
+details: We be Ballin' with this guy,  "I put the new Forgis on the Jeep-" hehe
 flying: true
 lowAltitude: true
 hitSize: 9
 singleTarget: true
 faceTarget: true
-health: 400
+health: 670
 armor: 8
 speed: 3.2
 accel: 0.1
@@ -26,59 +27,53 @@ mineSpeed: 7
 buildRange: 150
 buildSpeed: 0.2
 
-weapons: [
-  {
-    x: 0
-    y: 2
-    reload: 60
-    rotate: true
-    rotateSpeed: 9
-    rotationLimit: 20
-    shootSound: blaster
-    inaccuracy: 5
-    recoil: 1.5
-    bullet: {
-      type: MissileBulletType
-      homingPower: 0.1
-      weaveMag: 4
-      weaveScale: 3
-      trailLength: 7
-      trailWidth: 2
-      keepVelocity: false
-      splashDamage: 8
-      splashDamageRadius: 20
-      speed: 3
-      lifetime: 60
-      frontColor: 84F491FF
-      backColor: 62AE7FFF
-      trailColor: 62AE7FFF
-      healPercent: 2
-      collidesTeam: true
-      shootEffect: shootHeal
-      smokeEffect: hitLaser
-      hitEffect: hitLaser
-      despawnEffect: hitLaser
-    }
-  }
-  {
-  type: PointDefenseWeapon
-  x: 4.2
-  y: 0
-  mirror: true
-  alternate: true
-  name: md01-drop-point-defense
-  reload: 60
-  targetInterval: 5
-  targetSwitchInterval: 10
-  bullet: {
-      shootSound: laserShoot
-      shootEffect: sparkShoot
-      hitEffect: pointHit
-      maxRange: 100
-      damage: 26
-    }
-  }
+abilities: [
+{
+ type: EnergyFieldAbility
+ damage: 20
+ range: 60
+ reload: 125
+ useAmmo: false
+ maxTargets: 6
+ healPercent: 1.2
+ sameTypeHealMult: 0.25
+ statusDuration: 240
+ shootSound: spark
+ status: electrified
+ blinkSize: 0.015
+ blinkScl: 10
+ effectRadius: 1.5
+}
 ]
+
+parts: [
+ {
+  type: RegionPart
+  suffix: -glow
+  progress: warmup
+  color: 9aff96
+  blending: additive
+  outline: false
+  mirror: false
+ }
+]
+
+weapons: [
+ {
+  shootSound: none
+  bullet: {
+   type: BasicBulletType
+   width: 0
+   height: 0
+   damage: 0
+    shootEffect: none
+    smokeEffect: none
+    hitEffect: none
+    despawnEffect: none
+  }
+ }
+]
+
 researchCost: [
 k01-elanite/250
 k05-velorium/100

@@ -1,11 +1,11 @@
 type: Item
 
 name: Foronium
-description: Used advanced construction. A solidified version of foron.
+description: Used advanced construction. A solidified version of foron. Light but strong.
 
 color: A387EAFF
 hardness: 3
-cost: 2.5
+cost: 0.5
 
 radioactivity: 0.15
 

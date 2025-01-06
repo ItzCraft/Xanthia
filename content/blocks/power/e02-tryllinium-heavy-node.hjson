@@ -1,0 +1,25 @@
+type: PowerNode
+
+name: Tryllinium  Heavy Node
+description: Distribute power.
+size: 3
+health: 330
+category: power
+requirements: [
+k01-elanite/150
+k03-tryllinium/100
+k05-velorium/70
+]
+researchCost: [
+k01-elanite/1750
+k03-tryllinium/1500
+k05-velorium/1050
+]
+laserRange: 20
+maxNodes: 13
+buildCostMultiplier: 0.6
+
+laserColor1: AFF8FFFF
+laserColor2: 6697FAFF
+
+research: e01-tryllinium-node

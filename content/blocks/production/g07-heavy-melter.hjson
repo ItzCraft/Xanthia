@@ -22,6 +22,16 @@ consumes: {
 
 category: crafting
 
+research: {
+  parent: g02-mass-solidifer
+  objectives: [
+    {
+     type: OnSector
+     preset: storm-bastion
+    }
+  ]
+}
+
 drawer: {
   type: DrawMulti
   drawers: [
@@ -35,10 +45,10 @@ drawer: {
     padding: 2
     }
     {
-    type: DrawDefault
+    type: DrawArcSmelt
     }
     {
-    type: DrawArcSmelt
+    type: DrawDefault
     }
   ]
 }

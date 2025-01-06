@@ -8,10 +8,10 @@ consumes: {
   powerBuffered: 35000
 }
 requirements: [
-k03-tryllinium/24
-k06-duramatter/36
+k03-tryllinium/36
+k06-duramatter/14
 ]
-health: 2835
+health: 4120
 category: defense
 
 research: f09-energetic-wall

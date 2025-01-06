@@ -1,0 +1,98 @@
+type: flying
+name: Retribution
+description: An a self destructing unit what was made by Omen, Equipped with heavy duty armor, it can easily enter the inside defense, obliterate the supply line and ofcourse the turret. 
+health: 1975
+armor: 50
+speed: 4
+hitSize: 6
+flying: true
+lowAltitude: true
+singleTarget: false
+faceTarget: true
+accel: 0.5
+drag: 0.1
+rotateSpeed: 3
+outlineColor: 131824FF
+drawCell: false
+
+controller: SuicideAi
+hidden: false
+
+weapons: [
+ {
+  shootOnDeath: true
+  shootSound: explosion
+  mirror: false
+  bullet: {
+   collidesTiles: false
+   collides: false
+   hitSound:  explosionbig
+   speed: 3
+   splashDamageRadius: 120
+   splashDamage: 450
+   status: melting
+   statusDuration: 900
+   hitEffect: titanExplosion
+   color: c0e0ff
+   instantDisappear: true
+   killShooter: true
+   hittable: true
+   collidesAir: false
+   FragOnHit: true
+	  fragBullets: 6
+	  fragBullet:
+   {   
+	
+	width: 8
+    drawFlare: false
+    hitColor: ffffffCC
+    type: ContinuousFlameBulletType
+    hitEffect: hitFlameBeam
+    damage: 51
+    length: 115
+    knockback: 4
+    pierceCap: 4
+    colors: [5d76ca70, 87b0eea0, f0f0ffd0]
+    lightColor: ffffffCC
+    drawFlare: false
+	 }
+  }
+ }
+]
+
+ parts: [
+  {
+ type: HoverPart
+ x: 5.5
+ y: 5.5
+ mirror: true
+ radius: 8
+ phase: 126
+ stroke: 2
+ layerOffset: -0.001
+ color: c0e0ff
+ },
+  
+  {
+ type: HoverPart
+ x: 5.5
+ y: -5.5
+ mirror: true
+ radius: 8
+ phase: 126
+ stroke: 2
+ layerOffset: -0.001
+ color: c0e0ff
+ },
+
+  {
+ type: FlarePart
+ x: 0
+ y: 0
+ radius: 0
+ radiusTo: 32
+ color1: 97c0ce
+ color2: e0f8ff
+ progress: warmup
+ }
+ ]

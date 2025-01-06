@@ -6,8 +6,8 @@ size: 1
 requirements: [
 k06-duramatter/6
 ]
-buildCostMultiplier: 0.5
-health: 740
+
+health: 910
 category: defense
 
 research: f05-velorium-wall

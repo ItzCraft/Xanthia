@@ -2,6 +2,7 @@ type: ItemTurret
 name: Encircler
 description: Fires a large charged ball that fires very powerful lightning when hit.
 size: 3
+health: 1150
 category: turret
 requirements: [
 k03-tryllinium/175
@@ -15,7 +16,7 @@ outlineColor: 313131FF
 targetAir: true
 targetGround: false
 reload: 60 
-range: 100
+range: 200
 inaccuracy: 5
 shootY: 4
 shootSound: shootAlt
@@ -28,21 +29,20 @@ consumes: {
 ammoTypes: {
   k03-tryllinium: {
     type: BasicBulletType
-    speed: 3.5
-    damage: 0
-    lifetime: 56
+    speed: 3.7
+    damage: 100.5
+    lifetime: 63
     width: 30
     height: 30
     frontColor: 6cafd9
-    backColor: 000000
+    backColor: 4c8fb9
     shootEffect: shootBig
     shootSmoke: shootBigSmoke
     lightningColor: 6cafd9
-    lightning: 6
-    lightningLength: 15
-    lightningDamage: 55
+    lightning: 12
+    lightningLength: 20
+    lightningDamage: 47.5
     lightningInterval: 2
-    buildingDamageMultiplier: 0.3
   }
 }
 drawer: {

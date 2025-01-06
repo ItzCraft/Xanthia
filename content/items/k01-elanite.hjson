@@ -5,9 +5,9 @@ description: Used in basic construction. Slightly flammable.
 
 color: AC8675FF
 hardness: 1
-cost: 1
+cost: 0.8
 
-flammability: 0.1
+flammability: 0.05
 
 hiddenOnPlanets: [
 serpulo

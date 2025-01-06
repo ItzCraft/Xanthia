@@ -1,15 +1,14 @@
 type: legs
-
 name: Hint
-description: Fires powerful piercing energy beam. Can move over terrain.
+description: Fires powerful piercing energy orb. Can move over terrain.
 hitSize: 14
 singleTarget: true
 faceTarget: true
-health: 1600
-armor: 0
-speed: 1
-rotateSpeed: 2
-itemCapacity: 20
+health: 2050
+armor: 10
+speed: 0.7
+rotateSpeed: 1.8
+itemCapacity: 30
 outlineColor: 131824FF
 
 research: h02-land-refabricator
@@ -21,7 +20,7 @@ legGroupSize: 5
 legCount: 8
 allowLegStep: true
 legExtension: -2
-legLength: 16
+legLength: 21
 legSpeed: 0.3
 legForwardScl: 0.7
 legMoveSpace: 1
@@ -29,54 +28,55 @@ hovering: true
 groundLayer: 60
 
 weapons: [
-  {
-    x: 0
-    y: 1
-    top: false
-    name: mc02-hint-weapon
-    reload: 100
-    mirror: false
-    rotate: false
-    shootSound: cannon
-    inaccuracy: 1
-    bullet: {
-      type: MissileBulletType
-      trailLength: 18
-      trailWidth: 3.5
-      width: 4
-      height: 4
-      splashDamage: 35
-      splashDamageRadius: 23
-      splashDamagePierce: true
-      pierce: true
-      pierceCap: 3
-      pierceBuilding: true
-      speed: 3.5
-      lifetime: 50
-      frontColor: FFFFFFFF
-      backColor: 869CBEFF
-      trailColor: 869CBEFF
-      shootEffect: shootBig2
-      shootSmoke: shootSmokeTitan
-      hitEffect: bigShockwave
-      despawnEffect: bigShockwave
-      buildingDamageMultiplier: 0.45
-    }
-    parts: [
+ {
+  x: 11.5
+  y: 3
+  name: mc02-hint-gun
+  reload: 100
+  mirror: true
+  rotate: true
+  rotationLimit: 25
+  alternate: false
+  top: false
+  shootSound: cannon
+  shootCone: 10
+  bullet: {
+   type: BasicBulletType
+   speed: 2
+   damage: 45
+   lifetime: 80
+   width: 22
+   height: 22
+   pierce: true
+   pierceCap: 2
+   pierceBuilding: true
+   frontColor: c0e0ff
+   backColor: 000000
+   shootEffect: shootBig
+   shootSmoke: shootBigSmoke
+   bulletInterval: 14
+   intervalBullets: 1
+   intervalBullet: {
+    type: LightningBulletType
+    damage: 15
+    lightning: 3
+    lightningLength: 7
+    lightningColor: c0e0ff
+   }
+  }
+  parts: [
       {
-        layerOffset: -0.01
+        layerOffset: -0.001
         type: RegionPart
         suffix: -side
         mirror: true
+        alternate: false
         under: true
         outline: true
         progress: recoil
-        y: 3
-        moveX: 0.5
-        moveY: 0.1
-        moveRot: -10
+        moveY: -3
       }
     ]
-  }
+ }
 ]
 researchCostMultiplier: 2

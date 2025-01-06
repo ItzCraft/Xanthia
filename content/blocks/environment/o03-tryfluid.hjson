@@ -1,0 +1,9 @@
+type: Floor
+name: Tryfluid Crevice
+description: A source of Tryfluid.
+
+variants: 8
+speedMultiplier: 0.5
+liquidDrop: l03-tryfluid
+liquidMultiplier: 0.5
+isLiquid: false

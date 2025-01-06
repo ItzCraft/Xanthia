@@ -5,7 +5,7 @@ description: Used similar to coal. Burn easily.
 
 color: 3C3838FF
 hardness: 2
-cost: 2
+cost: 1
 
 flammability: 0.8
 explosiveness: 0.15

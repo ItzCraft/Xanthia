@@ -1,0 +1,31 @@
+type: ConsumeGenerator
+name: Velotracer
+description: "Combining Velorium and Tryfluid to make the elecriticy and it producing liquid Cryline as a excess product"
+size: 3
+requirements: [
+  k03-tryllinium/375
+  k05-velorium/170
+]
+buildCostMultiplier: 0.45
+squareSprite: false
+category: power
+powerProduction: 11
+health: 585
+outputLiquid: l02-cryline/0.06666
+consumes: {
+  items: [
+    k05-velorium/1
+  ],
+  liquids: [
+    l03-tryfluid/0.1222222
+  ]
+}
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+  ]
+}

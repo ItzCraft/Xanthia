@@ -24,6 +24,25 @@ consumes: {
 category: crafting
 
 craftEffect: {
+  type: multiEffect
+  effects: [
+  {
+  type: ParticleEffect
+  particles: 5
+  cone: 360
+  followParent: true
+  rotWithParent: false
+  sizeFrom: 1.5
+  sizeTo: 0.4
+  lifetime: 65
+  length: 3.5
+  baseLength: 5
+  interp: pow2
+  sizeInterp: pow3In
+  colorFrom: d0d3e7
+  colorTo: 686281
+}
+  {
   type: ParticleEffect
   particles: 5
   cone: 360
@@ -36,38 +55,15 @@ craftEffect: {
   baseLength: 4
   interp: pow2
   sizeInterp: pow3In
-}
-
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-    type: DrawRegion
-    suffix: -bottom
-    }
-    {
-    type: DrawLiquidTile
-    drawLiquid: l03-tryfluid
-    padding: 2
-    alpha: 0.5
-    }
-    {
-    type: DrawLiquidTile
-    drawLiquid: l04-molten-velorium
-    padding: 2
-    alpha: 0.5
-    }
-    {
-    type: DrawRegion
-    suffix: -rotator
-    spinSprite: true
-    rotateSpeed: -3
-    }
-    {
-    type: DrawDefault
+  colorFrom: b3b2d3
+  colorTo: 47425f
     }
   ]
 }
+
+drawer: {
+    type: DrawDefault
+    }
 
 ambientSound: grinding
 ambientSoundVolume: 0.08
