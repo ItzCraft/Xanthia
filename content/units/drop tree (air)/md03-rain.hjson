@@ -170,8 +170,8 @@ weapons: [
      layerOffset: -0.01
      healPercent: 6
      collidesTeam: True
-     damage: 76
-     splashDamage: 76
+     damage: 15
+     splashDamage: 15
      splashDamageRadius: 30
      lifetime: 10
      speed: 4
