@@ -20,16 +20,6 @@ coolant: {
 targetAir: true
 targetGround: true
 
-research: {
-  parent: "a03-neutrac"
-  objectives: [
-     {
-       type: OnSector
-       preset: "protection"
-     }
-  ]
-}
-
 maxAmmo: 20
 ammoPerShot: 2
 inaccuracy: 2
