@@ -31,7 +31,7 @@ research: {
   parent: "h01-land-fabricator"
  	objectives: [
 	    {
-      type: SectorComplete
+      type: OnSector
      		preset: "protection"
 		    }
  	]
