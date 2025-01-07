@@ -23,7 +23,7 @@ consumes: {
 category: crafting
 
 research: {
-  parent: g02-mass-solidifer
+  parent: g02-mass-solidifier
   objectives: [
     {
      type: OnSector
