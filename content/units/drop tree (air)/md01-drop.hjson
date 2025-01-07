@@ -30,9 +30,9 @@ buildSpeed: 0.2
 abilities: [
 {
  type: EnergyFieldAbility
- damage: 20
- range: 60
- reload: 125
+ damage: 15
+ range: 45
+ reload: 175
  useAmmo: false
  maxTargets: 6
  healPercent: 1.2
@@ -42,7 +42,7 @@ abilities: [
  status: electrified
  blinkSize: 0.015
  blinkScl: 10
- effectRadius: 1.5
+ effectRadius: 1.2
 }
 ]
 
