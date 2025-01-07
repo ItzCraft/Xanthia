@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Duramatter Crucible
-description: Form duramatter using tryfluid and molten velorium. Require Tryllinium's charge
+description: Form duramatter using tryfluid and molten velorium. Require Tryllinium's charge for working.
 size: 3
 squareSprite: false
 requirements: [
@@ -11,8 +11,8 @@ k03-tryllinium/175
 ]
 research: g03-duramatter-modler
 
-outputItem: k06-duramatter/1
-craftTime: 120
+outputItem: k06-duramatter/3
+craftTime: 210
 consumes: {
   liquids: [
     l03-tryfluid/0.5
