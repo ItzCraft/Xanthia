@@ -23,11 +23,11 @@ consumes: {
 category: crafting
 
 research: {
-  parent: g02-mass-solidifier
+  parent: "g02-mass-solidifier"
   objectives: [
     {
      type: OnSector
-     preset: storm-bastion
+     preset: "storm-bastion" 
     }
   ]
 }
