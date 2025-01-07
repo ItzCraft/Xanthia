@@ -1,0 +1,71 @@
+type: GenericCrafter
+name: Duramatter Crucible
+description: Form duramatter using tryfluid and molten velorium. Require Tryllinium's charge
+size: 3
+squareSprite: false
+requirements: [
+k01-elanite/345
+k02-foronium/250
+k05-velorium/235
+k03-tryllinium/175
+]
+research: g03-duramatter-modler
+
+outputItem: k06-duramatter/1
+craftTime: 120
+consumes: {
+  liquids: [
+    l03-tryfluid/0.5
+    l04-molten-velorium/0.6
+  ]
+  items: [
+    k03-tryllinium/1
+  ]
+  power: 7.5
+}
+
+category: crafting
+
+craftEffect: {
+  type: multiEffect
+  effects: [
+  {
+  type: ParticleEffect
+  particles: 5
+  cone: 360
+  followParent: true
+  rotWithParent: false
+  sizeFrom: 1.5
+  sizeTo: 0.4
+  lifetime: 65
+  length: 3.5
+  baseLength: 5
+  interp: pow2
+  sizeInterp: pow3In
+  colorFrom: d0d3e7
+  colorTo: 686281
+}
+  {
+  type: ParticleEffect
+  particles: 5
+  cone: 360
+  followParent: true
+  rotWithParent: false
+  sizeFrom: 1.1
+  sizeTo: 0.3
+  lifetime: 60
+  length: 3
+  baseLength: 4
+  interp: pow2
+  sizeInterp: pow3In
+  colorFrom: b3b2d3
+  colorTo: 47425f
+    }
+  ]
+}
+
+drawer: {
+    type: DrawDefault
+}
+ambientSound: grinding
+ambientSoundVolume: 0.08
