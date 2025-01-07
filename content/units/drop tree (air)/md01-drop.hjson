@@ -35,7 +35,7 @@ abilities: [
  reload: 175
  useAmmo: false
  maxTargets: 6
- healPercent: 1.2
+ healPercent: 0.7
  sameTypeHealMult: 0.25
  statusDuration: 240
  shootSound: spark
