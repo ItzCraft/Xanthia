@@ -1,0 +1,17 @@
+type: StorageBlock
+name: ItemsCapsule
+description: Stores items for future.
+size: 2
+scaledHealth: 40
+itemCapacity: 125
+category: effect
+research: i07-unclosed-unloader
+requirements: [
+  k01-elanite/200
+  k02-foronium/145
+]
+squareSprite: false
+researchCost: [
+  k01-elanite/1050
+  k02-foronium/750
+]
