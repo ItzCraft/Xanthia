@@ -1,8 +1,8 @@
 type: StorageBlock
-name: ItemsCapsule
+name: Items Capsule
 description: Stores items for future.
 size: 2
-scaledHealth: 40
+health: 175
 itemCapacity: 125
 category: effect
 research: i07-unclosed-unloader
