@@ -22,17 +22,17 @@ plans: [
   unit: mb03-brilliance
   requirements: [
     xanthia-3-mb01-sparkle/3
-    xanthia-3-f03-foronium-wall/8
-    xanthia-3-f04-large-foronium-wall/16
+    xanthia-3-f03-foronium-wall/6
+    xanthia-3-f04-large-foronium-wall/12
   ]
   time: 1750
   }
   {
   unit: mb04-dazzle
   requirements: [
-    xanthia-3-mb02-glime/6
-    xanthia-3-f07-dura-wall/8
-    xanthia-3-f08-large-dura-wall/16
+    xanthia-3-mb02-glime/4
+    xanthia-3-f05-velorium-wall/6
+    xanthia-3-f06-large-velorium-wall/14
   ]
   time: 2350
   }
