@@ -1,6 +1,7 @@
 Type: UnitAssemblerModule
 name: Assembler module
-health: 650
+description: An a Assembler module used for assemblers upgrade.
+health: 1450
 size: 3
 consumes: {
 power: 5
