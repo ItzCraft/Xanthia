@@ -1,6 +1,6 @@
 type: Constructor
 name: Block constructor
-description: Constructs basic components for assemblers.
+description: Constructs basic components for starter assemblers.
 size: 2
 category: units
 requirements: [
