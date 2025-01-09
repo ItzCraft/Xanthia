@@ -14,7 +14,8 @@ consumes: {
 }
 buildSpeed: 0.7
 filter: [
-  f05-velorium-wall, 
+  f03-foronium-wall, 
+  f04-large-foronium-wall,
   a02-nuclei, 
   a01-quark
 ]
