@@ -1,6 +1,6 @@
 Type: UnitAssembler
 name: Tank Assembler
-description: An a assembler that Constructs tanks "brilliance" and "dazzle" 
+description: An a assembler that Constructs tanks "brilliance" and "dazzle".
 health: 1250
 size: 4
 consumes: {
