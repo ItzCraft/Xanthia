@@ -7,9 +7,9 @@ power: 5
 }
 category: units
 requirements: [
-  k01-elanite/2450
-  k02-foronium/2000
-  k05-velorium/1350
-  k06-duramatter/950
-  k07-tritanium/450
+  k01-elanite/1350
+  k02-foronium/1050
+  k05-velorium/750
+  k06-duramatter/450
+  k07-tritanium/125
 ]
