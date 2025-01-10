@@ -4,10 +4,10 @@ description: Constructs advanced components for assemblers with modules.
 size: 3
 category: units
 requirements: [
-  k01-elanite/250
-  k02-foronium/180
-  k05-velorium/130
-  k06-duramatter/75
+  k01-elanite/235
+  k02-foronium/145
+  k05-velorium/120
+  k06-duramatter/70
 ] 
 hasPower: true
 consumes: {
