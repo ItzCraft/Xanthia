@@ -1,6 +1,6 @@
 type: ConsumeGenerator
 name: Velotracer
-description: "Combining Velorium and Tryfluid to make the elecriticy and it producing liquid Cryline as a excess product"
+description: "Utilizing the radioactive reaction with Tryfluid as the Velorium releasing the radioactive particle into the tryfluid pool, Generating the electricity"
 size: 4
 requirements: [
   k01-elanite/525
