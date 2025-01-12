@@ -30,28 +30,27 @@ consumes: {
 
 shootType: {
   type: LightingBulletType
-  lifetime: 1
+  lifetime: 2
   width: 0
   height: 0
   lightningColor: df60eb
   lightning: 6
-  lightningLength: 30
+  lightningLength: 29
   lightningDamage: 35
   lightningCone: 45
-  buildingDamageMultiplier: 0.75
-      fragBullets: 3
-      fragSpread: 120
+  buildingDamageMultiplier: 0.55
+      fragBullets: 2
       fragBullet: {
        type: LaserBulletType
        colors: [bf87b4, e1abcb, ffc7e8]
-       damage: 7
-       width: 13
-       sideAngle: 3
-       sideWidth: 5
-       sideLength: 6
-       lifetime: 10
-       drawSize: 40
-       length: 8
+       damage: 40
+       width: 26
+       sideAngle: 6
+       sideWidth: 10
+       sideLength: 24
+       lifetime: 32
+       drawSize: 80
+       length: 16
       }
 }
 drawer: {
