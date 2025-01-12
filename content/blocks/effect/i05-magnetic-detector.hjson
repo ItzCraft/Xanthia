@@ -3,7 +3,7 @@ name: Magnetic Detector
 description: "Detects the approach of a [#b466e8]Magnetic storm [lightgray]45 seconds before it appears. Can also be used as a radar to clear the fog of war"
 size: 3
 category: effect
-health: 340
+health: 840
 destructible: true
 breakable: true
 targetable: true
@@ -23,10 +23,11 @@ consumes: {
   power: 4.5
 }
 buildCostMultiplier: 0.4
-discoveryTime: 2700
-fogRadius: 35
+discoveryTime: 1800
+fogRadius: 60
 rotateSpeed: 1.2
 glowColor: f48cff
+outlineColor: 131824
 requirements: [
   k01-elanite/280
   k02-foronium/215
