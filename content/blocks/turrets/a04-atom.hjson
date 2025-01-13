@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Atom
-description: "Fires basic bullets that fire 3 or 5 fragments in all directions upon impact."
+description: "Fires bullet, Break into pieces upon impact."
 size: 3
 health: 720
 squareSprite: false
