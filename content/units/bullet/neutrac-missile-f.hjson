@@ -41,7 +41,7 @@ weapons: [
     shake: 1
     bullet: {
       type: ExplosionBulletType
-      homingPower: 1
+      homingPower: 5
       homingRange: 20
       splashDamage: 20
       splashDamageRadius: 25
