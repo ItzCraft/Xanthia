@@ -181,7 +181,37 @@ weapons: [
      hitable: false
      status: burning
      statusDuration: 300
-     shootEffect: shootPyraFlame
+     shootEffect: {
+     type: multiEffect
+     effects: [
+       {
+        type: ParticleEffect
+        particles: 2,
+        sizeFrom: 2,
+        sizeTo: 1,
+        length: 70,
+        lifetime: 25,
+        interp: circleOut,
+        sizeInterp: pow5In,
+        lightColor: c7ffce,
+        colorFrom: c7ffce,
+        colorTo: 62ae7f,
+        cone: 10
+        },
+       {
+        type: ParticleEffect
+        particles: 2,
+        sizeFrom: 2.5,
+        sizeTo: 1,
+        length: 50,
+        lifetime: 25,
+        interp: circleOut,
+        sizeInterp: pow5In,
+        lightColor: c7ffce,
+        colorFrom: cfffcf,
+        colorTo: 62ae7f,
+        cone: 10
+        },
      hitEffect: hitFlamePlasma
      hitColor: BACBE9
     }
