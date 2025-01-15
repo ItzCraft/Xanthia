@@ -12,6 +12,8 @@ squareSprite: false
 category: power
 powerProduction: 11
 health: 585
+hasLiquids: true
+hasItems: true
 outputLiquid: l02-cryline/0.06666
 consumes: {
   items: [
@@ -25,8 +27,26 @@ consumes: {
 drawer: {
   type: DrawMulti
   drawers: [
+     {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      color: f5b9d8
+    }
     {
       type: DrawDefault
+    }
+    {
+      type: DrawLiquidRegion
+      suffix: -tryfluid
+      drawLiquid: l03-tryfluid
+    }
+    {
+      type: DrawRegion
+      suffix: -top
     }
   ]
 }
