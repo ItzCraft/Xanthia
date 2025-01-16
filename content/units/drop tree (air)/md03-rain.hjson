@@ -181,6 +181,8 @@ weapons: [
      hitable: false
      status: burning
      statusDuration: 300
+	 hitEffect: hitFlamePlasma
+     hitColor: BACBE9
      shootEffect: {
      type: multiEffect
      effects: [
@@ -211,9 +213,9 @@ weapons: [
         colorFrom: cfffcf,
         colorTo: 62ae7f,
         cone: 10
-        },
-     hitEffect: hitFlamePlasma
-     hitColor: BACBE9
-    }
+        }
+    ]
+  }
+  }
   }
 ]
