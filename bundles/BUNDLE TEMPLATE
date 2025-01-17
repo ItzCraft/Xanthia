@@ -211,12 +211,15 @@ block.xanthia-3-h02-land-refabricator.name =
 block.xanthia-3-h02-land-refabricator.description =
 block.xanthia-3-h03-flying-fabricator.name =
 block.xanthia-3-h03-flying-fabricator.description =
-block.xanthia-3-h05-tank-assembler.name =
-block.xanthia-3-h05-tank-assembler.description =
-block.xanthia-3-h05-1-assembler-module.name =
-block.xanthia-3-h05-1-assembler-module.description =
+block.xanthia-3-h05-1-tank-assembler.name =
+block.xanthia-3-h05-1-tank-assembler.description =
+block.xanthia-3-h05-2-assembler-module.name =
+block.xanthia-3-h05-2-assembler-module.description =
 
-
+block.xanthia-3-h11-contructor.name = 
+block.xanthia-3-h11-contructor.description =
+block.xanthia-3-h12-continuous-contructor.name =
+block.xanthia-3-h12-continuous-contructor.description =
 
 # Walls
 block.xanthia-3-f01-elanite-wall.name =
