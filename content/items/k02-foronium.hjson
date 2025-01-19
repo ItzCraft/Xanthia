@@ -7,8 +7,6 @@ color: A387EAFF
 hardness: 3
 cost: 0.5
 
-radioactivity: 0.15
-
 hiddenOnPlanets: [
 serpulo
 erekir
