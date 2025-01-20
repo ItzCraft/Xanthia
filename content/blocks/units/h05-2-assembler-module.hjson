@@ -1,5 +1,5 @@
 Type: UnitAssemblerModule
-name: Assembler module
+name: Tank Assembler module
 description: An a Assembler module used for assemblers upgrade.
 health: 1450
 size: 3
