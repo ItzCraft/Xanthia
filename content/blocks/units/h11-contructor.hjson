@@ -17,7 +17,8 @@ filter: [
   f03-foronium-wall, 
   f04-large-foronium-wall,
   a02-nuclei, 
-  a01-quark
+  a01-quark,
+  e01-tryllinium-node
 ]
 squareSprite: false
 conductivePower: true
