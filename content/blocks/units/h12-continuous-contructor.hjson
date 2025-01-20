@@ -20,9 +20,11 @@ buildSpeed: 1
 filter: [
   f05-velorium-wall, 
   f06-large-velorium-wall, 
-  a03-neutrac, 
   i06-renewer, 
   i07-renewal-dome, 
+  e02-tryllinium-heavy-node,
+  a03-neutrac, 
+  a04-atom,
   a05-molecule
 ]
 research: h11-block-contructor
