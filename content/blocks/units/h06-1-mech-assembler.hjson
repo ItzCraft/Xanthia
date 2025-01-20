@@ -6,7 +6,7 @@ size: 4
 consumes: {
 power: 18
   liquid: {
-    liquid: l03-cryline
+    liquid: l02-cryline
     amount: 0.566667
   }
 }
