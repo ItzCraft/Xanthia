@@ -1,0 +1,44 @@
+Type: UnitAssembler
+name: Mech Assembler
+description: An a assembler that Constructs mechs "Insight" and "Omen".
+health: 1250
+size: 4
+consumes: {
+power: 18
+  liquid: {
+    liquid: l03-cryline
+    amount: 0.566667
+  }
+}
+category: units
+requirements: [
+  k01-elanite/1200
+  k02-foronium/850
+  k05-velorium/635
+  k06-duramatter/400
+]
+plans: [
+  {
+  unit: mc03-insight
+  requirements: [
+    xanthia-3-mc01-cue/5
+    xanthia-3-a01-quark/5
+    xanthia-3-f03-foronium-wall/6
+    xanthia-3-e01-tryllinium-node/7
+  ]
+  time: 1350
+  }
+  {
+  unit: mc04-omen
+  requirements: [
+    xanthia-3-a05-molecule/2
+    xanthia-3-mc02-hint/3
+    xanthia-3-i07-renewal-dome/4
+    xanthia-3-e02-tryllinium-heavy-node/4
+    xanthia-3-f05-velorium-wall/6
+  ]
+  time: 3450
+  }
+]
+areaSize: 11
+dronesCreated: 4
