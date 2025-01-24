@@ -10,8 +10,8 @@ speed: 6
 bridgeReplacement: c06-enclosed-bridge
 
 requirements: [
-k01-elanite/1
-k02-foronium/1
+k01-elanite/2
+k05-velorium/1
 ]
 
 research: c01-enclosed-conveyor
