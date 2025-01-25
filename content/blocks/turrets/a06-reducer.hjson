@@ -39,18 +39,18 @@ shootType: {
   lightningDamage: 35
   lightningCone: 45
   buildingDamageMultiplier: 0.55
-      fragBullets: 2
+      fragBullets: 1
       fragBullet: {
        type: LaserBulletType
        colors: [bf87b4, e1abcb, ffc7e8]
        damage: 40
-       width: 26
-       sideAngle: 6
-       sideWidth: 10
-       sideLength: 24
+       width: 13
+       sideAngle: 3
+       sideWidth: 5
+       sideLength: 12
        lifetime: 32
        drawSize: 80
-       length: 16
+       length: 8
       }
 }
 drawer: {
