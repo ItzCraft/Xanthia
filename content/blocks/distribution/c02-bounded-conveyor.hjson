@@ -3,7 +3,7 @@ type: Duct
 name: Bounded Conveyor
 description: Transports items forward. Does not accept non-duct input from the sides.
 size: 1
-health: 75
+health: 150
 
 armored: true
 speed: 6
