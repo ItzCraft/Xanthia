@@ -18,7 +18,7 @@ And please, try to download it not from releases due to releases can have unfoun
 '''
 version: "V0.4.5"
 subtitle: "V0.4.5!"
-minGameVersion: "147"
+minGameVersion: "146"
 dependencies: [ ]
 hidden: false
 hideBrowser: false
