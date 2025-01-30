@@ -215,6 +215,10 @@ block.xanthia-3-h05-1-tank-assembler.name =
 block.xanthia-3-h05-1-tank-assembler.description =
 block.xanthia-3-h05-2-assembler-module.name =
 block.xanthia-3-h05-2-assembler-module.description =
+block.xanthia-3-h06-1-mech-assembler.name =
+block.xanthia-3-h06-1-mech-assembler.description =
+block.xanthia-3-h07-1-air-assembler.name =
+block.xanthia-3-h07-1-air-assembler.description =
 
 block.xanthia-3-h11-contructor.name = 
 block.xanthia-3-h11-contructor.description =
