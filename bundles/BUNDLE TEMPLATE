@@ -2,9 +2,6 @@
 
 planet.xanthia-3-xanthia.name =
 
-#maybe will be added, but not sure. 
-planet.xanthia-3-awerial.name =
-
 # Sectors
 
 sector.xanthia-3-arrival.name =
@@ -217,9 +214,12 @@ block.xanthia-3-h05-2-assembler-module.name =
 block.xanthia-3-h05-2-assembler-module.description =
 block.xanthia-3-h06-1-mech-assembler.name =
 block.xanthia-3-h06-1-mech-assembler.description =
+block.xanthia-3-h06-2-assembler-module.name =
+block.xanthia-3-h06-2-assembler-module.description =
 block.xanthia-3-h07-1-air-assembler.name =
 block.xanthia-3-h07-1-air-assembler.description =
 
+# Warning, in English language it called "Block Constructor" 
 block.xanthia-3-h11-contructor.name = 
 block.xanthia-3-h11-contructor.description =
 block.xanthia-3-h12-continuous-contructor.name =
