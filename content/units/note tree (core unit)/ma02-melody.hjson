@@ -1,7 +1,7 @@
 type: flying
 
 name: Melody
-description: Defend the Rebirth core from enemy. Build structures. Faster than lower tier core drone. Fires missile at enemy. (TODO: resprite this its extremely ugly and oversized)
+description: Defend the Rebirth core from enemy. Build structures. Faster than lower tier core drone.
 
 speed: 4.5
 accel: 0.1
@@ -11,6 +11,7 @@ health: 250
 hitSize: 7
 itemCapacity: 40
 engineOffset: 6
+engineSize: 0
 faceTarget: true
 outlineColor: 131824FF
 
@@ -21,21 +22,35 @@ mineSpeed: 10
 buildRange: 250
 buildSpeed: 1
 
+parts: [
+ {
+  type: HoverPart
+   x: 7.5
+   y: -4.5
+   mirror: true
+   radius: 7
+   phase: 90
+   stroke: 1.2
+   layerOffset: -0.001
+   color: faba4b
+ }
+]
+
 weapons: [
   {
-    name: ma02-melody-weapon
-    x: 0
-    y: -7
-    mirror: false
-    reload: 50
-    recoil: 2
-    inaccuracy: 1
-    shootSound: cannon
-    cooldownTime: 45
-    bullet: {
-      instantDisappear: true
-      damage: 0
-      spawnUnit: v00-tiny-missile
-    }
-  }
- ] 
+   type: RepairBeamWeapon
+   x: 2
+   y: -6.4
+   mirror: false
+	  	beamWidth: 0.5
+   repairSpeed: 0.85
+   targetUnits: false
+   targetBuildings: true
+   pulseRadius: 3.5
+   laserColor: f0b960
+   healColor: dbce91
+  		bullet: {
+  		 maxRange: 85
+  		}
+ } 
+]
