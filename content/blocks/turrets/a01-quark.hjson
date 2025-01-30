@@ -51,6 +51,7 @@ ammoTypes: {
     damage: 85
     trailLength: 6.5
     trailWidth: 1.3
+    frontColor: FFFFFFFF 
     backColor: dde2eb
     trailColor: dde2eb
   }
