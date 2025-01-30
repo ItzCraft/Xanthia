@@ -13,11 +13,15 @@ buildCostMultiplier: 0.3
 drillTime: 240
 range: 6
 tier: 3
-
 consumes: {
   power: 0.7
+  liquid: {
+    liquid: l02-cryline
+    amount: 0.2111111
+    booster: true
+    optional: true
+  }
 }
-
 category: production
 research: {
   parent: "b01-force-drill"
