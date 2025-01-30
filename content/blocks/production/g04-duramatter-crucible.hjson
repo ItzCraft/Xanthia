@@ -31,13 +31,13 @@ craftEffect: {
   effects: [
   {
   type: ParticleEffect
-  particles: 5
+  particles: 7
   cone: 360
   followParent: true
   rotWithParent: false
-  sizeFrom: 1.5
-  sizeTo: 0.4
-  lifetime: 65
+  sizeFrom: 3.12
+  sizeTo: 0.7
+  lifetime: 124
   length: 3.5
   baseLength: 5
   interp: pow2
@@ -47,13 +47,13 @@ craftEffect: {
 }
   {
   type: ParticleEffect
-  particles: 5
+  particles: 7
   cone: 360
   followParent: true
   rotWithParent: false
-  sizeFrom: 1.1
-  sizeTo: 0.3
-  lifetime: 60
+  sizeFrom: 2.78
+  sizeTo: 0.4
+  lifetime: 124
   length: 3
   baseLength: 4
   interp: pow2
@@ -65,7 +65,16 @@ craftEffect: {
 }
 
 drawer: {
-    type: DrawDefault
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+     type: DrawDefault
+    }
+  ]
 }
 ambientSound: grinding
 ambientSoundVolume: 0.08
