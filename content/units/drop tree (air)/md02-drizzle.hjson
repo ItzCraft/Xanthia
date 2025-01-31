@@ -50,7 +50,7 @@ weapons: [
       trailLength: 12
       trailWidth: 3.45
       keepVelocity: false
-      splashDamage: 110
+      splashDamage: 75
       splashDamageRadius: 20
       speed: 3.5
       lifetime: 50
