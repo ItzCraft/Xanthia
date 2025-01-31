@@ -26,6 +26,7 @@ research: {
                     }
          ]
 }
+researchCostMultiplier: 2
 targetAir: true
 targetGround: true
 
