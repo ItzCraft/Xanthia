@@ -5,7 +5,7 @@ size: 2
 health: 175
 itemCapacity: 125
 category: effect
-research: c07-unclosed-unloader
+research: c07-enclosed-unloader
 requirements: [
   k01-elanite/200
   k02-foronium/145
