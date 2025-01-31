@@ -1,7 +1,6 @@
 type: AttributeCrafter
 name: Energy charge bomb
 description: Using reactive property of Tryllinium when surged with electricity. explode violently while focusing the impact to the ground to crack open the surface. block creates holes in the floor. Drilling to the liquid. Be careful when using it.
-details: wait is this a new mechanic on hjson?????? 
 size: 3
 health: 210
 category: production
