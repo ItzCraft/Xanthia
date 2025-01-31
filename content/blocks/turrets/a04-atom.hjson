@@ -17,6 +17,15 @@ coolant: {
   allowLiquid: true
   amount: 0.1
 }
+research: {
+  parent: "a03-neutrac"
+         objectives: [
+            {
+      type: OnSector
+                     preset: "protection"
+                    }
+         ]
+}
 targetAir: true
 targetGround: true
 
