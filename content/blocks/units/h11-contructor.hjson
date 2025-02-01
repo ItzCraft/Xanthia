@@ -12,6 +12,16 @@ hasPower: true
 consumes: {
   power: 1.222
 }
+research: {
+  parent: h02-land-refabricator
+  objectives: [
+    {
+      type: OnSector
+      preset: basalt-mountains
+    }
+  ]
+}
+researchCostMultiplier: 2.5
 buildSpeed: 0.7
 filter: [
   f03-foronium-wall, 
