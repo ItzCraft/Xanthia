@@ -32,7 +32,7 @@ buildSpeed: 1.1
 weapons: [
   {
    type: RepairBeamWeapon
-   mirror: false
+   mirror: true
 	  	beamWidth: 0.8
    repairSpeed: 1
    targetUnits: false
