@@ -18,6 +18,7 @@ requirements: [
   k06-duramatter/310
 ]
 research: h04-air-refabricator
+droneType: mz01-architect
 plans: [
   {
   unit: md03-rain
