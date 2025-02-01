@@ -19,6 +19,7 @@ requirements: [
 ]
 buildCostMultiplier: 0.35
 research: h02-land-refabricator
+researchCostMultiplier: 4
 droneType: mz01-architect
 plans: [
   {
