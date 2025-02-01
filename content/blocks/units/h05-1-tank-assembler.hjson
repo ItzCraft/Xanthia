@@ -17,6 +17,7 @@ requirements: [
   k05-velorium/450
   k06-duramatter/240
 ]
+buildCostMultiplier: 0.35
 research: h02-land-refabricator
 droneType: mz01-architect
 plans: [
