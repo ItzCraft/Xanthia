@@ -17,6 +17,7 @@ requirements: [
   k05-velorium/450
   k06-duramatter/240
 ]
+research: h02-land-refabricator
 plans: [
   {
   unit: mb03-brilliance
