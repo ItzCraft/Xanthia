@@ -38,5 +38,6 @@ requirements: [
   k01-elanite/475
   k02-foronium/325
   k05-velorium/180
+]
 buildCostMultiplier: 0.3
 squareSprite: false
