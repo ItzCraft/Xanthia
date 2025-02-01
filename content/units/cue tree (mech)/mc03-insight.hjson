@@ -1,6 +1,7 @@
 type: legs
 name: Insight
-description: Has 4 strong torrents with wide range and can easily penetrate defense.
+description: Has 4 strong torrents with wide range and can easily penetrate defense. 
+details: Originally i (Nahan) wanted to make Insight to have single target turret with small splash, but because some miscomunication the electric zaps is spreaded, and I think thats also cool, like having an ally/enemy that can easily swipe out the entirety of supply line civilization, will be player's most hated yet loved mech.
 hitSize: 18
 singleTarget: true
 faceTarget: true

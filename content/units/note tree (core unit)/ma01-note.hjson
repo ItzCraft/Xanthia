@@ -3,7 +3,7 @@ type: flying
 name: Note
 description: Lower tier core drone. Build stuff, idk. Why you ask?
 
-speed: 3.75
+speed: 3
 accel: 0.1
 drag: 0.1
 flying: true
@@ -11,6 +11,7 @@ health: 150
 hitSize: 7
 iemCapacity: 30
 engineOffset: 6
+engineSize: 0
 faceTarget: true
 outlineColor: 131824FF
 
@@ -21,22 +22,33 @@ mineSpeed: 6.5
 buildRange: 230
 buildSpeed: 0.75
 
+parts: [
+ {
+  type: HoverPart
+   x: 5.2
+   y: -5
+   mirror: true
+   radius: 5
+   phase: 90
+   stroke: 1
+   layerOffset: -0.001
+   color: faba4b
+ }
+]
+
 weapons: [
   {
-    name: none
-    x: 0
-    y: 2
-    reload: 8
-    recoil: 1
-    inaccuracy: 7
-    shootSound: cannon
-    trailLength: 6
-    trailWidth: 1
-    bullet: {
-      speed: 5
-      lifetime: 28
-      damage: 7
-      buildingDamageMultiplier: 0.01
-    }
-  }
- ] 
+   type: RepairBeamWeapon
+   mirror: false
+	  	beamWidth: 0.6
+   repairSpeed: 0.9
+   targetUnits: false
+   targetBuildings: true
+   pulseRadius: 4.5
+   laserColor: f0b960
+   healColor: dbce91
+  		bullet: {
+  		 maxRange: 45
+  		}
+ } 
+]

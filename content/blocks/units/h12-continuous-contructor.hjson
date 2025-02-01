@@ -1,0 +1,35 @@
+type: Constructor
+name: Continuous constructor
+description: Constructs advanced components for assemblers with modules.
+size: 3
+category: units
+requirements: [
+  k01-elanite/235
+  k02-foronium/145
+  k05-velorium/120
+  k06-duramatter/70
+] 
+buildCostMultiplier: 0.3
+hasPower: true
+consumes: {
+  power: 2.777
+  liquids: [
+   l01-foron/0.11111
+  ]
+}
+buildSpeed: 1
+filter: [
+  f05-velorium-wall, 
+  f06-large-velorium-wall, 
+  i06-renewer, 
+  i07-renewal-dome, 
+  e02-tryllinium-heavy-node,
+  a03-neutrac, 
+  a04-atom,
+  a05-molecule
+]
+research: h11-block-contructor
+researchCostMultiplier: 3
+squareSprite: false
+conductivePower: true
+maxBlockSize: 3

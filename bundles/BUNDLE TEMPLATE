@@ -2,10 +2,6 @@
 
 planet.xanthia-3-xanthia.name =
 
-#maybe will be added, but not sure. 
-planet.xanthia-3-awerial.name =
-
-
 # Sectors
 
 sector.xanthia-3-arrival.name =
@@ -33,7 +29,9 @@ sector.xanthia-3-valley-of-enemies.description =
 sector.xanthia-3-the-beggining.name =
 sector.xanthia-3-the-beggining.description =
 sector.xanthia-3-storm-bastion.name = 
-sector.xanthia-3-storm-bastion.description
+sector.xanthia-3-storm-bastion.description =
+sector.xanthia-3-basalt-mountains.name =
+sector.xanthia-3-basalt-mountains.description = 
 
 # Objectives
 
@@ -88,7 +86,9 @@ block.xanthia-3-c05-enclosed-underflow-gate.description =
 block.xanthia-3-c06-enclosed-bridge.name =
 block.xanthia-3-c06-enclosed-bridge.description =
 block.xanthia-3-c07-enclosed-unloader.name =
-lock.xanthia-3-c07-enclosed-unloader.description =
+block.xanthia-3-c07-enclosed-unloader.description =
+block.xanthia-3-c08-items-capsule.name =
+block.xanthia-3-c08-items-capsule.description =
 
 
 # Drills
@@ -104,6 +104,8 @@ block.xanthia-3-b05-mechanical-quarry.desceiption =
 # IMPORTANT Energy bomb is called "Energy charge bomb" in English language
 block.xanthia-3-b06-energy-bomb.name =
 block.xanthia-3-b06-energy-bomb.description =
+block.xanthia-3-b07-mineral-sonar.name =
+block.xanthia-3-b07-mineral-sonar.description =
 
 
 # effect
@@ -135,7 +137,7 @@ block.xanthia-3-d06-liquid-holder.description =
 block.xanthia-3-d08-pipe-junction.name =
 block.xanthia-3-d08-pipe-junction.description =
 block.xanthia-3-d09-pipe-bridge.name =
-block.xanthia-3-d09-pipe-bridge.description
+block.xanthia-3-d09-pipe-bridge.description =
 
 
 # power
@@ -149,10 +151,12 @@ block.xanthia-3-e05-rotary-turbine.name =
 block.xanthia-3-e05-rotary-turbine.description =
 block.xanthia-3-e06-tryllinium-generator.name =
 block.xanthia-3-e06-tryllinium-generator.description =
-block.xanthia-3-e07-tritanium-reactor.name =
-block.xanthia-3-e07-tritanium-reactor.description =
+block.xanthia-3-e07-velotracer.name =
+block.xanthia-3-e07-velotracer.description =
 block.xanthia-3-e08-purifier.name =
 block.xanthia-3-e08-purifier.description =
+block.xanthia-3-e09-tritanium-reactor.name =
+block.xanthia-3-e09-tritanium-reactor.description =
 
 
 # Crafting
@@ -160,6 +164,10 @@ block.xanthia-3-g01-solidifier.name =
 block.xanthia-3-g01-solidifier.description =
 block.xanthia-3-g02-mass-solidifier.name =
 block.xanthia-3-g02-mass-solidifier.description =
+block.xanthia-3-g03-duramatter-molder.name = 
+block.xanthia-3-g03-duramatter-molder.description = 
+block.xanthia-3-g04-duramatter-crucible.name =
+block.xanthia-3-g04-duramatter-crucible.description =
 block.xanthia-3-g05-scaldium-burner.name =
 block.xanthia-3-g05-scaldium-burner.description =
 block.xanthia-3-g07-heavy-melter.name =
@@ -183,6 +191,8 @@ block.xanthia-3-a02-nuclei.name =
 block.xanthia-3-a02-nuclei.description =
 block.xanthia-3-a03-neutrac.name =
 block.xanthia-3-a03-neutrac.description =
+block.xanthia-3-a04-atom.name = 
+block.xanthia-3-a04-atom.description = 
 block.xanthia-3-a05-molecule.name =
 block.xanthia-3-a05-molecule.description =
 
@@ -200,12 +210,22 @@ block.xanthia-3-h02-land-refabricator.name =
 block.xanthia-3-h02-land-refabricator.description =
 block.xanthia-3-h03-flying-fabricator.name =
 block.xanthia-3-h03-flying-fabricator.description =
-block.xanthia-3-h-05-tank-assembler.name =
-block.xanthia-3-h-05-tank-assembler.description =
-block.xanthia-3-h-09-assembler-module.name =
-block.xanthia-3-h-09-assembler-module.description =
+block.xanthia-3-h05-1-tank-assembler.name =
+block.xanthia-3-h05-1-tank-assembler.description =
+block.xanthia-3-h05-2-assembler-module.name =
+block.xanthia-3-h05-2-assembler-module.description =
+block.xanthia-3-h06-1-mech-assembler.name =
+block.xanthia-3-h06-1-mech-assembler.description =
+block.xanthia-3-h06-2-assembler-module.name =
+block.xanthia-3-h06-2-assembler-module.description =
+block.xanthia-3-h07-1-air-assembler.name =
+block.xanthia-3-h07-1-air-assembler.description =
 
-
+# Warning, in English language it called "Block Constructor" 
+block.xanthia-3-h11-contructor.name = 
+block.xanthia-3-h11-contructor.description =
+block.xanthia-3-h12-continuous-contructor.name =
+block.xanthia-3-h12-continuous-contructor.description =
 
 # Walls
 block.xanthia-3-f01-elanite-wall.name =

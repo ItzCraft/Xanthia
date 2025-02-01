@@ -1,0 +1,38 @@
+Type: UnitAssembler
+name: Air Assembler
+description: An a assembler that Constructs mechs "Rain" and "Shower".
+health: 1250
+size: 4
+consumes: {
+power: 18
+  liquid: {
+    liquid: l02-cryline
+    amount: 0.333333
+  }
+}
+category: units
+requirements: [
+  k01-elanite/1050
+  k02-foronium/650
+  k05-velorium/430
+  k06-duramatter/310
+]
+buildCostMultiplier: 0.3
+research: h04-air-refabricator
+researchCostMultiplier: 4
+droneType: mz01-architect
+plans: [
+  {
+  unit: md03-rain
+  requirements: [
+    xanthia-3-a02-nuclei/1
+    xanthia-3-md01-drop/3
+    xanthia-3-f05-velorium-wall/3
+    xanthia-3-i06-renewer/4
+    xanthia-3-i07-renewal-dome/8
+  ]
+  time: 1000
+  }
+]
+areaSize: 10
+dronesCreated: 4

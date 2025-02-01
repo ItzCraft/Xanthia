@@ -1,9 +1,9 @@
 type: GenericCrafter
 name: Magnetic Regulator
-description: "It regulates the magnetic effect on electricity. Reduces the power of a [#b466e8]Magnetic storm."
+description: "Generating a new magnetic field, to counter bad effect from the [#b466e8]Magnetic storm using electricity[ffffff]."
 size: 3
 category: effect
-health: 340
+health: 740
 destructible: true
 breakable: true
 targetable: true

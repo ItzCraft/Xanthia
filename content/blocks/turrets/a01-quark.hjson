@@ -41,6 +41,19 @@ ammoTypes: {
     damage: 35
     trailLength: 4
     trailWidth: 1
+  },
+  k06-duramatter: {
+    type: BasicBulletType
+    width: 4
+    height: 7
+    speed: 4.5
+    lifetime: 50
+    damage: 85
+    trailLength: 6.5
+    trailWidth: 1.3
+    frontColor: FFFFFFFF 
+    backColor: dde2eb
+    trailColor: dde2eb
   }
 }
 

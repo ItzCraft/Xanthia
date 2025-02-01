@@ -9,6 +9,14 @@ k01-elanite/30
 drillTime: 320
 range: 4
 tier: 2
+consumes: {
+  liquid: {
+    liquid: l02-cryline
+    amount: 0.133333
+    booster: true
+    optional: true
+  }
+}
 category: production
 research: i01-core-fragment
 researchCost: [

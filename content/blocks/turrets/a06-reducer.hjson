@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Reducer
-description: Fires some of strong lightning that weaken enemies. And heals your structures.
+description: Fires some of strong lightning that weaken enemies. 
 size: 3
 health: 1470
 category: turret
@@ -30,15 +30,28 @@ consumes: {
 
 shootType: {
   type: LightingBulletType
-  lifetime: 1
+  lifetime: 2
   width: 0
   height: 0
   lightningColor: df60eb
   lightning: 6
-  lightningLength: 30
-  lightningDamage: 30
+  lightningLength: 29
+  lightningDamage: 35
   lightningCone: 45
-  buildingDamageMultiplier: 0.75
+  buildingDamageMultiplier: 0.55
+      fragBullets: 1
+      fragBullet: {
+       type: LaserBulletType
+       colors: [bf87b4, e1abcb, ffc7e8]
+       damage: 40
+       width: 13
+       sideAngle: 3
+       sideWidth: 5
+       sideLength: 12
+       lifetime: 32
+       drawSize: 80
+       length: 8
+      }
 }
 drawer: {
   type: DrawTurret

@@ -4,7 +4,7 @@ flying: true
 lowAltitude: true
 speed: 1.5
 physics: false
-lifetime: 85
+lifetime: 140
 rotateSpeed: 0.1
 hitSize: 3
 trailLength: 2

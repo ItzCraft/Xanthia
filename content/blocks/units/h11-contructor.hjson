@@ -1,0 +1,35 @@
+type: Constructor
+name: Block constructor
+description: Constructs basic components for starter assemblers.
+size: 2
+category: units
+requirements: [
+  k01-elanite/175
+  k02-foronium/75
+  k05-velorium/20
+] 
+hasPower: true
+consumes: {
+  power: 1.222
+}
+research: {
+  parent: h02-land-refabricator
+  objectives: [
+    {
+      type: OnSector
+      preset: basalt-mountains
+    }
+  ]
+}
+researchCostMultiplier: 2.5
+buildSpeed: 0.7
+filter: [
+  f03-foronium-wall, 
+  f04-large-foronium-wall,
+  a02-nuclei, 
+  a01-quark,
+  e01-tryllinium-node
+]
+squareSprite: false
+conductivePower: true
+maxBlockSize: 2

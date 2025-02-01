@@ -1,8 +1,9 @@
 type: ConsumeGenerator
 name: Velotracer
-description: "Combining Velorium and Tryfluid to make the elecriticy and it producing liquid Cryline as a excess product"
-size: 3
+description: "Utilizing the radioactive reaction with Tryfluid as the Velorium releasing the radioactive particle into the tryfluid pool, Generating the electricity"
+size: 4
 requirements: [
+  k01-elanite/525
   k03-tryllinium/375
   k05-velorium/170
 ]
@@ -11,6 +12,8 @@ squareSprite: false
 category: power
 powerProduction: 11
 health: 585
+hasLiquids: true
+hasItems: true
 outputLiquid: l02-cryline/0.06666
 consumes: {
   items: [
@@ -24,8 +27,26 @@ consumes: {
 drawer: {
   type: DrawMulti
   drawers: [
+     {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      color: f5b9d8
+    }
     {
       type: DrawDefault
+    }
+    {
+      type: DrawLiquidRegion
+      suffix: -tryfluid
+      drawLiquid: l03-tryfluid
+    }
+    {
+      type: DrawRegion
+      suffix: -top
     }
   ]
 }

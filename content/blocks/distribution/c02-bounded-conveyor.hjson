@@ -3,15 +3,15 @@ type: Duct
 name: Bounded Conveyor
 description: Transports items forward. Does not accept non-duct input from the sides.
 size: 1
-health: 75
+health: 150
 
 armored: true
 speed: 6
 bridgeReplacement: c06-enclosed-bridge
 
 requirements: [
-k01-elanite/1
-k02-foronium/1
+k01-elanite/2
+k05-velorium/1
 ]
 
 research: c01-enclosed-conveyor

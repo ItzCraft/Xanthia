@@ -1,0 +1,13 @@
+planet: xanthia
+sector: 71
+research: {
+  parent: "storm-bastion"
+    objectives: [
+     {
+       type: SectorComplete
+       preset: "storm-bastion"
+     }
+  ]
+}
+difficulty: 6
+alwaysUnlocked: false

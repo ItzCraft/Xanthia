@@ -2,17 +2,19 @@ name: "xanthia-3"
 displayName: "Xanthia"
 author:
 '''
-Coders: Decaract & ItzCraft
+Coders: Decaract, ItzCraft, Nahan
 Spriters: Decaract, Nahan
 Testers: DarkSniper, Nahan, ItzCraft, AnDashik
 Contributors: Arbuzer, Los Sasikos, AnDashik
-Translators: Kev-Vily
+Translators: Kev-Vily, ItzCraft
 '''
 description:
 '''
 Discover and explore a brand new planet with its own campaign: Xanthia, a mountainous hot planet with more dangers and threat hiding there.
 
 Remember that Xanthia is in beta test right now. Everything is subject to change.
+
+And please, try to download it not from releases due to releases can have unfounded bugs but latest version of the mod could have fixed that. 
 '''
 version: "V0.4.5"
 subtitle: "V0.4.5!"

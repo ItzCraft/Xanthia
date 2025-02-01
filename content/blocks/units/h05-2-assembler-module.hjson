@@ -1,0 +1,17 @@
+Type: UnitAssemblerModule
+name: Tank Assembler module
+description: An a Assembler module used for assemblers upgrade.
+health: 1450
+size: 3
+consumes: {
+power: 5
+}
+category: units
+requirements: [
+  k01-elanite/1350
+  k02-foronium/1050
+  k05-velorium/750
+  k06-duramatter/450
+  k07-tritanium/125
+]
+buildCostMultiplier: 0.2
