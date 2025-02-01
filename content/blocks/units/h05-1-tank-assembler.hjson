@@ -18,6 +18,7 @@ requirements: [
   k06-duramatter/240
 ]
 research: h02-land-refabricator
+droneType: mz01-architect
 plans: [
   {
   unit: mb03-brilliance
