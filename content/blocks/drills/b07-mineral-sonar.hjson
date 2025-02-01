@@ -1,6 +1,6 @@
 type: BurstDrill
 name: Mineral Sonar
-description: a
+description: A drill that mines faster than mechanical quarry. Can't be boosted
 size: 4
 category: production
 hasLiquids: false
@@ -19,7 +19,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: "Basalt-Mountains"
+      preset: "basalt-mountains"
     }
  ]
 }
@@ -38,5 +38,5 @@ requirements: [
   k01-elanite/475
   k02-foronium/325
   k05-velorium/180
-]
+buildCostMultiplier: 0.3
 squareSprite: false
