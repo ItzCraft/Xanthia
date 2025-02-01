@@ -17,6 +17,7 @@ requirements: [
   k05-velorium/430
   k06-duramatter/310
 ]
+research: h04-air-refabricator
 plans: [
   {
   unit: md03-rain
