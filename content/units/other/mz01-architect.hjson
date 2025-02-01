@@ -1,0 +1,21 @@
+type: tether
+name: Architect
+description: Build an units in assemblers.
+flying: true
+drag: 0.01
+accel: 0.09
+speed: 1.3
+health: 135
+engineSize: 0
+payloadCapacity: 0
+targetable: false
+bounded: false
+outlineColor: 131824FF
+isEnemy: false
+hidden: true
+useUnitCap: false
+logicControllable: false
+playerControllable: false
+allowedInPayloads: false
+createWreck: false
+controller: AssemblerAI
