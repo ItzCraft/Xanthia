@@ -14,3 +14,4 @@ requirements: [
   k06-duramatter/450
   k07-tritanium/125
 ]
+buildCostMultiplier: 0.2
