@@ -30,7 +30,7 @@ buildSpeed: 0.2
 abilities: [
 {
  type: EnergyFieldAbility
- damage: 15
+ damage: 8
  range: 45
  reload: 175
  useAmmo: false
