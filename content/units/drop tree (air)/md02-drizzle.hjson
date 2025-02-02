@@ -50,7 +50,7 @@ weapons: [
       trailLength: 12
       trailWidth: 3.45
       keepVelocity: false
-      splashDamage: 65
+      splashDamage: 40
       splashDamageRadius: 20
       speed: 3.5
       lifetime: 50
@@ -69,7 +69,7 @@ weapons: [
        width: 7
        drawFlare: false
        hitColor: 62AE7FFF
-       damage: 20
+       damage: 12
        length: 54
        knockback: 2
        healPercent: 6
