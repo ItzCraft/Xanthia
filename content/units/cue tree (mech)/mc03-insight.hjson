@@ -76,7 +76,7 @@ weapons: [
      type: LightningBulletType
      damage: 20
      lightningLength: 28
-     lightningDamage: 20
+     lightningDamage: 10
      lightningCone: 0
      pierce: true
      pierceCap: 3
