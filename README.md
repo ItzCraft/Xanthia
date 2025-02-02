@@ -20,6 +20,6 @@ Spriters: Decaract, Nahan
 
 Testers: DarkSniper, Nahan, ItzCraft, AnDashik
 
-Contributors: Arbuzer, Los Sasikos, AnDashik
+Contributors: Los Sasikos, AnDashik
 
 Translators: Kev-Vily
