@@ -43,7 +43,7 @@ weapons: [
   bullet: {
    type: BasicBulletType
    speed: 2
-   damage: 45
+   damage: 30
    lifetime: 80
    width: 22
    height: 22
@@ -58,7 +58,7 @@ weapons: [
    intervalBullets: 1
    intervalBullet: {
     type: LightningBulletType
-    damage: 15
+    damage: 5
     lightning: 3
     lightningLength: 7
     lightningColor: c0e0ff
