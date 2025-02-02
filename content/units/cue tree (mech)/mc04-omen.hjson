@@ -72,7 +72,7 @@ weapons: [
      shootSmoke: shootBigSmoke
      hitEffect: titanSmoke
      hitColor: a3b9ff
-     damage: 485
+     damage: 230
      fragBullet: true
      fragOnHit: true
      fragBullets: 5
@@ -84,7 +84,7 @@ weapons: [
     speed: 2
     lifetime: 8 
     damage: 10
-    splashDamage: 75
+    splashDamage: 50
     splashDamageRadius: 30
     width: 15
     height: 15
@@ -102,7 +102,7 @@ weapons: [
     hitColor: f0ffffCC
     type: ContinuousFlameBulletType
     hitEffect: hitFlameBeam
-    damage: 11
+    damage: 8
     length: 65
     knockback: 4
     pierceCap: 8
