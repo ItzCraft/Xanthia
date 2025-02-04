@@ -39,14 +39,5 @@ drawer: {
     {
       type: DrawDefault
     }
-    {
-      type: DrawLiquidRegion
-      suffix: -tryfluid
-      drawLiquid: l03-tryfluid
-    }
-    {
-      type: DrawRegion
-      suffix: -top
-    }
   ]
 }
