@@ -5,7 +5,7 @@ author:
 Coders: Decaract, ItzCraft, Nahan
 Spriters: Decaract, Nahan
 Testers: DarkSniper, Nahan, ItzCraft, AnDashik
-Contributors: Arbuzer, Los Sasikos, AnDashik
+Contributors: Los Sasikos, AnDashik, Ace
 Translators: Kev-Vily, ItzCraft
 '''
 description:
@@ -16,8 +16,8 @@ Remember that Xanthia is in beta test right now. Everything is subject to change
 
 And please, try to download it not from releases due to releases can have unfounded bugs but latest version of the mod could have fixed that. 
 '''
-version: "V0.4.5"
-subtitle: "V0.4.5!"
+version: "V0.5"
+subtitle: "V0.5!"
 minGameVersion: "146"
 dependencies: [ ]
 hidden: false
