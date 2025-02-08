@@ -105,26 +105,14 @@ ammoTypes: {
       trailWidth: 1
       trailLength: 5
       hitEffect: {
-        type: multiEffect
-        effects: [
-          {
-            type: WaveEffect
-            colorFrom: e6d5a8
-            colorTo: 754f1c
-            sizeTo: 50
-            interp: pow2Out
-          }, 
-          {
-            type: ParticleEffect
-            colorFrom: e6d5a8
-            colorTo: 754f1c
-            particles: 3
-            sizeFrom: 2.3
-            sizeTo: 0.5
-            sizeInterp: pow2In
-            interp: pow2
-          }
-        ] 
+        type: ParticleEffect
+        colorFrom: e6d5a8
+        colorTo: 754f1c
+        particles: 3
+        sizeFrom: 2.3
+        sizeTo: 0.5
+        sizeInterp: pow2In
+        interp: pow2
       }
       fragBullets: 4
       fragBullet: {
@@ -203,26 +191,14 @@ ammoTypes: {
       trailWidth: 1
       trailLength: 5
       hitEffect: {
-        type: multiEffect
-        effects: [
-          {
-            type: WaveEffect
-            colorFrom: e6d5a8
-            colorTo: 754f1c
-            sizeTo: 60
-            interp: pow2Out
-          }, 
-          {
-            type: ParticleEffect
-            colorFrom: e6d5a8
-            colorTo: 754f1c
-            particles: 4
-            sizeFrom: 2.6
-            sizeTo: 0.5
-            sizeInterp: pow2In
-            interp: pow2
-          }
-        ] 
+        type: ParticleEffect
+        colorFrom: e6d5a8
+        colorTo: 754f1c
+        particles: 4
+        sizeFrom: 2.6
+        sizeTo: 0.5
+        sizeInterp: pow2In
+        interp: pow2
       }
       fragBullets: 4
       fragBullet: {
@@ -306,26 +282,14 @@ ammoTypes: {
       trailWidth: 1.3
       trailLength: 6
       hitEffect: {
-        type: multiEffect
-        effects: [
-          {
-            type: WaveEffect
-            colorFrom: 99d182
-            colorTo: 589c3b
-            sizeTo: 85
-            interp: pow2Out
-          }, 
-          {
-            type: ParticleEffect
-            colorFrom: 99d182
-            colorTo: 589c3b
-            particles: 5
-            sizeFrom: 2.8
-            sizeTo: 0.5
-            sizeInterp: pow2In
-            interp: pow2
-          }
-        ] 
+        type: ParticleEffect
+        colorFrom: 99d182
+        colorTo: 589c3b
+        particles: 5
+        sizeFrom: 2.8
+        sizeTo: 0.5
+        sizeInterp: pow2In
+        interp: pow2
       }
       fragBullets: 6
       fragBullet: {
