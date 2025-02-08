@@ -137,7 +137,7 @@ weapons: [
       hitEffect: flakExplosion
       shootEffect: none
       smokeEffect: none
-      splashDamage: 45
+      splashDamage: 30
       splashDamageRadius: 25
     }
     parts: [
@@ -170,8 +170,8 @@ weapons: [
      layerOffset: -0.01
      healPercent: 6
      collidesTeam: True
-     damage: 15
-     splashDamage: 15
+     damage: 5
+     splashDamage: 5
      splashDamageRadius: 30
      lifetime: 10
      speed: 4
