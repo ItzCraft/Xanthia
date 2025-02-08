@@ -42,14 +42,14 @@ weapons: [
     shootSound: spark
     inaccuracy: 0
     shoot: {
-     shots: 7
+     shots: 5
      shotDelay: 0
     }
     bullet: {
      type: LightningBulletType
      damage: 28
      lightningLength: 28
-     lightningDamage: 35
+     lightningDamage: 27
      lightningCone: 0
      pierce: true
      pierceCap: 3
@@ -69,14 +69,15 @@ weapons: [
     shootSound: spark
     inaccuracy: 0
     shoot: {
-     shots: 7
+     firstShotDelay: 30
+     shots: 5
      shotDelay: 0
     }
     bullet: {
      type: LightningBulletType
      damage: 28
      lightningLength: 28
-     lightningDamage: 35
+     lightningDamage: 27
      lightningCone: 0
      pierce: true
      pierceCap: 3
