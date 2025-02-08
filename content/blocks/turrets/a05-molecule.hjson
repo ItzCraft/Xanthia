@@ -52,7 +52,7 @@ outlineColor: 313131FF
 shootSound: laserBig
 loopSound: beam
 loopSoundVolume: 1.5
-recoil: 2
+recoil: 1
 shootCone: 10
 rotateSpeed: 2.3
 consumes: {
@@ -68,7 +68,7 @@ ammoTypes: {
     drawFlare: false
     hitColor: ffffffCC
     type: ContinuousFlameBulletType
-    damage: 14
+    damage: 17
     length: 95
     knockback: 0.4
     pierceCap: 2
