@@ -6,7 +6,7 @@ hitSize: 27
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 3200
+health: 3850
 armor: 2
 speed: 0.5
 rotateSpeed: 2
@@ -15,42 +15,136 @@ outlineColor: 131824FF
 research: mb02-glime
 weapons: [
   {
-    x: 8
-    y: -6
-    name: mb03-brilliance-weapon2
-    reload: 35
-    mirror: true
-    rotate: true
-    rotateSpeed: 5
-    shootSound: cannon
-    inaccuracy: 3
-    bullet: {
-      damage: 35
-      speed: 4
-      lifetime: 35
-      trailLength: 5
-      trailWidth: 1
-    }
-  }
-  {
-    x: 0
-    y: 4
-    name: mb03-brilliance-weapon1
-    reload: 280
+    x: -0.5
+    y: 13
+    name: mb03-brilliance-weapon
+    reload: 220
     mirror: false
-    alternating: true
+    top: true
+    shootSound: cannon
+    smokeEffect: {
+      type: ParticleEffect
+      particles: 14
+      cone: 35
+      lifetime: 85
+      colorFrom: e8b279
+      colorTo: b04923
+      sizeFrom: 7
+      sizeTo: 0
+      sizeInterp: pow2In
+      interp: pow2
+    }
     rotate: true
     rotateSpeed: 2
-    shootSound: shoot-big-artillery
-    innacuraccy: 0
-    cooldownTime: 240
+    rotationLimit: 70
+    shootCone: 25
     bullet: {
-      instantDisappear: true
-      damage: 0
-      spawnUnit: v02-regul-missile
+      type: BasicBulletType
+      width: 25
+      height: 27
+      lifetime: 45
+      speed: 4.5
+      sprite: xanthia-3-star
+      splashDamage: 70
+      splashDamageRadius: 40
+      frontColor: e8b279
+      backColor: b04923 
+      trailColor: b04923
+      trailWidth: 3.76
+      trailLength: 12
+      trailChance: 20
+      trailEffect: {
+        type: ParticleEffect
+        layer: 110
+        particles: 7
+        cone: 35
+        length: 10
+        colorFrom: e8b279
+        colorTo: b04923
+        sizeFrom: 4
+        sizeTo: 0
+        sizeInterp: pow2In
+        interp: pow2
+      }
+      hitEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: ParticleEffect 
+            particles: 10
+            lifetime: 35
+            colorFrom: e8b279
+            colorTo: e8b279
+            sizeFrom: 7
+            sizeTo: 2
+            sizeInterp: pow2Out
+            interp: pow2
+            region: "xanthia-3-star"
+          }, 
+          {
+            type: ParticleEffect 
+            particles: 10
+            lifetime: 35
+            colorFrom: e8b279
+            colorTo: e8b279
+            sizeFrom: 5
+            sizeTo: 0
+            sizeInterp: pow2In
+            interp: pow2
+          },  
+          {
+            type: WaveEffect
+            colorFrom: e8b279
+            colorTo: b04923
+            sizeTo: 165
+            strokeFrom: 4
+          }
+        ]
+      }
+    }
+    parts: [
+      {
+        type: RegionPart
+        suffix: -base
+        y: -8
+        mirror: false
+        under: false
+        outline: true
+        progress: recoil
+      }
+      {
+        type: RegionPart
+        suffix: -nozzle
+        y: -8
+        mirror: false
+        top: true
+        outline: true
+        progress: recoil
+      } 
+    ]
+  }
+  {
+    x: 9
+    y: -1
+    name: mb03-brilliance-gun
+    mirror: true
+    top: true
+    alternate: true
+    shootSound: shootAlt
+    rotate: true
+    rotationLimit: 75
+    reload: 30
+    bullet: {
+      type: LightingBulletType
+      lifetime: 2
+      width: 0
+      height: 0
+      lightningColor: e8b279
+      lightning: 1
+      lightningLength: 15
+      lightningDamage: 5
+      lightningCone: 10 
     }
   }
 ]
-
-research: mb02-glime
 researchCostMultiplier: 0.75
