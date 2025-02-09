@@ -15,36 +15,58 @@ outlineColor: 131824FF
 research: h02-land-refabricator
 weapons: [
   {
-    x: 0
-    y: 3
-    name: mb02-glime-weapon
-    reload: 150
+    x: -1
+    y: 1
+    name: mb02-glime-cannon
     mirror: false
+    under: false
+    reload: 180
+    shootSound: laser
+    shootEffect: lancerLaserShoot
     rotate: true
-    rotateSpeed: 6
-    shootSound: cannon
-    inaccuracy: 3
-    bullet: {
-      instantDisappear: true
-      damage: 0
-      spawnUnit: v01-lil-missile
+    rotationLimit: 85
+    rotateSpeed: 1.6
+    shootCone: 15
+    shot: {
+      firstShotDelay: 70
     }
-   parts: [
-      {
-        type: RegionPart
-        suffix: -side
-        mirror: true
-        under: false
-        outline: true
-        progress: recoil
-        heatProgress: warmup
-        x: 2.5
-        y: 3.5
-        moveX: 1
-        moveY: -0.7
-        moveRot: -12
-      }
-    ]
+    bullet: {
+      type: LaserBulletType
+      length: 100
+      width: 5.5
+      colors: [c78f61, c46e43, e6763e]
+      damage: 25
+      chargeEffect: {
+        type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: ParticleEffect
+            colorFrom: c46e43
+            colorTo: e6763e
+            particles: 5
+            length: 10
+            sizeFrom: 2.8
+            sizeTo: 0.4
+            interp: pow2In
+            sizeInterp: pow2
+            followParent: true
+            rotWithParent: false
+          }, 
+          {
+            type: WaveEffect
+            colorFrom: c46e43
+            colorTo: e6763e
+            sizeFrom: 100
+            sizeTo: 0
+            strokeFrom: 2.5
+            followParent: true
+            rotWithParent: false 
+          }
+        ]
+      } 
+      hitEffect: hitLaser
+    }
   }
 ]
 researchCostMultiplier: 2
