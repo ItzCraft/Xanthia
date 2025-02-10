@@ -18,7 +18,7 @@ weapons: [
     x: -0.5
     y: 13
     name: mb03-brilliance-weapon
-    reload: 220
+    reload: 200
     mirror: false
     top: true
     shootSound: cannon
@@ -36,16 +36,15 @@ weapons: [
     }
     rotate: true
     rotateSpeed: 2
-    rotationLimit: 70
     shootCone: 25
     bullet: {
       type: BasicBulletType
       width: 25
       height: 27
-      lifetime: 45
+      lifetime: 67.5
       speed: 4.5
       sprite: xanthia-3-star
-      splashDamage: 70
+      splashDamage: 110
       splashDamageRadius: 40
       frontColor: e8b279
       backColor: b04923 
@@ -132,8 +131,8 @@ weapons: [
     alternate: true
     shootSound: shootAlt
     rotate: true
-    rotationLimit: 75
-    reload: 30
+    rotationLimit: 180
+    reload: 25
     bullet: {
       type: LightingBulletType
       lifetime: 2
