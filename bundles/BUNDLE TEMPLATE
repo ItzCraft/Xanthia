@@ -195,12 +195,14 @@ block.xanthia-3-a04-atom.name =
 block.xanthia-3-a04-atom.description = 
 block.xanthia-3-a05-molecule.name =
 block.xanthia-3-a05-molecule.description =
+block.xanthia-3-a06-subquark.name =
+block.xanthia-3-a06-subquark.description = 
 
 # !!the name could be changed soon!!! 
-block.xanthia-3-a06-reducer.name =
-block.xanthia-3-a06-reducer.description =
-block.xanthia-3-a07-encircler.name =
-block.xanthia-3-a07-encircler.description =
+block.xanthia-3-a08-reducer.name =
+block.xanthia-3-a08-reducer.description =
+block.xanthia-3-a09-encircler.name =
+block.xanthia-3-a09-encircler.description =
 
 
 # Units
