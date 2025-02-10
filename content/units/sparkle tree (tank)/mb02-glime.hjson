@@ -1,12 +1,12 @@
 type: tank
 
 name: Glime
-description: Durable and shoot powerful homing missile at enemy.
+description: High health and high dps, also has penetration! good for offense.
 hitSize: 18
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 1400
+health: 1800
 armor: 2
 speed: 0.8
 rotateSpeed: 3
@@ -19,11 +19,10 @@ weapons: [
     name: mb02-glime-cannon
     mirror: false
     under: false
-    reload: 180
+    reload: 90
     shootSound: laser
     shootEffect: lancerLaserShoot
     rotate: true
-    rotationLimit: 85
     rotateSpeed: 1.6
     shootCone: 15
     shot: {
@@ -34,7 +33,7 @@ weapons: [
       length: 100
       width: 5.5
       colors: [c78f61, c46e43, e6763e]
-      damage: 25
+      damage: 20
       chargeEffect: {
         type: MultiEffect
         lifetime: 60
@@ -54,8 +53,8 @@ weapons: [
           }, 
           {
             type: WaveEffect
-            colorFrom: c46e43
-            colorTo: e6763e
+            colorFrom: feb380
+            colorTo: bc5452
             sizeFrom: 100
             sizeTo: 0
             strokeFrom: 2.5
