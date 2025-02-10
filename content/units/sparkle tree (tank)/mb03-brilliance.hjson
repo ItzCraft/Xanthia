@@ -39,14 +39,14 @@ weapons: [
     shootCone: 25
     bullet: {
       type: BasicBulletType
-      width: 25
+      width: 27
       height: 27
       lifetime: 67.5
       speed: 4.5
       sprite: xanthia-3-star
       splashDamage: 110
       splashDamageRadius: 40
-      frontColor: e8b279
+      frontColor: f8c2a9
       backColor: b04923 
       trailColor: b04923
       trailWidth: 3.76
@@ -58,7 +58,7 @@ weapons: [
         particles: 7
         cone: 35
         length: 10
-        colorFrom: e8b279
+        colorFrom: f8c2a9
         colorTo: b04923
         sizeFrom: 4
         sizeTo: 0
@@ -72,7 +72,7 @@ weapons: [
             type: ParticleEffect 
             particles: 10
             lifetime: 35
-            colorFrom: e8b279
+            colorFrom: f8c2a9
             colorTo: e8b279
             sizeFrom: 7
             sizeTo: 2
@@ -85,7 +85,7 @@ weapons: [
             particles: 10
             lifetime: 35
             colorFrom: e8b279
-            colorTo: e8b279
+            colorTo: f8c2a9
             sizeFrom: 5
             sizeTo: 0
             sizeInterp: pow2In
@@ -93,7 +93,7 @@ weapons: [
           },  
           {
             type: WaveEffect
-            colorFrom: e8b279
+            colorFrom: f8c2a9
             colorTo: b04923
             sizeTo: 165
             strokeFrom: 4
