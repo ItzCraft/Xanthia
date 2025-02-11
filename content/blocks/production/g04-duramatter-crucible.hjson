@@ -15,13 +15,13 @@ outputItem: k06-duramatter/3
 craftTime: 210
 consumes: {
   liquids: [
-    l03-tryfluid/0.5
-    l04-molten-velorium/0.6
+    l03-tryfluid/0.45
+    l04-molten-velorium/0.5
   ]
   items: [
     k03-tryllinium/1
   ]
-  power: 7.5
+  power: 7
 }
 
 category: crafting
