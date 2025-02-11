@@ -1,0 +1,11 @@
+type: Item
+name: Discharged Tryllinium
+description: Discharged version of Tryllinium. 
+color: 661e61
+cost: 1.2
+charge: 0.2
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+research: k03-tryllinium
