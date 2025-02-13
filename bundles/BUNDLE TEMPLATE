@@ -261,6 +261,9 @@ unit.xanthia-3-mc03-insight.name =
 unit.xanthia-3-mc03-insight.description =
 unit.xanthia-3-mc04-omen.name =
 unit.xanthia-3-mc04-omen.description =
+unit.xanthia-3-mc04b-retribution.name =
+unit.xanthia-3-mc04b-retribution.description =
+unit.xanthia-3-mc04b-retribution.details =
 
 # AIR
 unit.xanthia-3-md01-drop.name =
