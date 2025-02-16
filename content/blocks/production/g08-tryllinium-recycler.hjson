@@ -1,0 +1,50 @@
+type: GenericCrafter
+
+name: Tryllinium Recycler
+description: Recycles Tryfluid and some sort of Tryllinium to get Scaldium. Also outputs Discharged Tryllinium
+size: 3
+squareSprite: false
+requirements: [
+k01-elanite/250
+k02-foronium/170
+k03-tryllinium/145
+]
+buildCostMultiplier: 0.4
+
+outputItems: [
+  k04-scaldium/1
+  k08-discharged-tryllinium/1
+]
+craftTime: 90
+consumes: {
+  liquids: [
+    l03-tryfluid/0.333
+  ]
+  items: [
+    k03-tryllinium/1
+  ]
+  power: 3.77
+}
+
+category: crafting
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: l03-tryfluid
+    padding: 2
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}
+
+ambientSound: grinding
+ambientSoundVolume: 0.08
