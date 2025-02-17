@@ -26,6 +26,16 @@ consumes: {
   power: 3.77
 }
 
+research: {
+  parent: "g02-mass-solidifier"
+  objectives: [
+    {
+     type: OnSector
+     preset: "valley-of-enemies" 
+    }
+  ]
+}
+
 category: crafting
 
 drawer: {
