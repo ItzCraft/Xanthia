@@ -15,6 +15,7 @@ outlineColor: 131824FF
 research: h02-land-refabricator
 weapons: [
   {
+    x: 0.0001
     y: 1
     name: mb02-glime-cannon
     mirror: false
