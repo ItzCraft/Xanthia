@@ -23,7 +23,7 @@ shootSound: shootAlt
 heatColor: FF69B4
 
 consumes: {
-  power: 4
+  power: 5.85
 }
 
 shoot: {
