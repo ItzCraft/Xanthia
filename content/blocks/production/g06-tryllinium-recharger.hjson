@@ -1,0 +1,51 @@
+type: GenericCrafter
+name: Tryllinium Recharger
+description: Recharges Tryllinium by electryzing it. 
+size: 3
+squareSprite: false
+requirements: [
+k01-elanite/130
+k02-foronium/90
+k03-tryllinium/80
+k05-velorium/45
+]
+buildCostMultiplier: 0.3
+outputItem: k03-tryllinium/1
+craftTime: 240
+consumes: {
+  items: [
+    k08-discharged-tryllinium/2
+  ]
+  power: 4.5
+}
+
+category: crafting
+
+research: g08-tryllinium-recycler
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    },
+    {
+      type: DrawBubbles
+      color: 6863ba
+      amount: 7
+      sides: 12
+      radius: 3.5
+    },
+    {
+      type: DrawDefault
+    },
+    {
+      type: DrawGlowRegion
+      color: a64295
+    } 
+  ]
+}
+
+ambientSound: machine
+ambientSoundVolume: 0.08
