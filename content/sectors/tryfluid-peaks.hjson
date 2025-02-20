@@ -1,0 +1,15 @@
+captureWave: 21
+planet: xanthia
+sector: 29
+research: {
+  parent: "basalt-mountains"
+  objectives: [
+    {
+      type: SectorComplete
+      preset: "basalt-mountains"
+    }, 
+    g08-tryllinium-recycler
+  ]
+}
+difficulty: 6
+alwaysUnlocked: false
