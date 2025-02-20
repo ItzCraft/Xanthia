@@ -6,7 +6,7 @@ hitSize: 27
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 3850
+health: 3470
 armor: 2
 speed: 0.5
 rotateSpeed: 2
