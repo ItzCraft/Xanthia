@@ -33,6 +33,9 @@ sector.xanthia-3-storm-bastion.description =
 sector.xanthia-3-basalt-mountains.name =
 sector.xanthia-3-basalt-mountains.description = 
 
+sector.xanthia-3-tryfluid-peaks.name =
+sector.xanthia-3-tryfluid-peaks.description = 
+
 # Objectives
 
 yes im lazy to copy + paste all objectives from bundle.properties
