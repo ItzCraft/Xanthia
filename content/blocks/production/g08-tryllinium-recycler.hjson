@@ -23,7 +23,7 @@ consumes: {
   items: [
     k03-tryllinium/1
   ]
-  power: 3.77
+  power: 1.999
 }
 
 research: {
