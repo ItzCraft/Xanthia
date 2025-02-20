@@ -31,7 +31,7 @@ research: {
   objectives: [
     {
      type: OnSector
-     preset: "valley-of-enemies" 
+     preset: "basalt-mountains" 
     }
   ]
 }
