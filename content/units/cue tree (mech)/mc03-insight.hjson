@@ -5,7 +5,7 @@ details: Originally i (Nahan) wanted to make Insight to have single target turre
 hitSize: 18
 singleTarget: true
 faceTarget: true
-health: 4100
+health: 2950
 armor: 8
 speed: 0.8
 rotateSpeed: 1.5
