@@ -7,6 +7,15 @@ requirements: [
   k03-tryllinium/375
   k05-velorium/170
 ]
+research: {
+  parent: "e06-tryllinium-generator"
+  objectives: [
+      {
+        type: OnSector
+        preset: "refutation"
+      }
+  ]
+} 
 buildCostMultiplier: 0.45
 squareSprite: false
 category: power
