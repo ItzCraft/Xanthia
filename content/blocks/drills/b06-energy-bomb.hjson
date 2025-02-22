@@ -16,7 +16,6 @@ k02-foronium/475
 k05-velorium/475
 k06-duramatter/125
 ]
-research: b05-mechanical-quarry
 researchCostMultiplier: 4
 consumes: {
   power: 4.65
