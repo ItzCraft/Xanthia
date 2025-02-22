@@ -11,6 +11,15 @@ k03-tryllinium/175
 k05-velorium/130
 k06-duramatter/80
 ]
+research: {
+  parent: "a06-subquark"
+  objectives: [
+      {
+        type: OnSector
+        preset: "refutation"
+      }
+  ]
+} 
 buildCostMultiplier: 0.4
 outlineColor: 313131FF
 targetAir: true
