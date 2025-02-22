@@ -19,7 +19,15 @@ consumes: {
   ]
   power: 5.33
 }
-
+research: {
+  parent: "g07-heavy-melter"
+  objectives: [
+      {
+        type: OnSector
+        preset: "refutation"
+      }
+  ]
+} 
 category: crafting
 
 craftEffect: {
