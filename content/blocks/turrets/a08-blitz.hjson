@@ -15,7 +15,7 @@ research: {
   parent: "a06-subquark"
   objectives: [
       {
-        type: OnSector
+        type: SectorComplete
         preset: "refutation"
       }
   ]
