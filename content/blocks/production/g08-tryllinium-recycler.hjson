@@ -42,17 +42,12 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
-    type: DrawRegion
-    suffix: -bottom
+      type: DrawRegion
+      suffix: -bottom
     }
     {
-    type: DrawLiquidTile
-    drawLiquid: l03-tryfluid
-    padding: 2
-    }
-    {
-    type: DrawDefault
-    }
+      type: DrawDefault
+    } 
   ]
 }
 
