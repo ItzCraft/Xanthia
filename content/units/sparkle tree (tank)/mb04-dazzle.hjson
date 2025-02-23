@@ -14,7 +14,7 @@ outlineColor: 131824FF
 research: mb03-brilliance
 weapons: [
   {
-    x: 13
+    x: 16.5
     y: 3
     name: mb04-dazzle-sidegun
     mirror: true
