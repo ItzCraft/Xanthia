@@ -1,4 +1,4 @@
-# Planets
+# Planet
 
 planet.xanthia-3-xanthia.name =
 
@@ -20,8 +20,6 @@ sector.xanthia-3-protection.name =
 sector.xanthia-3-protection.description =
 sector.xanthia-3-blow.name = 
 sector.xanthia-3-blow.description =
-sector.xanthia-3-closing.name =
-sector.xanthia-3-closing.description =
 sector.xanthia-3-creation.name =
 sector.xanthia-3-creation.description =
 sector.xanthia-3-valley-of-enemies.name =
@@ -34,13 +32,68 @@ sector.xanthia-3-basalt-mountains.name =
 sector.xanthia-3-basalt-mountains.description = 
 sector.xanthia-3-refutation.name =
 sector.xanthia-3-refutation.description = 
-
 sector.xanthia-3-tryfluid-peaks.name =
 sector.xanthia-3-tryfluid-peaks.description = 
 
 # Objectives
 
-yes im lazy to copy + paste all objectives from bundle.properties
+arrival1 = 
+arrival2 = 
+arrival3 = 
+arrival4 = 
+arrival5 = 
+arrival6 = 
+
+upgrade1 = 
+upgrade2 = 
+upgrade3 = 
+upgrade4 = 
+upgrade5 = 
+upgrade6 = 
+
+foronriver1 = 
+foronriver2 = 
+foronriver3 = 
+foronriver4 = 
+foronriver.place = 
+
+lylithgorg1 = 
+
+protection1 = 
+protection2 = 
+protection3 = 
+protection4 = 
+protection5 = 
+protection6 = 
+protection.zone = 
+
+penetration1 = 
+penetration2 = 
+penetration3 = 
+penetration4 = 
+
+beggining1 = 
+beggining2 = 
+beggining3 = 
+beggining4 = 
+
+stormbast1 = 
+stormbast2 = 
+stormbast3 = 
+stormbast4 = 
+stormbast5 = 
+stormbast6 = 
+magnstorm = 
+
+valleyofenemies1 = 
+valleyofenemies2 = 
+valleyofenemies3 = 
+valleyofenemies.notify = 
+
+refutation1 = 
+refutation2 = 
+refutation3 = 
+refutation4 = 
 
 # Items
 item.xanthia-3-k01-elanite.name =
@@ -60,7 +113,7 @@ item.xanthia-3-k07-tritanium.description =
 item.xanthia-3-k08-discharged-tryllinium.name =
 item.xanthia-3-k08-discharged-tryllinium.description =
 
-# liquids
+# Liquids
 liquid.xanthia-3-l01-foron.name =
 liquid.xanthia-3-l01-foron.descripion =
 liquid.xanthia-3-l02-cryline.name =
@@ -75,6 +128,14 @@ liquid.xanthia-3-l06-smoke.description =
 # IMPORTANT the biome Called "Trycite" but the liquid is Called "Tricyte" on English language. 
 liquid.xanthia-3-l07-tricyte.name =
 liquid.xanthia-3-l07-tricyte.description =
+
+# Environment
+block.xanthia-3-n01-elanite.name = 
+block.xanthia-3-n02-tryllinium-ore.name = 
+block.xanthia-3-n03-velorium-ore.name = 
+block.xanthia-3-o01-foron.name = 
+block.xanthia-3-o02-tricyte.name = 
+block.xanthia-3-o03-tryfluid.name =
 
 # Blocks
 
@@ -96,7 +157,6 @@ block.xanthia-3-c07-enclosed-unloader.description =
 block.xanthia-3-c08-items-capsule.name =
 block.xanthia-3-c08-items-capsule.description =
 
-
 # Drills
 block.xanthia-3-b01-force-drill.name =
 block.xanthia-3-b01-force-drill.description =
@@ -113,9 +173,7 @@ block.xanthia-3-b06-energy-bomb.description =
 block.xanthia-3-b07-mineral-sonar.name =
 block.xanthia-3-b07-mineral-sonar.description =
 
-
-# effect
-
+# Effect
 block.xanthia-3-i03-magnetic-regulator.name =
 block.xanthia-3-i03-magnetic-regulator.description =
 block.xanthia-3-i03-magnetic-regulator.details =
@@ -127,7 +185,6 @@ block.xanthia-3-i07-renewal-dome.name =
 block.xanthia-3-i07-renewal-dome.description =
 block.xanthia-3-i08-upgrader.name = 
 block.xanthia-3-i08-upgrader.description =
-
 
 # Liquid
 block.xanthia-3-d01-ela-pump.name =
@@ -145,8 +202,7 @@ block.xanthia-3-d08-pipe-junction.description =
 block.xanthia-3-d09-pipe-bridge.name =
 block.xanthia-3-d09-pipe-bridge.description =
 
-
-# power
+# Power
 block.xanthia-3-e01-tryllinium-node.name =
 block.xanthia-3-e01-tryllinium-node.description =
 block.xanthia-3-e02-tryllinium-beam-node.name =
@@ -163,7 +219,6 @@ block.xanthia-3-e08-purifier.name =
 block.xanthia-3-e08-purifier.description =
 block.xanthia-3-e09-tritanium-reactor.name =
 block.xanthia-3-e09-tritanium-reactor.description =
-
 
 # Crafting
 block.xanthia-3-g01-solidifier.name =
@@ -183,9 +238,8 @@ block.xanthia-3-g07-heavy-melter.description =
 block.xanthia-3-g08-tryllinium-recycler.name =
 block.xanthia-3-g08-tryllinium-recycler.description = 
 
-
-# storage
-# IMPORTANT please, in core names use "Core: «core-name»" 
+# Storage
+# IMPORTANT. Core names use "Core: «core-name»" 
 block.xanthia-3-i01-core-fragment.name =
 block.xanthia-3-i01-core-fragment.description =
 block.xanthia-3-i02-core-rebirth.name =
@@ -193,8 +247,7 @@ block.xanthia-3-i02-core-rebirth.description =
 block.xanthia-3-i03-core-eternity.name =
 block.xanthia-3-i03-core-eternity.descriprion =
 
-
-# turrets
+# Turrets
 block.xanthia-3-a01-quark.name =
 block.xanthia-3-a01-quark.description =
 block.xanthia-3-a02-nuclei.name =
@@ -211,7 +264,6 @@ block.xanthia-3-a08-blitz.name =
 block.xanthia-3-a08-blitz.description =
 block.xanthia-3-a09-encircler.name =
 block.xanthia-3-a09-encircler.description =
-
 
 # Units
 block.xanthia-3-h01-land-fabricator.name =
@@ -259,7 +311,6 @@ block.xanthia-3-f09-energetic-wall.description =
 block.xanthia-3-f10-energetic-wall-large.name =
 block.xanthia-3-f10-energetic-wall-large.description =
 
-
 # UNITS
 
 # SPIDER
@@ -271,6 +322,9 @@ unit.xanthia-3-mc03-insight.name =
 unit.xanthia-3-mc03-insight.description =
 unit.xanthia-3-mc04-omen.name =
 unit.xanthia-3-mc04-omen.description =
+unit.xanthia-3-mc04b-retribution.name =
+unit.xanthia-3-mc04b-retribution.description =
+unit.xanthia-3-mc04b-retribution.details =
 
 # AIR
 unit.xanthia-3-md01-drop.name =
@@ -280,7 +334,7 @@ unit.xanthia-3-md02-drizzle.description =
 unit.xanthia-3-md03-rain.name =
 unit.xanthia-3-md03-rain.description =
 
-# CORE
+# CORE UNIT
 unit.xanthia-3-ma01-note.name =
 unit.xanthia-3-ma01-note.description =
 unit.xanthia-3-ma02-melody.name =
