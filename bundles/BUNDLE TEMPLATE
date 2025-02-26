@@ -32,11 +32,6 @@ sector.xanthia-3-storm-bastion.name =
 sector.xanthia-3-storm-bastion.description =
 sector.xanthia-3-basalt-mountains.name =
 sector.xanthia-3-basalt-mountains.description = 
-sector.xanthia-3-refutation.name =
-sector.xanthia-3-refutation.description = 
-
-sector.xanthia-3-tryfluid-peaks.name =
-sector.xanthia-3-tryfluid-peaks.description = 
 
 # Objectives
 
@@ -57,8 +52,7 @@ item.xanthia-3-k06-duramatter.name =
 item.xanthia-3-k06-duramatter.description =
 item.xanthia-3-k07-tritanium.name =
 item.xanthia-3-k07-tritanium.description =
-item.xanthia-3-k08-discharged-tryllinium.name =
-item.xanthia-3-k08-discharged-tryllinium.description =
+
 
 # liquids
 liquid.xanthia-3-l01-foron.name =
@@ -176,12 +170,8 @@ block.xanthia-3-g04-duramatter-crucible.name =
 block.xanthia-3-g04-duramatter-crucible.description =
 block.xanthia-3-g05-scaldium-burner.name =
 block.xanthia-3-g05-scaldium-burner.description =
-block.xanthia-3-g06-tryllinium-recharger.name =
-block.xanthia-3-g06-tryllinium-recharger.description = 
 block.xanthia-3-g07-heavy-melter.name =
 block.xanthia-3-g07-heavy-melter.description =
-block.xanthia-3-g08-tryllinium-recycler.name =
-block.xanthia-3-g08-tryllinium-recycler.description = 
 
 
 # storage
@@ -205,12 +195,12 @@ block.xanthia-3-a04-atom.name =
 block.xanthia-3-a04-atom.description = 
 block.xanthia-3-a05-molecule.name =
 block.xanthia-3-a05-molecule.description =
-block.xanthia-3-a06-subquark.name =
-block.xanthia-3-a06-subquark.description = 
-block.xanthia-3-a08-blitz.name =
-block.xanthia-3-a08-blitz.description =
-block.xanthia-3-a09-encircler.name =
-block.xanthia-3-a09-encircler.description =
+
+# !!the name could be changed soon!!! 
+block.xanthia-3-a06-reducer.name =
+block.xanthia-3-a06-reducer.description =
+block.xanthia-3-a07-encircler.name =
+block.xanthia-3-a07-encircler.description =
 
 
 # Units
