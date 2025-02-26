@@ -53,13 +53,6 @@ item.xanthia-3-k06-duramatter.description =
 item.xanthia-3-k07-tritanium.name =
 item.xanthia-3-k07-tritanium.description =
 
-# Environment - Ore & Fluid
-block.xanthia-3-n01-elanite.name = 
-block.xanthia-3-n02-tryllinium-ore.name = 
-block.xanthia-3-n03-velorium-ore.name = 
-block.xanthia-3-o01-foron.name = 
-block.xanthia-3-o02-tricyte.name = 
-block.xanthia-3-o03-tryfluid.name = 
 
 # liquids
 liquid.xanthia-3-l01-foron.name =
@@ -268,9 +261,6 @@ unit.xanthia-3-mc03-insight.name =
 unit.xanthia-3-mc03-insight.description =
 unit.xanthia-3-mc04-omen.name =
 unit.xanthia-3-mc04-omen.description =
-unit.xanthia-3-mc04b-retribution.name =
-unit.xanthia-3-mc04b-retribution.description =
-unit.xanthia-3-mc04b-retribution.details =
 
 # AIR
 unit.xanthia-3-md01-drop.name =
