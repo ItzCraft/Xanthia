@@ -29,7 +29,7 @@ filter: [
   a05-molecule
 ]
 research: h11-contructor
-researchCostMultiplier: 3
+researchCostMultiplier: 2
 squareSprite: false
 conductivePower: true
 maxBlockSize: 3
