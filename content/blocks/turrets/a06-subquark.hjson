@@ -320,5 +320,46 @@ ammoTypes: {
 }
 drawer: {
   type: DrawTurret
-  basePrefix: regul
-}  
+  basePrefix: regul-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -main
+      y: 6.5
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -1.5
+    }
+    {
+      type: RegionPart
+      suffix: -sid
+      x: -5.5
+      y: 6
+      mirror: true
+      under: true
+      progress: recoil
+      moveY: -3
+    } 
+    {
+      type: RegionPart
+      suffix: -equ
+      x: -8
+      y: 5
+      mirror: true
+      under: true
+      progress: recoil
+      moveY: -3
+    }
+    {
+      type: RegionPart
+      suffix: -side
+      x: -10.5
+      y: 2.5
+      mirror: true
+      under: true
+      progress: recoil
+      moveY: -3
+    } 
+  ]
+} 
