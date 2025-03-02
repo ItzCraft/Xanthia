@@ -41,7 +41,7 @@ reload: 150
 range: 180
 inaccuracy: 3.5
 consumes: {
-  power: 3.5
+  power: 2.444
 }
 shoot: {
   type: ShootBarrel
