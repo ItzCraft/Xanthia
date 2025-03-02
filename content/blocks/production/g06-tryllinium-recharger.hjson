@@ -16,7 +16,7 @@ consumes: {
   items: [
     k08-discharged-tryllinium/2
   ]
-  power: 4.5
+  power: 2.1
 }
 
 category: crafting
