@@ -49,7 +49,7 @@ shoot: {
 shootType: {
   type: LaserBulletType
   colors: [bf87b4, e1abcb, ffc7e8]
-  damage: 135
+  damage: 240
   width: 16
   sideAngle: 3
   sideWidth: 2
