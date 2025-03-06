@@ -52,7 +52,24 @@ weapons: [
    pierceBuilding: true
    frontColor: c0e0ff
    backColor: 000000
-   shootEffect: shootBig
+   shootEffect: {
+     type: MultiEffect
+     effects: [
+       {
+         type: ParticleEffect
+         lightOpacity: 0
+         particles: 10
+         length: 20
+         lifetime: 25
+         colorFrom: c0e0ff
+         colorTo: c0e0ff
+         sizeFrom: 8
+         sizeTo: 0
+         interp: pow2In
+         sizeInterp: pow4Out
+       }
+     ]
+   }
    shootSmoke: shootBigSmoke
    bulletInterval: 14
    intervalBullets: 1
