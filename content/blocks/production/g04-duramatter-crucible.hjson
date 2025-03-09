@@ -22,7 +22,7 @@ consumes: {
   items: [
     k03-tryllinium/1
   ]
-  power: 7
+  power: 5.6
 }
 
 category: crafting
