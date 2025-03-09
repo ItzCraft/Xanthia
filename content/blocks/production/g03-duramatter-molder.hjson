@@ -17,7 +17,7 @@ consumes: {
     l03-tryfluid/0.25
     l04-molten-velorium/0.3
   ]
-  power: 5.33
+  power: 3.33
 }
 research: {
   parent: "g07-heavy-melter"
