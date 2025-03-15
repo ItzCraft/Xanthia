@@ -5,12 +5,12 @@ size: 1
 health: 210
 category: turret
 requirements: [
-k01-elanite/30
+k01-elanite/55
 ]
 fogRadiusMultiplier: 0.5
 research: i01-core-fragment
 researchCost: [
-k01-elanite/180
+k01-elanite/275
 ]
 shootSound: artillery
 coolant: {
@@ -27,7 +27,7 @@ range: 110
 inaccuracy: 2
 shoot: {
   shots: 3
-  shotDelay: 4
+  shotDelay: 5
 }
 cooldownTime: 40
 
@@ -38,7 +38,7 @@ ammoTypes: {
     height: 6
     speed: 3
     lifetime: 40
-    damage: 35
+    damage: 30
     trailLength: 4
     trailWidth: 1
   },
