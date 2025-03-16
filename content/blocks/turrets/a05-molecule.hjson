@@ -5,7 +5,6 @@ size: 3
 health: 1120
 category: turret
 researchCostMultiplier: 0.7
-fogRadiusMultiplier: 0.6
 research: a02-nuclei
 requirements: [
 k01-elanite/275
