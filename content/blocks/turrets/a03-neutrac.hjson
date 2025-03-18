@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Neutrac
-description: Fires a barrage of multiple missiles at the enemy over long distance. Cannot attack air
+description: Fires a barrage of multiple missiles at the enemy over long distances. Cannot attack air
 size: 2
 health: 565
 category: turret
