@@ -1,6 +1,6 @@
 type: legs
 name: Cue
-description: Can move over terrain. Durable but lack of armor. Equipped with short range powerful guns.
+description: Can move over terrain. Has high hp but lacks armor. Equipped with powerful short range guns.
 hitSize: 10
 singleTarget: true
 faceTarget: true
