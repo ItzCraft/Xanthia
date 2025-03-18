@@ -1,7 +1,7 @@
 type: LiquidRouter
 
 name: Pipe Router
-description: Distribute liquids.
+description: Distributes liquids.
 size: 1
 category: liquid
 requirements: [
