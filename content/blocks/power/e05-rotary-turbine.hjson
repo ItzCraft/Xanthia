@@ -1,7 +1,7 @@
 type: ConsumeGenerator
 
 name: Rotary Turbine
-description: Uses smoke to provide power, but it pollutes the air that needs to be cleaned.
+description: Uses smoke to generate power. However it pollutes the surrounding air.
 health: 50
 size: 2
 squareSprite: false
