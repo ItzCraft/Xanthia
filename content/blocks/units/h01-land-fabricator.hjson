@@ -1,7 +1,7 @@
 type: UnitFactory
 
 name: Land Fabricator
-description: Constructs sparkle and cue units. Outputted unit can be used directly or refrabricated.
+description: Constructs Sparkle and Cue units. Outputted unit can be used directly or refrabricated.
 size: 3
 requirements: [
 k01-elanite/50
