@@ -1,7 +1,7 @@
 type: GenericCrafter
 
 name: Mass Solidifier
-description: Solidify foron into useable foronium. Faster and more efficient than regular solidifier. Require smoke to function.
+description: Solidify Foron into useable Foronium. Faster and more efficient than a regular solidifier. Requires Smoke to function.
 size: 3
 squareSprite: false
 requirements: [
