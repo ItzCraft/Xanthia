@@ -137,9 +137,7 @@ block.xanthia-3-o01-foron.name =
 block.xanthia-3-o02-tricyte.name = 
 block.xanthia-3-o03-tryfluid.name =
 
-# Blocks
-
-# Distribution
+# Distribution - Blocks
 block.xanthia-3-c01-enclosed-conveyor.name =
 block.xanthia-3-c01-enclosed-conveyor.description =
 block.xanthia-3-c02-bounded-conveyor.name =
@@ -157,7 +155,7 @@ block.xanthia-3-c07-enclosed-unloader.description =
 block.xanthia-3-c08-items-capsule.name =
 block.xanthia-3-c08-items-capsule.description =
 
-# Drills
+# Drills - Blocks
 block.xanthia-3-b01-force-drill.name =
 block.xanthia-3-b01-force-drill.description =
 block.xanthia-3-b02-large-force-drill.name =
@@ -186,7 +184,7 @@ block.xanthia-3-i07-renewal-dome.description =
 block.xanthia-3-i08-upgrader.name = 
 block.xanthia-3-i08-upgrader.description =
 
-# Liquid
+# Liquid - Blocks
 block.xanthia-3-d01-ela-pump.name =
 block.xanthia-3-d01-ela-pump.description =
 block.xanthia-3-d02-impetuous-pump.name =
@@ -202,7 +200,7 @@ block.xanthia-3-d08-pipe-junction.description =
 block.xanthia-3-d09-pipe-bridge.name =
 block.xanthia-3-d09-pipe-bridge.description =
 
-# Power
+# Power - Blocks
 block.xanthia-3-e01-tryllinium-node.name =
 block.xanthia-3-e01-tryllinium-node.description =
 block.xanthia-3-e02-tryllinium-beam-node.name =
@@ -220,7 +218,7 @@ block.xanthia-3-e08-purifier.description =
 block.xanthia-3-e09-tritanium-reactor.name =
 block.xanthia-3-e09-tritanium-reactor.description =
 
-# Crafting
+# Crafting - Blocks
 block.xanthia-3-g01-solidifier.name =
 block.xanthia-3-g01-solidifier.description =
 block.xanthia-3-g02-mass-solidifier.name =
@@ -311,9 +309,7 @@ block.xanthia-3-f09-energetic-wall.description =
 block.xanthia-3-f10-energetic-wall-large.name =
 block.xanthia-3-f10-energetic-wall-large.description =
 
-# UNITS
-
-# SPIDER
+# SPIDER UNITS
 unit.xanthia-3-mc01-cue.name =
 unit.xanthia-3-mc01-cue.description =
 unit.xanthia-3-mc02-hint.name =
@@ -326,7 +322,7 @@ unit.xanthia-3-mc04b-retribution.name =
 unit.xanthia-3-mc04b-retribution.description =
 unit.xanthia-3-mc04b-retribution.details =
 
-# AIR
+# AIR UNITS
 unit.xanthia-3-md01-drop.name =
 unit.xanthia-3-md01-drop.description =
 unit.xanthia-3-md02-drizzle.name =
@@ -342,7 +338,7 @@ unit.xanthia-3-ma02-melody.description =
 unit.xanthia-3-ma03-chord.name =
 unit.xanthia-3-ma03-chord.description =
 
-# TANKS
+# TANKS UNITS
 unit.xanthia-3-mb01-sparkle.name =
 unit.xanthia-3-mb01-sparkle.description =
 unit.xanthia-3-mb02-glime.name =
@@ -351,8 +347,6 @@ unit.xanthia-3-mb03-brilliance.name =
 unit.xanthia-3-mb03-brilliance.description =
 unit.xanthia-3-mb04-dazzle.name =
 unit.xanthia-3-mb04-dazzle.description =
-
-
 
 
 # Status
