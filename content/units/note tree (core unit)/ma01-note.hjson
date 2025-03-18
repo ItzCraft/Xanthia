@@ -1,7 +1,7 @@
 type: flying
 
 name: Note
-description: Low tier core drone. Builds structure to defend Core <<Fragment>> from enemies.
+description: Low tier core drone. Builds structures to defend Core <<Fragment>> from enemies.
 
 speed: 3
 accel: 0.1
