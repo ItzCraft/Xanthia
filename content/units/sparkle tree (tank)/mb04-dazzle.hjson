@@ -1,6 +1,6 @@
 type: tank
 name: Dazzle
-description: Fires deadly Bullet that cause violent explosion with high area damage. Mounted with 2 smaller turrets.
+description: Fires deadly bullet that cause a violent explosion with high area damage. Mounted with 2 smaller turrets.
 hitSize: 34
 singleTarget: false
 omniMovement: false
