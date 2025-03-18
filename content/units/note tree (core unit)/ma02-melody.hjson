@@ -1,7 +1,7 @@
 type: flying
 
 name: Melody
-description:  Faster than low tier core drone. Builds structures to defend Core <<Rebirth>> from enemies.
+description: Faster than fragment core drone. Builds structures to defend Core <<Rebirth>> from enemies.
 
 speed: 4.5
 accel: 0.1
