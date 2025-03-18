@@ -1,7 +1,7 @@
 type: Item
 
 name: Tryllinium
-description: Used electricity because of its high charge and conductivity.
+description: Used in power related buildings due to its high conductivity and charge.
 
 color: 544DEBFF
 hardness: 2
