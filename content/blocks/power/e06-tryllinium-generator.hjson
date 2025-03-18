@@ -1,6 +1,6 @@
 type: ConsumeGenerator
 name: Tryllinium Generator
-description: producing Electricity using Tryllinium.
+description: Produces electricity using Tryllinium.
 health: 120
 size: 2
 squareSprite: false
