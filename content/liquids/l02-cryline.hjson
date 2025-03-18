@@ -1,7 +1,7 @@
 type: Liquid
 
 name: Cryline
-description: A cyan liquid made by combining Tryfluid and Velorium. Better in coolant than Foron, very cold liquid.
+description: A cyan liquid made by combining Tryfluid and Velorium. Better coolant than Foron, very cold liquid.
 
 color: 76eaf5
 gasColor: bcf0f5
