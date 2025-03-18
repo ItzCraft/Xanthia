@@ -174,7 +174,6 @@ block.xanthia-3-b07-mineral-sonar.description =
 # Effect
 block.xanthia-3-i03-magnetic-regulator.name =
 block.xanthia-3-i03-magnetic-regulator.description =
-block.xanthia-3-i03-magnetic-regulator.details =
 block.xanthia-3-i05-magnetic-detector.name =
 block.xanthia-3-i05-magnetic-detector.description =
 block.xanthia-3-i06-renewer.name =
@@ -320,7 +319,6 @@ unit.xanthia-3-mc04-omen.name =
 unit.xanthia-3-mc04-omen.description =
 unit.xanthia-3-mc04b-retribution.name =
 unit.xanthia-3-mc04b-retribution.description =
-unit.xanthia-3-mc04b-retribution.details =
 
 # AIR UNITS
 unit.xanthia-3-md01-drop.name =
