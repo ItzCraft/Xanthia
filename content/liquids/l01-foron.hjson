@@ -1,7 +1,7 @@
 type: Liquid
 
 name: Foron
-description: Used in coolant. Can be solidified to foronium.
+description: Used as coolant. Can be solidified to foronium.
 
 color: 8A73C6FF
 gasColor: DDD5F3FF
