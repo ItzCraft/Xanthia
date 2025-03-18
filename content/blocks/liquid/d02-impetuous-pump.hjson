@@ -1,7 +1,7 @@
 type: Pump
 
 name: Impetuous Pump
-description: Pumps liquids. Faster than regular pump. Require smoke to function.
+description: Pumps liquids. Faster than regular pump. Requires Smoke to function.
 size: 3
 squareSprite: false
 category: liquid
