@@ -1,6 +1,6 @@
 type: tank
 name: Sparkle
-description: Fast and can shoot quickly.
+description: Fast and can shoot quickly. Has bad accuracy.
 details: Man, i like watching My Little Pony series, especially Sparkle and Spike.
 hitSize: 10
 singleTarget: true
