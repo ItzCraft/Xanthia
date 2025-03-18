@@ -1,6 +1,6 @@
 type: ContinuousLiquidTurret
 name: Molecule
-description: Fires a short range powerful energy laser at the enemy. Require liquid and energy.
+description:  Fires a powerful shoer ranged laser at the enemy. Requires power and Foron liquid.
 size: 3
 health: 1120
 category: turret
