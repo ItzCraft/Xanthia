@@ -1,6 +1,6 @@
 type: legs
 name: Hint
-description: Fires powerful piercing energy orb. Can move over terrain.
+description: Fires a powerful piercing energy orb. Can move over terrain.
 hitSize: 14
 singleTarget: true
 faceTarget: true
