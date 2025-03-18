@@ -1,6 +1,6 @@
 type: StorageBlock
-name: Items Capsule
-description: Stores items for future.
+name: Item Capsule
+description: Stores items for future use.
 size: 2
 health: 175
 itemCapacity: 125
