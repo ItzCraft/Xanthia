@@ -1,7 +1,7 @@
 type: RegenProjector
 
 name: Renewer
-description: Regenerate nearby blocks. Require power.
+description: Regenerates nearby blocks. Requirse power.
 size: 1
 category: effect
 squareSprite: false
