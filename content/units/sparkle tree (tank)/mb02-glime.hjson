@@ -1,7 +1,7 @@
 type: tank
 
 name: Glime
-description: High health and high dps, also has penetration! good for offense.
+description: Durable. Shoot powerful homing missile at the enemy. Has high health, dps and penetration. Good for offense.
 hitSize: 18
 singleTarget: false
 omniMovement: false
