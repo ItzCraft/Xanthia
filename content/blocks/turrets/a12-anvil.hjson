@@ -9,9 +9,9 @@ k08-amogusnium/999
 ]
 research: a01-quark
 researchCost: [
-k08-amogusnium/6669
+k08-amogusnium/300
 ]
-shootSound: artillery
+shootSound: pew
 coolant: {
   type: ConsumeCoolant
   allowGas: true
@@ -38,6 +38,9 @@ ammoTypes: {
     speed: 5.5
     lifetime: 40
     damage: 5
+    frontColor: 484a2f
+    backColor: d1e092
+    trailColor: d1e092
     trailLength: 4
     trailWidth: 1
     sprite: xanthia-3-anvil
