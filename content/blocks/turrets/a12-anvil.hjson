@@ -7,7 +7,7 @@ category: turret
 requirements: [
 k08-amogusnium/999
 ]
-research: i01-core-fragment
+research: a01-quark
 researchCost: [
 k08-amogusnium/6669
 ]
