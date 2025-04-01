@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: 69-amogusnium
+description: place-holder.png
+size: 5
+squareSprite: false
+requirements: [
+k02-foronium/573
+k03-tryllinium/699
+k01-elanite/993
+]
+
+outputItem: k08-amogusnium/5
+craftTime: 300
+consumes: {
+  items: [
+    k01-elanite/1
+    k03-tryllinium/1
+  ]
+  power: 0.00000000001
+}
+category: crafting
+research: g01-solidifier
+ambientSound: machine
+ambientSoundVolume: 0.5
