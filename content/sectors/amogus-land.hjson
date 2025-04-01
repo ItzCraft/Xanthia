@@ -1,0 +1,13 @@
+planet: xanthia
+sector: 52
+research: {
+  parent: "protection"
+	 objectives: [
+	    {
+      type: SectorComplete
+     		preset: "protection"
+		   }
+ 	]
+}
+difficulty: 10
+alwaysUnlocked: false 
