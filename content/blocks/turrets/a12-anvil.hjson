@@ -1,0 +1,50 @@
+type: ItemTurret
+name: Anvil
+description: shots alot anvils to your enemy!!! HAVE AN DISCOUNT TO PLACEMENT PRICE!!
+size: 3
+health: 696
+category: turret
+requirements: [
+k08-amogusnium/999
+]
+research: i01-core-fragment
+researchCost: [
+k08-amogusnium/6669
+]
+shootSound: artillery
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+outlineColor: 313131FF
+targetAir: true
+targetGround: true
+reload: 120
+range: 185
+inaccuracy: 5
+shoot: {
+  shots: 7
+  shotDelay: 8
+}
+cooldownTime: 40
+
+ammoTypes: {
+  k08-amogusnium: {
+    type: BasicBulletType
+    width: 9
+    height: 9
+    speed: 5.5
+    lifetime: 40
+    damage: 5
+    trailLength: 4
+    trailWidth: 1
+    sprite: xanthia-3-anvil
+  }
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: regul-
+}
