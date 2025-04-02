@@ -59,6 +59,12 @@ ammoTypes: {
       region: xanthia-3-energy
     }
     shootSmoke: shootBigSmoke
+    trailColor: 6cafd9
+    trailWidth: 2.2
+    trailLength: 10
+    trailSinScl: 1.5
+    trailSinMag: 0.6
+    trailEffect: shootSmokeTitan
     lightningColor: 6cafd9
     lightning: 6
     lightningLength: 13
