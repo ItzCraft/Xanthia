@@ -71,6 +71,12 @@ weapons: [
      ]
    }
    shootSmoke: shootBigSmoke
+   trailColor: c0e0ff
+   trailWidth: 1.9
+   trailLength: 8
+   trailSinScl: 1.2
+   trailSinMag: 0.5
+   trailEffect: shootSmokeTitan
    bulletInterval: 14
    intervalBullets: 1
    intervalBullet: {
