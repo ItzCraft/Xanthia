@@ -51,20 +51,8 @@ weapons: [
       trailColor: b04923
       trailWidth: 3.76
       trailLength: 12
-      trailChance: 20
-      trailEffect: {
-        type: ParticleEffect
-        layer: 110
-        particles: 7
-        cone: 35
-        length: 10
-        colorFrom: f8c2a9
-        colorTo: b04923
-        sizeFrom: 4
-        sizeTo: 0
-        sizeInterp: pow2In
-        interp: pow2
-      }
+      trailInterval: 3
+      trailEffect: shootSmokeTitan
       hitEffect: {
         type: MultiEffect
         effects: [
