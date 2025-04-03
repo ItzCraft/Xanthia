@@ -52,7 +52,7 @@ ammoTypes: {
       colorFrom: 4c8fb9
       colorTo: 6cafd9
       particles: 7
-      sizeFrom: 3.5
+      sizeFrom: 5.5
       spin: 15
       sizeInterp: pow2Out
       interp: pow2
