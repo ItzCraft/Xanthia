@@ -39,7 +39,7 @@ ammoTypes: {
   k03-tryllinium: {
     type: BasicBulletType
     speed: 3.7
-    damage: 60
+    damage: 95
     lifetime: 63
     width: 30
     height: 30
