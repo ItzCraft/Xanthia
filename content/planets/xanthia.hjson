@@ -152,6 +152,5 @@ itemWhitelist: [
   "k04-scaldium",
   "k05-velorium",
   "k06-duramatter",
-  "k07-tritanium", 
-  "k08-amogusnium" 
+  "k07-tritanium"
 ]
