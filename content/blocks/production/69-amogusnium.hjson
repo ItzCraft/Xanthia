@@ -19,6 +19,5 @@ consumes: {
   power: 0.00000000001
 }
 category: crafting
-research: g01-solidifier
 ambientSound: machine
 ambientSoundVolume: 0.5
