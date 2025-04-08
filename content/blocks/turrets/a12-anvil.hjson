@@ -7,10 +7,6 @@ category: turret
 requirements: [
 k08-amogusnium/999
 ]
-research: a01-quark
-researchCost: [
-k08-amogusnium/300
-]
 shootSound: pew
 coolant: {
   type: ConsumeCoolant
