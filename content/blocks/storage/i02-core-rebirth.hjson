@@ -1,7 +1,7 @@
 type: CoreBlock
 
 name: Core: «Rebirth»
-description: The main base, when destroyed a sector is lost. Has more item capacity and active unit than smaller core.
+description: When the core destroyed, the sector is lost. Stores more items than the <<Fragment>> Core.
 size: 4
 squareSprite: false
 

@@ -1,11 +1,12 @@
 type: tank
 name: Sparkle
-description: Fast and can shoot quickly. Have bad innacurancy.
+description: Fast and can shoot quickly. Has bad accuracy.
+details: Man, i like watching My Little Pony series, especially Sparkle and Spike.
 hitSize: 10
 singleTarget: true
 omniMovement: false
 faceTarget: false
-health: 475
+health: 520
 armor: 1
 speed: 1.1
 rotateSpeed: 5
@@ -27,9 +28,9 @@ k02-foronium/100
 weapons: [
   {
     x: 0
-    y: -0.2
+    y: 1
     name: mb01-sparkle-weapon
-    reload: 40
+    reload: 10
     mirror: false
     rotate: true
     rotateSpeed: 5
@@ -37,7 +38,7 @@ weapons: [
     inaccuracy: 8
     bullet: {
       width: 8
-      damage: 28
+      damage: 4
       speed: 5
       lifetime: 35
       homingPower: 0.1
@@ -61,21 +62,17 @@ weapons: [
             }
           ]
         }
+        hitEffect: {
+          type: ParticleEffect
+          particles: 8
+          lifetime: 15
+          colorFrom: FFA665FF
+          colorTo: D06B53FF
+          sizeFrom: 3
+          sizeInterp: pow2In
+          interp: pow3
+        }
     }
-  parts: [
-      {
-        type: RegionPart
-        suffix: -side
-        mirror: true
-        under: false
-        outline: true
-        progress: recoil
-        heatProgress: warmup
-        moveX: 0.2
-        moveY: -0.1
-        moveRot: -5
-      }
-    ]
   }
 ]
 researchCostMultiplier: 2

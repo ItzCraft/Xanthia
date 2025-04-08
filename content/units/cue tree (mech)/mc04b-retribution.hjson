@@ -30,7 +30,7 @@ weapons: [
    hitSound:  explosionbig
    speed: 3
    splashDamageRadius: 120
-   splashDamage: 450
+   splashDamage: 274
    status: melting
    statusDuration: 900
    hitEffect: titanExplosion
@@ -49,7 +49,7 @@ weapons: [
     hitColor: ffffffCC
     type: ContinuousFlameBulletType
     hitEffect: hitFlameBeam
-    damage: 51
+    damage: 40
     length: 115
     knockback: 4
     pierceCap: 4

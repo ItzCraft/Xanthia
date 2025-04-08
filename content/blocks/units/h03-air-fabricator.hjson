@@ -1,7 +1,7 @@
 type: UnitFactory
 
 name: Air Fabricator
-description: Constructor flying "Drop" unit. Outputted unit can be used directly or refrabricated.
+description: Constructor flying unit "Drop". Outputted unit can be used directly or refrabricated.
 size: 3
 requirements: [
 k01-elanite/200

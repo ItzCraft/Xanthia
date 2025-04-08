@@ -1,6 +1,6 @@
 type: Drill
 name: Mechanical Quarry
-description: Mine resources from the ground. Require power.
+description: Mines resources from the ground. Requires power.
 size: 3
 squareSprite: false
 requirements: [

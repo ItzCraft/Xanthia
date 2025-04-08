@@ -1,6 +1,6 @@
 type: Wall
 name: Purifier
-description: Cleans the air from smoke. 
+description: Cleanses the smoke in the air.
 size: 2
 squareSprite: false
 requirements: [

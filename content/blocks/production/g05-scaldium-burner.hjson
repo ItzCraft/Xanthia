@@ -1,7 +1,7 @@
 type: GenericCrafter
 
 name: Scaldium Burner
-description: Burn scaldium and output smoke.
+description: Burns scaldium and output smoke.
 
 size: 3
 requirements: [

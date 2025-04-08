@@ -1,6 +1,6 @@
 type: Reconstructor
 name: Land Refabricator
-description: upgrades Sparkles and Cues to T2 tier. 
+description: Upgrades Sparkles and Cues to second tier. 
 size: 3
 health: 1200
 category: units

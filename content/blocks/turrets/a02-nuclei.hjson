@@ -4,7 +4,6 @@ description: Fires a piercing bullet quickly. Deals reduced damage to buildings.
 size: 2
 health: 740
 category: turret
-fogRadiusMultiplier: 0.3
 requirements: [
 k01-elanite/30
 k02-foronium/50
@@ -51,8 +50,13 @@ ammoTypes: {
     pierce: true
     pierceCap: 3
     pierceBuilding: true
+    trailSinScl: 1.8
+    trailSinMag: 0.6 
     trailLength: 6
     trailWidth: 1.5
+    trailInterval: 2.5
+    trailEffect: shootSmokeTitan
+    shootEffect: shootSmokeTitan
   }
   k04-scaldium: {
     type: BasicBulletType
@@ -67,8 +71,13 @@ ammoTypes: {
     pierce: true
     pierceCap: 3
     pierceBuilding: true
+    trailSinScl: 1.5
+    trailSinMag: 0.7
     trailLength: 3
     trailWidth: 1
+    trailInterval: 2.5
+    trailEffect: shootSmokeTitan
+    shootEffect: shootSmokeTitan
   }
 }
 drawer: {

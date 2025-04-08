@@ -1,6 +1,6 @@
 type: Battery 
 name: Tryllinium battery
-description: Stores small amount of power.
+description: Stores a small amount of power.
 category: power
 size: 1
 health: 35

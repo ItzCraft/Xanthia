@@ -1,0 +1,77 @@
+type: PowerTurret
+name: Blitz
+description: Fires three lasers which penetrate enemy, and on hit creates a small lightning
+size: 3
+health: 1470
+category: turret
+requirements: [
+k01-elanite/210
+k02-foronium/185
+k03-tryllinium/175
+k05-velorium/130
+k06-duramatter/80
+]
+research: {
+  parent: "a06-subquark"
+  objectives: [
+      {
+        type: SectorComplete
+        preset: "refutation"
+      }
+  ]
+} 
+buildCostMultiplier: 0.4
+outlineColor: 313131FF
+targetAir: true
+targetGround: true
+reload: 40
+range: 70
+inaccuracy: 5
+shootY: 2
+shootSound: shootAlt
+heatColor: FF69B4
+
+consumes: {
+  power: 4.1
+}
+
+shoot: {
+  type: ShootBarrel
+  shots: 3
+  shotDelay: 0
+  barrels: [
+    0, 0, 0
+    0, 0, 45,
+    0, 0, 315
+  ]
+}
+
+shootType: {
+  type: LaserBulletType
+  colors: [bf87b4, e1abcb, ffc7e8]
+  damage: 240
+  width: 16
+  sideAngle: 3
+  sideWidth: 2
+  sideLength: 12
+  lifetime: 32
+  drawSize: 80
+  length: 40
+  fragBullets: 1
+  fragBullet: {
+    type: LightningBulletType
+    lifetime: 2
+    width: 0
+    height: 0
+    lightningColor: df60eb
+    lightning: 1
+    lightningLength: 12
+    lightningDamage: 40
+    lightningCone: 45
+    buildingDamageMultiplier: 0.55
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: regul-
+} 

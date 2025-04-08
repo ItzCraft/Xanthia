@@ -1,7 +1,7 @@
 type: flying
 
 name: Drop
-description: Armored light support aircraft. Repairs damaged structures automatically and has energy field.
+description: Armored light support aircraft. Repairs damaged structures automatically and has an energy field.
 details: We be Ballin' with this guy,  "I put the new Forgis on the Jeep-" hehe
 flying: true
 lowAltitude: true
@@ -30,7 +30,7 @@ buildSpeed: 0.2
 abilities: [
 {
  type: EnergyFieldAbility
- damage: 8
+ damage: 3
  range: 45
  reload: 175
  useAmmo: false

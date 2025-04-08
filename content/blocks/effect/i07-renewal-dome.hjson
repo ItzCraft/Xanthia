@@ -1,7 +1,7 @@
 type: RegenProjector
 
 name: Renewal Dome
-description: Regenerate nearby blocks. Require power. Larger range and faster speed than regular renewer.
+description: Regenerates nearby blocks. Requires power. Has a bigger range and repairs faster than Renewer.
 size: 2
 category: effect
 squareSprite: false

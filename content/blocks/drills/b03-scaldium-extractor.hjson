@@ -1,7 +1,7 @@
 type: AttributeCrafter
 
 name: Scaldium Extractor
-description: Extract scaldium from the ground. Only work in certain places, some place are better than another.
+description: Extracts scaldium from the ground. Only works in certain places, some place are better than another.
 
 size: 2
 squareSprite: true

@@ -1,7 +1,7 @@
 type: BeamDrill
 
 name: Large Force Drill
-description: Extract minerals from wall ores. More efficient but require power to operate.
+description: Extracts minerals from walls. More efficient but requires power to operate.
 size: 3
 squareSprite: false
 requirements: [

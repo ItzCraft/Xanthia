@@ -18,8 +18,6 @@ requirements: [
   k06-duramatter/310
 ]
 buildCostMultiplier: 0.3
-research: h04-air-refabricator
-researchCostMultiplier: 4
 droneType: mz01-architect
 plans: [
   {

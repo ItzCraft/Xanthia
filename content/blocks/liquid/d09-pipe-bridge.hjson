@@ -1,7 +1,7 @@
 type: LiquidBridge
 
 name: Pipe Bridge
-description: Transports liquids over terrain or buildings.
+description: Transports liquids over terrain and buildings.
 size: 1
 squareSprite: false
 category: liquid

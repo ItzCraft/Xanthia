@@ -14,12 +14,20 @@ outputItem: k06-duramatter/1
 craftTime: 120
 consumes: {
   liquids: [
-    l03-tryfluid/0.2
+    l03-tryfluid/0.25
     l04-molten-velorium/0.3
   ]
-  power: 4
+  power: 3.33
 }
-
+research: {
+  parent: "g07-heavy-melter"
+  objectives: [
+      {
+        type: OnSector
+        preset: "refutation"
+      }
+  ]
+} 
 category: crafting
 
 craftEffect: {

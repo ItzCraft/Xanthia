@@ -7,6 +7,7 @@ hasLiquids: false
 hardnessDrillMultiplier: 50
 buildCostMultiplier: 0.4
 drillTime: 275
+drillEffect: drillSteam
 hasPower: true
 consumes: {
   power: 8.5555

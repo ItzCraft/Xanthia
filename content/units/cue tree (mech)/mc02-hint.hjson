@@ -1,10 +1,10 @@
 type: legs
 name: Hint
-description: Fires powerful piercing energy orb. Can move over terrain.
+description: Fires a powerful piercing energy orb. Can move over terrain.
 hitSize: 14
 singleTarget: true
 faceTarget: true
-health: 2050
+health: 1350
 armor: 10
 speed: 0.7
 rotateSpeed: 1.8
@@ -43,7 +43,7 @@ weapons: [
   bullet: {
    type: BasicBulletType
    speed: 2
-   damage: 30
+   damage: 23
    lifetime: 80
    width: 22
    height: 22
@@ -52,13 +52,36 @@ weapons: [
    pierceBuilding: true
    frontColor: c0e0ff
    backColor: 000000
-   shootEffect: shootBig
+   shootEffect: {
+     type: MultiEffect
+     effects: [
+       {
+         type: ParticleEffect
+         lightOpacity: 0
+         particles: 10
+         length: 20
+         lifetime: 25
+         colorFrom: c0e0ff
+         colorTo: c0e0ff
+         sizeFrom: 8
+         sizeTo: 0
+         interp: pow2In
+         sizeInterp: pow4Out
+       }
+     ]
+   }
    shootSmoke: shootBigSmoke
+   trailColor: c0e0ff
+   trailWidth: 1.9
+   trailLength: 8
+   trailSinScl: 1.2
+   trailSinMag: 0.5
+   trailEffect: shootSmokeTitan
    bulletInterval: 14
    intervalBullets: 1
    intervalBullet: {
     type: LightningBulletType
-    damage: 5
+    damage: 3
     lightning: 3
     lightningLength: 7
     lightningColor: c0e0ff

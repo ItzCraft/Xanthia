@@ -1,7 +1,7 @@
 type: Liquid
 
 name: Tricyte
-description: very hot and radioctive liquid.
+description: Very hot and radioctive liquid.
 
 gas: false
 color: 1fc435

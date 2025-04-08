@@ -5,7 +5,7 @@ details: Originally i (Nahan) wanted to make Insight to have single target turre
 hitSize: 18
 singleTarget: true
 faceTarget: true
-health: 4100
+health: 2950
 armor: 8
 speed: 0.8
 rotateSpeed: 1.5
@@ -42,14 +42,14 @@ weapons: [
     shootSound: spark
     inaccuracy: 0
     shoot: {
-     shots: 7
+     shots: 5
      shotDelay: 0
     }
     bullet: {
      type: LightningBulletType
-     damage: 20
+     damage: 28
      lightningLength: 28
-     lightningDamage: 22
+     lightningDamage: 27
      lightningCone: 0
      pierce: true
      pierceCap: 3
@@ -69,14 +69,15 @@ weapons: [
     shootSound: spark
     inaccuracy: 0
     shoot: {
-     shots: 7
+     firstShotDelay: 30
+     shots: 5
      shotDelay: 0
     }
     bullet: {
      type: LightningBulletType
-     damage: 20
+     damage: 28
      lightningLength: 28
-     lightningDamage: 10
+     lightningDamage: 27
      lightningCone: 0
      pierce: true
      pierceCap: 3

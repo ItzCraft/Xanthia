@@ -28,8 +28,8 @@ filter: [
   a04-atom,
   a05-molecule
 ]
-research: h11-block-contructor
-researchCostMultiplier: 3
+research: h11-contructor
+researchCostMultiplier: 2
 squareSprite: false
 conductivePower: true
 maxBlockSize: 3

@@ -1,7 +1,7 @@
 type: CoreBlock
 
 name: Core: «Fragment»
-description: The main base, when destroyed a sector is lost.
+description: When the core destroyed, the sector is lost.
 size: 3
 squareSprite: false
 

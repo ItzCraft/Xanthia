@@ -1,0 +1,78 @@
+type: ItemTurret
+name: Encircler
+description: Fires a large charged ball that fires very powerful lightning when hit.
+size: 3
+health: 1150
+category: turret
+requirements: [
+k03-tryllinium/175
+k01-elanite/145
+k05-velorium/100
+k06-duramatter/65
+]
+research: {
+  parent: "a05-molecule"
+  objectives: [
+      {
+        type: OnSector
+        preset: "refutation"
+      }
+  ]
+} 
+buildCostMultiplier: 0.4
+fogRadiusMultiplier: 0.25
+outlineColor: 313131FF
+targetAir: true
+targetGround: false
+reload: 60 
+range: 200
+inaccuracy: 5
+shootY: 4
+shootSound: shootAlt
+heatColor: 6cafd9
+
+consumes: {
+  power: 5
+}
+
+ammoTypes: {
+  k03-tryllinium: {
+    type: BasicBulletType
+    speed: 3.7
+    damage: 95
+    lifetime: 63
+    width: 30
+    height: 30
+    frontColor: 6cafd9
+    backColor: 4c8fb9
+    shootEffect: {
+      type: ParticleEffect
+      followParent: true
+      rotWithParent: false
+      colorFrom: 4c8fb9
+      colorTo: 6cafd9
+      particles: 7
+      sizeFrom: 5.5
+      spin: 15
+      sizeInterp: pow2Out
+      interp: pow2
+      region: xanthia-3-energy
+    }
+    shootSmoke: shootBigSmoke
+    trailColor: 6cafd9
+    trailWidth: 2.2
+    trailLength: 10
+    trailSinScl: 1.5
+    trailSinMag: 0.6
+    trailEffect: shootSmokeTitan
+    lightningColor: 6cafd9
+    lightning: 6
+    lightningLength: 13
+    lightningDamage: 23
+    lightningInterval: 2
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: regul-
+}

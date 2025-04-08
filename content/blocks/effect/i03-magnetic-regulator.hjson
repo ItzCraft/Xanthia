@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Magnetic Regulator
-description: "Generating a new magnetic field, to counter bad effect from the [#b466e8]Magnetic storm using electricity[ffffff]."
+description: "Generating a new magnetic field, to counter bad effect from the [#b466e8]Magnetic Storm[] using electricity."
 size: 3
 category: effect
 health: 740

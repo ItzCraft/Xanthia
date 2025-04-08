@@ -18,8 +18,16 @@ requirements: [
   k06-duramatter/240
 ]
 buildCostMultiplier: 0.35
-research: h02-land-refabricator
-researchCostMultiplier: 4
+research: {
+  parent: "h02-land-refabricator"
+  objectives: [
+      {
+        type: SectorComplete
+        preset: "refutation"
+      }
+  ]
+} 
+researchCostMultiplier: 2
 droneType: mz01-architect
 plans: [
   {
