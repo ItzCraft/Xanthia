@@ -5,9 +5,3 @@ color: a61c1c
 cost: 0.1
 flammability: 1
 radioactivity: 10
-hiddenOnPlanets: [
-serpulo
-erekir
-]
-alwaysUnlocked: false
-research: k02-foronium
