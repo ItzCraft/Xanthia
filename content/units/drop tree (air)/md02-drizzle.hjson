@@ -52,7 +52,7 @@ weapons: [
       keepVelocity: false
       splashDamage: 21
       splashDamageRadius: 20
-      speed: 3.5
+      speed: 2.7
       lifetime: 50
       frontColor: 84F491FF
       backColor: 62AE7FFF
