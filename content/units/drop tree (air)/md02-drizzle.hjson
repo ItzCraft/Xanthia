@@ -9,7 +9,7 @@ singleTarget: true
 faceTarget: true
 health: 1600
 armor: 8
-speed: 3
+speed: 2.5
 accel: 0.4
 drag: 0.15
 rotateSpeed: 3
@@ -50,9 +50,9 @@ weapons: [
       trailLength: 12
       trailWidth: 3.45
       keepVelocity: false
-      splashDamage: 21
-      splashDamageRadius: 20
-      speed: 2.7
+      splashDamage: 19
+      splashDamageRadius: 17
+      speed: 2.6
       lifetime: 50
       frontColor: 84F491FF
       backColor: 62AE7FFF
