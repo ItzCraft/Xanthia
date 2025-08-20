@@ -1,4 +1,4 @@
-type: ItemTurret
+type: AccelTurret
 name: Subquark
 description: Fires a multiple bullets which disintegrate on other multiple bullets.
 size: 3
