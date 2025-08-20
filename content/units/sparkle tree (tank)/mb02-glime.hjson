@@ -2,7 +2,7 @@ type: tank
 
 name: Glime
 description: Durable. Shoot powerful homing missile at the enemy. Has high health, dps and penetration. Good for offense.
-hitSize: 18
+hitSize: 32
 singleTarget: false
 omniMovement: false
 faceTarget: false
@@ -13,31 +13,33 @@ rotateSpeed: 3
 itemCapacity: 0
 outlineColor: 131824FF
 research: h02-land-refabricator
+researchCostMultiplier: 2
 weapons: [
   {
-    x: 0.0001
-    y: 1
+    x: 0
+    y: 1.25
     name: mb02-glime-cannon
     mirror: false
-    under: false
     reload: 90
     shootSound: laser
-    shootEffect: lancerLaserShoot
     rotate: true
     rotateSpeed: 1.6
     shootCone: 15
-    shot: {
-      firstShotDelay: 70
+    shoot: {
+      firstShotDelay: 100
+	  shotDelay: 60
+	  shots: 3
     }
     bullet: {
       type: LaserBulletType
-      length: 100
-      width: 5.5
-      colors: [c78f61, c46e43, e6763e]
-      damage: 20
-      chargeEffect: {
+      length: 110
+      width: 8
+      colors: [fcc483, de8e54, b85233]
+      damage: 20 
+      hitEffect: hitLaser
+	  chargeEffect: {
         type: MultiEffect
-        lifetime: 60
+        lifetime: 70
         effects: [
           {
             type: ParticleEffect
@@ -48,24 +50,44 @@ weapons: [
             sizeFrom: 2.8
             sizeTo: 0.4
             interp: pow2In
-            sizeInterp: pow2
+            sizeInterp: pow2Out
             followParent: true
             rotWithParent: false
-          }, 
+          }
           {
             type: WaveEffect
             colorFrom: feb380
             colorTo: bc5452
-            sizeFrom: 100
+            sizeFrom: 25
             sizeTo: 0
-            strokeFrom: 2.5
+            strokeFrom: 0
+			strokeTo: 2.5
             followParent: true
             rotWithParent: false 
           }
         ]
-      } 
-      hitEffect: hitLaser
+      }
     }
   }
 ]
-researchCostMultiplier: 2
+
+treadRects: [
+    {
+        x: -46
+        y: -61
+        width: 13
+        height: 20
+    }
+	{
+        x: -46
+        y: -20
+        width: 13
+        height: 40
+    }
+	{
+        x: -46
+        y: 41
+        width: 13
+        height: 20
+    }
+]

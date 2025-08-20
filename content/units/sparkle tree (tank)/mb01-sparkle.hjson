@@ -2,7 +2,7 @@ type: tank
 name: Sparkle
 description: Fast and can shoot quickly. Has bad accuracy.
 details: Man, i like watching My Little Pony series, especially Sparkle and Spike.
-hitSize: 10
+hitSize: 16
 singleTarget: true
 omniMovement: false
 faceTarget: false
@@ -13,22 +13,25 @@ rotateSpeed: 5
 itemCapacity: 0
 outlineColor: 131824FF
 research: {
-  parent: "h01-land-fabricator"
+	parent: "h01-land-fabricator"
+	requirements: [
+	k01-elanite/125
+	k02-foronium/100
+	]
  	objectives: [
 	    {
-      type: OnSector
-     		preset: "foron-rivers"
-		    }
+		type: OnSector
+		preset: "foron-rivers"
+		}
  	]
 }
-researchCost: [
-k01-elanite/125
-k02-foronium/100
-]
+researchCostMultiplier: 2
 weapons: [
   {
     x: 0
-    y: 1
+    y: 0
+	shootX: 0
+	shootY: 2.25
     name: mb01-sparkle-weapon
     reload: 10
     mirror: false
@@ -50,14 +53,14 @@ weapons: [
             {
               type: ParticleEffect
               lightOpacity: 0
-              particles: 10
+              particles: 7
               length: 20
               lifetime: 25
               colorFrom: FFA665FF
               colorTo: D06B53FF
               sizeFrom: 4
               sizeTo: 0
-              interp: pow2In
+              interp: pow3In
               sizeInterp: pow4Out
             }
           ]
@@ -75,4 +78,18 @@ weapons: [
     }
   }
 ]
-researchCostMultiplier: 2
+
+treadRects: [
+    {
+        x: -24
+        y: -29
+        width: 7
+        height: 10
+    }
+	{
+		x: -24
+		y: 18
+		width: 7
+		height: 10
+	}
+]

@@ -2,7 +2,7 @@ type: tank
 
 name: Brilliance
 description: Very durable but slow. Has 2 smaller turrets and 1 main turret.
-hitSize: 27
+hitSize: 40
 singleTarget: false
 omniMovement: false
 faceTarget: false
@@ -13,27 +13,43 @@ rotateSpeed: 2
 itemCapacity: 0
 outlineColor: 131824FF
 research: mb02-glime
+researchCostMultiplier: 0.75
 weapons: [
   {
-    x: -0.5
-    y: 13
+    x: -13.75
+    y: -1.25
+	shootX: -0.25
+	shootY: -0.25
+    name: mb03-brilliance-gun
+    mirror: true
+    top: true
+    alternate: true
+    shootSound: shootAlt
+    rotate: true
+    rotationLimit: 180
+    reload: 25
+    bullet: {
+	  shootEffect: none
+	  smokeEffect: none
+      type: LightningBulletType
+      lifetime: 2
+      lightningColor: e8b279
+      lightning: 1
+      lightningLength: 15
+      lightningDamage: 5
+      lightningCone: 10 
+    }
+  }
+  {
+    x: 0
+    y: -2.25
+	layerOffset: 1
     name: mb03-brilliance-weapon
     reload: 200
     mirror: false
     top: true
     shootSound: cannon
-    smokeEffect: {
-      type: ParticleEffect
-      particles: 14
-      cone: 35
-      lifetime: 85
-      colorFrom: e8b279
-      colorTo: b04923
-      sizeFrom: 7
-      sizeTo: 0
-      sizeInterp: pow2In
-      interp: pow2
-    }
+	shootCone: 0
     rotate: true
     rotateSpeed: 2
     shootCone: 25
@@ -53,6 +69,19 @@ weapons: [
       trailLength: 12
       trailInterval: 3
       trailEffect: shootSmokeTitan
+	  smokeEffect: {
+		type: ParticleEffect
+		particles: 14
+		cone: 35
+		lifetime: 85
+		colorFrom: b04923
+		colorTo: e8b279
+		sizeFrom: 7
+		sizeTo: 0
+		sizeInterp: pow2In
+		interp: pow2
+	  }
+	  // shootEffect:
       hitEffect: {
         type: MultiEffect
         effects: [
@@ -92,46 +121,27 @@ weapons: [
     parts: [
       {
         type: RegionPart
-        suffix: -base
-        y: -8
-        mirror: false
-        under: false
-        outline: true
-        progress: recoil
-      }
-      {
-        type: RegionPart
         suffix: -nozzle
-        y: -8
         mirror: false
-        top: true
-        outline: true
+		under: true
         progress: recoil
+		moveY: -3
       } 
     ]
   }
-  {
-    x: 9
-    y: -1
-    name: mb03-brilliance-gun
-    mirror: true
-    top: true
-    alternate: true
-    shootSound: shootAlt
-    rotate: true
-    rotationLimit: 180
-    reload: 25
-    bullet: {
-      type: LightingBulletType
-      lifetime: 2
-      width: 0
-      height: 0
-      lightningColor: e8b279
-      lightning: 1
-      lightningLength: 15
-      lightningDamage: 5
-      lightningCone: 10 
-    }
-  }
 ]
-researchCostMultiplier: 0.75
+
+treadRects: [
+    {
+        x: -60
+        y: -72
+        width: 11
+        height: 39
+    }
+	{
+		x: -60
+		y: 33
+		width: 11
+		height: 39
+	}
+]
