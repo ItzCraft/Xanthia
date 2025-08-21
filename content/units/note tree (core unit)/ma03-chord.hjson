@@ -1,24 +1,24 @@
 type: flying
 name: Chord
-description: More faster than <<Rebirth>> core drone. Builds structures to defend Core <<Eternity>> from enemies.
+description: More faster than «Rebirth» core drone. Builds structures to defend Core «Eternity» from enemies.
 speed: 4.5
 accel: 0.06
 drag: 0.06
 flying: true
 health: 375
-hitSize: 12
-itemCapacity: 60
+hitSize: 24
+itemCapacity: 90
 engines: [
- {
-  x: 5.5
-  y: -7.5
-  radius: 2
- } 
- {
-  x: -5.5
-  y: -7.5
-  radius: 2
- }
+	{
+	x: 5.5
+	y: -7.75
+	radius: 3.25
+	} 
+	{
+	x: -5.5
+	y: -7.75
+	radius: 3.25
+	} 
 ] 
 faceTarget: true
 outlineColor: 131824FF
@@ -28,6 +28,31 @@ mineRange: 120
 mineSpeed: 15
 buildRange: 270
 buildSpeed: 1.1
+
+parts: [
+	{
+	type: HoverPart
+	x: 0
+	y: 5.75
+	mirror: false
+	radius: 9
+	phase: 90
+	stroke: 1.4
+	layerOffset: -0.001
+	color: faba4b
+	}
+	{
+	type: HoverPart
+	x: 9.25
+	y: -7.75
+	mirror: true
+	radius: 9
+	phase: 90
+	stroke: 1.4
+	layerOffset: -0.001
+	color: faba4b
+	}
+]
 
 weapons: [
   {

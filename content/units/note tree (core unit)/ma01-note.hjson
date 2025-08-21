@@ -1,17 +1,17 @@
 type: flying
 
 name: Note
-description: Low tier core drone. Builds structures to defend Core <<Fragment>> from enemies.
+description: Low tier core drone. Builds structures to defend Core «Fragment» from enemies.
 
 speed: 3
 accel: 0.1
 drag: 0.1
 flying: true
 health: 150
-hitSize: 7
-iemCapacity: 30
-engineOffset: 6
-engineSize: 0
+hitSize: 13
+iemCapacity: 40
+engineOffset: 7
+engineSize: 2.5
 faceTarget: true
 outlineColor: 131824FF
 
@@ -23,32 +23,32 @@ buildRange: 230
 buildSpeed: 0.75
 
 parts: [
- {
-  type: HoverPart
-   x: 5.2
-   y: -5
-   mirror: true
-   radius: 5
-   phase: 90
-   stroke: 1
-   layerOffset: -0.001
-   color: faba4b
- }
+	{
+	type: HoverPart
+	x: 5
+	y: -5
+	mirror: true
+	radius: 5
+	phase: 90
+	stroke: 1
+	layerOffset: -0.001
+	color: faba4b
+	}
 ]
 
 weapons: [
-  {
-   type: RepairBeamWeapon
-   mirror: false
-	  	beamWidth: 0.6
-   repairSpeed: 0.9
-   targetUnits: false
-   targetBuildings: true
-   pulseRadius: 4.5
-   laserColor: f0b960
-   healColor: dbce91
-  		bullet: {
-  		 maxRange: 45
-  		}
- } 
+	{
+	type: RepairBeamWeapon
+	mirror: false
+	beamWidth: 0.6
+	repairSpeed: 0.9
+	targetUnits: false
+	targetBuildings: true
+	pulseRadius: 4.5
+	laserColor: f0b960
+	healColor: dbce91
+	bullet: {
+		maxRange: 45
+	}
+	} 
 ]
