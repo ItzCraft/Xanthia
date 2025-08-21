@@ -1,4 +1,4 @@
-type: Wall
+type: HealingWall
 
 name: Foronium Wall
 description: Protects structures from enemy projectiles.
