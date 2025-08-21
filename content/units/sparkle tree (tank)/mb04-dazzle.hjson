@@ -112,14 +112,13 @@ weapons: [
             sizeTo: 0
             sizeInterp: pow3In
             interp: pow4Out
-          },  
+          }
           {
             type: WaveEffect
             colorFrom: e8b279
             colorTo: b04923
-			size: 14
             sizeTo: 140
-            strokeFrom: 12
+            strokeFrom: 14
 			interp: pow4Out
           }
         ]
