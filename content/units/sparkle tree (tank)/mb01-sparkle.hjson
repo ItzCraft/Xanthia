@@ -33,15 +33,15 @@ weapons: [
 	shootX: 0
 	shootY: 2.25
     name: mb01-sparkle-weapon
-    reload: 10
+    reload: 12
     mirror: false
     rotate: true
     rotateSpeed: 5
     shootSound: cannon
-    inaccuracy: 8
+    inaccuracy: 10
     bullet: {
       width: 8
-      damage: 4
+      damage: 5
       speed: 5
       lifetime: 35
       homingPower: 0.1

@@ -26,8 +26,8 @@ weapons: [
     rotateSpeed: 1.6
     shootCone: 15
     shoot: {
-      firstShotDelay: 100
-	  shotDelay: 60
+      firstShotDelay: 110
+	  shotDelay: 50
 	  shots: 3
     }
     bullet: {
@@ -35,7 +35,7 @@ weapons: [
       length: 110
       width: 8
       colors: [fcc483, de8e54, b85233]
-      damage: 20 
+      damage: 28 
       hitEffect: hitLaser
 	  chargeEffect: {
         type: MultiEffect

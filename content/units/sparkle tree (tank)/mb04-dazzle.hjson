@@ -60,8 +60,11 @@ weapons: [
 	  sprite: xanthia-3-dazzle-missle
       lifetime: 78
       speed: 4.5
-      splashDamage: 410
-      splashDamageRadius: 80
+      splashDamage: 435
+      splashDamageRadius: 90
+	  pierce: 3
+	  piercing: true
+	  pierceBuilding: true
       frontColor: f8c2a9
       backColor: b04923 
       trailColor: b04923
@@ -117,8 +120,8 @@ weapons: [
             type: WaveEffect
             colorFrom: e8b279
             colorTo: b04923
-            sizeTo: 140
-            strokeFrom: 14
+            sizeTo: 150
+            strokeFrom: 17
 			interp: pow4Out
           }
         ]

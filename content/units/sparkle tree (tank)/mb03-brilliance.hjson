@@ -26,7 +26,6 @@ weapons: [
     alternate: true
     shootSound: shootAlt
     rotate: true
-    rotationLimit: 180
     reload: 25
     bullet: {
 	  shootEffect: none
@@ -34,7 +33,7 @@ weapons: [
       type: LightningBulletType
       lifetime: 2
       lightningColor: e8b279
-      lightning: 1
+      lightning: 2
       lightningLength: 15
       lightningDamage: 5
       lightningCone: 10 
