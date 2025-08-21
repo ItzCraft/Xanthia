@@ -1,4 +1,4 @@
-type: ColiderCrafter
+type: ColliderCrafter
 
 name: Duramatter Molder
 description: Form duramatter using tryfluid and molten velorium.
