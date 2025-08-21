@@ -1,8 +1,11 @@
 type: legs
 name: Insight
-description: Has 4 strong torrents with wide range and can easily penetrate defense. 
-details: Originally i (Nahan) wanted to make Insight to have single target turret with small splash, but because some miscomunication the electric zaps is spreaded, and I think thats also cool, like having an ally/enemy that can easily swipe out the entirety of supply line civilization, will be player's most hated yet loved mech.
-hitSize: 18
+description: "Has 4 strong torrents with wide range and can easily penetrate defense." 
+details:
+'''
+Originally i (Nahan) wanted to make Insight to have single target turret with small splash, but because some miscomunication the electric zaps is spreaded, and I think thats also cool, like having an ally/enemy that can easily swipe out the entirety of supply line civilization, will be player's most hated yet loved mech.
+'''
+hitSize: 37
 singleTarget: true
 faceTarget: true
 health: 2950
@@ -11,6 +14,7 @@ speed: 0.8
 rotateSpeed: 1.5
 itemCapacity: 50
 outlineColor: 131824FF
+researchCostMultiplier: 2
 
 legStraightness: 0.3
 legContinuousMove: true
@@ -30,60 +34,63 @@ hovering: true
 groundLayer: 60
 
 weapons: [
-  {
-    name: mc03-insight-gun-side
-    x: 7
-    y: -8.75
-    mirror: true
-    top: true
-    alternate: true
-    reload: 60
-    shootEffect: lightningShoot
-    shootSound: spark
-    inaccuracy: 0
-    shoot: {
-     shots: 5
-     shotDelay: 0
-    }
-    bullet: {
-     type: LightningBulletType
-     damage: 28
-     lightningLength: 28
-     lightningDamage: 27
-     lightningCone: 0
-     pierce: true
-     pierceCap: 3
-     pierceBuilding: true
-     hitEffect: hitLancer
-    }
-  },
-  {
-    name: mc03-insight-gun2-side2
-    x: 16.5
-    y: -8.75
-    mirror: true
-    top: true
-    alternate: true
-    reload: 60
-    shootEffect: lightningShoot
-    shootSound: spark
-    inaccuracy: 0
-    shoot: {
-     firstShotDelay: 30
-     shots: 5
-     shotDelay: 0
-    }
-    bullet: {
-     type: LightningBulletType
-     damage: 28
-     lightningLength: 28
-     lightningDamage: 27
-     lightningCone: 0
-     pierce: true
-     pierceCap: 3
-     pierceBuilding: true
-     hitEffect: hitLancer
-    }
-    }
+	{
+	name: mc03-insight-gun-side
+	x: -7
+	y: -8.75
+	shootY: 1.25
+	mirror: true
+	top: true
+	alternate: true
+	reload: 60
+	shootEffect: lightningShoot
+	shootSound: spark
+	inaccuracy: 0
+	cooldownTime: 90
+	shoot: {
+		shots: 5
+		shotDelay: 0
+	}
+	bullet: {
+		type: LightningBulletType
+		damage: 28
+		lightningLength: 28
+		lightningDamage: 27
+		lightningCone: 0
+		pierce: true
+		pierceCap: 3
+		pierceBuilding: true
+		hitEffect: hitLancer
+	}
+	}
+	{
+	name: mc03-insight-gun-side
+	x: -16.5
+	y: -8.75
+	shootY: 1.25
+	mirror: true
+	top: true
+	alternate: true
+	reload: 60
+	shootEffect: lightningShoot
+	shootSound: spark
+	inaccuracy: 0
+	cooldownTime: 90
+	shoot: {
+		firstShotDelay: 30
+		shots: 5
+		shotDelay: 0
+	}
+	bullet: {
+		type: LightningBulletType
+		damage: 28
+		lightningLength: 28
+		lightningDamage: 27
+		lightningCone: 0
+		pierce: true
+		pierceCap: 3
+		pierceBuilding: true
+		hitEffect: hitLancer
+	}
+	}
 ]
-researchCostMultiplier: 2
