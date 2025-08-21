@@ -5,7 +5,7 @@ description: Armored light support aircraft. Repairs damaged structures automati
 details: We be Ballin' with this guy,  "I put the new Forgis on the Jeep-" hehe
 flying: true
 lowAltitude: true
-hitSize: 9
+hitSize: 14
 singleTarget: true
 faceTarget: true
 health: 670

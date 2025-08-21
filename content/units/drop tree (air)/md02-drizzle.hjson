@@ -4,7 +4,7 @@ description: Fires a fragmentary missile which heals allied blocks.
 details: Editor Comment: Dont make him mad, or he will become D' Rizzler and rizz you up.
 flying: true
 lowAltitude: true
-hitSize: 13
+hitSize: 24
 singleTarget: true
 faceTarget: true
 health: 1600
