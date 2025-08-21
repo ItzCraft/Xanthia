@@ -1,4 +1,4 @@
-type: ConsumeGenerator
+type: TileGenerator
 
 name: Rotary Turbine
 description: Uses smoke to generate power. However it pollutes the surrounding air.
@@ -24,6 +24,10 @@ consumes: {
     l06-smoke/0.1
   ]
 }
+
+filter: [
+  p01-1-veylite-floor
+]
 
 category: power
 
