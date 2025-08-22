@@ -1,4 +1,4 @@
-type: ColliderCrafter
+type: GenericCrafter
 
 name: Duramatter Molder
 description: Form duramatter using tryfluid and molten velorium.
@@ -9,7 +9,6 @@ k01-elanite/60
 k02-foronium/40
 k03-tryllinium/15
 ]
-produceChance: 0.1
 
 outputItem: k06-duramatter/1
 craftTime: 120
