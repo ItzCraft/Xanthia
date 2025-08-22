@@ -86,12 +86,12 @@ weapons: [
       }
 	  smokeEffect: {
 		type: ParticleEffect
-		particles: 14
-		cone: 35
+		particles: 9
+		cone: 45
 		lifetime: 140
 		colorFrom: e8b279
 		colorTo: b04923
-		sizeFrom: 12
+		sizeFrom: 9
 		sizeTo: 0
 		sizeInterp: pow2In
 		interp: pow2
