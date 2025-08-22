@@ -1,4 +1,4 @@
-type: ItemTurret
+type: OverHeatTurret
 name: Neutrac
 description: Fires a barrage of multiple missiles at the enemy over long distances. Cannot attack air
 size: 2
