@@ -1,0 +1,13 @@
+planet: xanthia
+sector: 4
+research: {
+  parent: "valley-of-enemies"
+	 objectives: [
+	    {
+      type: SectorComplete
+     		preset: "valley-of-enemies"
+		   }
+ 	]
+}
+difficulty: 4
+alwaysUnlocked: false

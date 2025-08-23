@@ -1,0 +1,14 @@
+captureWave: 14
+planet: xanthia
+sector: 54
+research: {
+  parent: "basalt-mountains"
+    objectives: [
+      {
+        type: SectorComplete
+        preset: "basalt-mountains"
+      }
+    ]
+}
+difficulty: 8
+alwaysUnlocked: false

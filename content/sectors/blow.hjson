@@ -1,0 +1,14 @@
+captureWave: 24
+planet: xanthia
+sector: 1
+research: {
+  parent: "protection"
+    objectives: [
+      {
+        type: SectorComplete
+        preset: "protection"
+      }
+    ]
+}
+difficulty: 6
+alwaysUnlocked: false

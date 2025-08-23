@@ -1,0 +1,14 @@
+captureWave: 42
+planet: xanthia
+sector: 15
+research: {
+  parent: "creation"
+    objectives: [
+      {
+        type: SectorComplete
+        preset: "creation"
+      }
+    ]
+}
+difficulty: 6
+alwaysUnlocked: false

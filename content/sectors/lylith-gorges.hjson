@@ -1,0 +1,14 @@
+planet: xanthia
+captureWave: 24
+sector: 9
+research: {
+  parent: "foron-rivers"
+	 objectives: [
+	    {
+      type: SectorComplete
+     		preset: "foron-rivers"
+		   }
+ 	]
+}
+difficulty: 3
+alwaysUnlocked: false
