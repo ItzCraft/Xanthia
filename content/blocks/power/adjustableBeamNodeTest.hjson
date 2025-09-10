@@ -1,9 +1,0 @@
-type: AdjustableBeamNode
-health: 15
-size: 1
-beamDirections: [
-    {0,1},
-    {1,0},
-    {0,-1},
-    {0,-1}
-]

@@ -1,5 +1,51 @@
-// unexisty actually copied code from Asthosus 😔
+
 alwaysUnlocked: true
+visible: true
+accessible: true
+iconColor: 795F5F
+
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowWaveSimulation: true
+allowSectorInvasion: false
+allowWaves: true
+prebuildBase: true
+clearSectorOnLose: true
+defaultCore: i01-core-fragment
+launchCandidates: []
+
+sectorSize: 1
+sectorSeed: 14513
+startSector: 0
+
+radius: 1.2
+minZoom: 0.7
+bloom: true
+hasAtmosphere: true
+atmosphereColor: 795F5F
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+updateLighting: false
+ambientLight: b387fa
+
+drawOrbit: true
+orbitRadius: 15
+orbitSpacing: 5
+parent: 01-prodromos
+solarSystem: 01-prodromos
+
+itemWhitelist: [
+  "k01-elanite",
+  "k02-foronium",
+  "k03-tryllinium",
+  "k04-scaldium",
+  "k05-velorium",
+  "k06-duramatter",
+  "k07-tritanium", 
+  "k08-discharged-tryllinium"
+]
+
 mesh: [
  {
     //water
@@ -102,6 +148,7 @@ cloudMesh: [
    thresh: 0.6
   }
 ]
+
 generator: {
   octaves: 2
   persistence: 0.58
@@ -117,41 +164,3 @@ generator: {
   berylChance: 0.2
   ferricChance: 0.2
 }
-sectorSize: 1
-allowLaunchSchematics: false
-allowLaunchToNumbered: false
-allowLaunchLoadout: false
-allowSectorInvasion: false
-startSector: 0
-orbitSpacing: 1
-radius: 1.2
-minZoom: 0.8
-drawOrbit: true
-atmosphereRadIn: 0
-atmosphereRadOut: 0.3
-accessible: true
-updateLighting: false
-sectorSeed: 14513
-bloom: true
-visible: true
-atmosphereColor: 795F5F
-iconColor: 795F5F
-hasAtmosphere: true
-allowWaveSimulation: true
-clearSectorOnLose: true
-allowWaves: true
-prebuildBase: true
-defaultCore: i01-core-fragment
-parent: sun
-solarSystem: sun
-launchCandidates: []
-itemWhitelist: [
-  "k01-elanite",
-  "k02-foronium",
-  "k03-tryllinium",
-  "k04-scaldium",
-  "k05-velorium",
-  "k06-duramatter",
-  "k07-tritanium", 
-  "k08-discharged-tryllinium"
-]

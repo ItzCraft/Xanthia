@@ -1,0 +1,33 @@
+//localizedName: Prodromos
+description:
+'''
+Big purple-ish star.
+'''
+mesh: [
+ {
+    type: SunMesh
+	divisions: 5
+	octaves: 6
+	persistence: 0.6
+	scl: 2
+	pow: 1.07
+	mag: 1.21
+	colorScale: 1.1
+    colors: [
+	  b3c3ff
+	  949ef7
+	  9375e5
+	  9563d6
+	  914eba
+	]
+  }
+]
+lightColor: b387fa
+bloom: true
+accessible: false
+parent: sun
+radius: 4.3
+drawOrbit: false
+orbitRadius: 3000
+orbitSpacing: 14
+solarSystem: 01-prodromos
