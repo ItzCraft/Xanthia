@@ -1,9 +1,13 @@
-# Planet
+# Mod Info
+mod.xanthia.name = Xanthia
+mod.xanthia.author = ItzJustaTeam\n\n[gray]Coders:[] Decaract, ItzCraft, Nahan\n\n[gray]Spriters:[] Decaract, Nahan\n\n[gray]Testers:[] DarkSniper, Nahan, ItzCraft, AnDashik\n\n[gray]Contributors:[] Arbuzer, Los Sasikos, AnDashik\n\n[gray]Translators:[] Kevin Vilyan, ItzCraft
+# mod.xanthia.description = 
+mod.xanthia.subtitle = 
 
+# Planet
 planet.xanthia-3-xanthia.name =
 
 # Sectors
-
 sector.xanthia-3-arrival.name =
 sector.xanthia-3-arrival.description =
 sector.xanthia-3-upgrade.name =
@@ -12,8 +16,6 @@ sector.xanthia-3-foron-rivers.name =
 sector.xanthia-3-foron-rivers.description =
 sector.xanthia-3-lylith-gorges.name =
 sector.xanthia-3-lylith-gorges.description =
-sector.xanthia-3-production-base.name =
-sector.xanthia-3-production-base.description =
 sector.xanthia-3-penetration.name =
 sector.xanthia-3-penetration.description =
 sector.xanthia-3-protection.name = 
@@ -35,8 +37,7 @@ sector.xanthia-3-refutation.description =
 sector.xanthia-3-tryfluid-peaks.name =
 sector.xanthia-3-tryfluid-peaks.description = 
 
-# Objectives
-
+# Objectives [Look at Bundle.properties]
 arrival1 = 
 arrival2 = 
 arrival3 = 
@@ -125,11 +126,11 @@ liquid.xanthia-3-l04-molten-velorium.description =
 liquid.xanthia-3-l06-smoke.name =
 liquid.xanthia-3-l06-smoke.description =
 
-# IMPORTANT the biome Called "Trycite" but the liquid is Called "Tricyte" on English language. 
+# !! The Biome is "Trycite" - The Liquid is "Tricyte" in English language.
 liquid.xanthia-3-l07-tricyte.name =
 liquid.xanthia-3-l07-tricyte.description =
 
-# Environment
+# Environment [TODO]
 block.xanthia-3-n01-elanite.name = 
 block.xanthia-3-n02-tryllinium-ore.name = 
 block.xanthia-3-n03-velorium-ore.name = 
@@ -165,7 +166,7 @@ block.xanthia-3-b03-scaldium-extractor.description =
 block.xanthia-3-b05-mechanical-quarry.name =
 block.xanthia-3-b05-mechanical-quarry.desceiption =
 
-# IMPORTANT Energy bomb is called "Energy charge bomb" in English language
+# Energy Bomb is "Energy Charge Bomb" in English language
 block.xanthia-3-b06-energy-bomb.name =
 block.xanthia-3-b06-energy-bomb.description =
 block.xanthia-3-b07-mineral-sonar.name =
@@ -236,7 +237,7 @@ block.xanthia-3-g08-tryllinium-recycler.name =
 block.xanthia-3-g08-tryllinium-recycler.description = 
 
 # Storage
-# IMPORTANT. Core names use "Core: «core-name»" 
+# Core names use "Core: «core-name»" 
 block.xanthia-3-i01-core-fragment.name =
 block.xanthia-3-i01-core-fragment.description =
 block.xanthia-3-i02-core-rebirth.name =
@@ -244,7 +245,7 @@ block.xanthia-3-i02-core-rebirth.description =
 block.xanthia-3-i03-core-eternity.name =
 block.xanthia-3-i03-core-eternity.descriprion =
 
-# Turrets
+# Turrets [TODO]
 block.xanthia-3-a01-quark.name =
 block.xanthia-3-a01-quark.description =
 block.xanthia-3-a02-nuclei.name =
@@ -280,7 +281,7 @@ block.xanthia-3-h06-2-assembler-module.description =
 block.xanthia-3-h07-1-air-assembler.name =
 block.xanthia-3-h07-1-air-assembler.description =
 
-# Warning, in English language it called "Block Constructor" 
+# TODO
 block.xanthia-3-h11-contructor.name = 
 block.xanthia-3-h11-contructor.description =
 block.xanthia-3-h12-continuous-contructor.name =
@@ -308,7 +309,7 @@ block.xanthia-3-f09-energetic-wall.description =
 block.xanthia-3-f10-energetic-wall-large.name =
 block.xanthia-3-f10-energetic-wall-large.description =
 
-# SPIDER UNITS
+# Spider Units
 unit.xanthia-3-mc01-cue.name =
 unit.xanthia-3-mc01-cue.description =
 unit.xanthia-3-mc02-hint.name =
@@ -320,7 +321,7 @@ unit.xanthia-3-mc04-omen.description =
 unit.xanthia-3-mc04b-retribution.name =
 unit.xanthia-3-mc04b-retribution.description =
 
-# AIR UNITS
+# Air Units
 unit.xanthia-3-md01-drop.name =
 unit.xanthia-3-md01-drop.description =
 unit.xanthia-3-md02-drizzle.name =
@@ -328,7 +329,7 @@ unit.xanthia-3-md02-drizzle.description =
 unit.xanthia-3-md03-rain.name =
 unit.xanthia-3-md03-rain.description =
 
-# CORE UNIT
+# Core Units
 unit.xanthia-3-ma01-note.name =
 unit.xanthia-3-ma01-note.description =
 unit.xanthia-3-ma02-melody.name =
@@ -336,7 +337,7 @@ unit.xanthia-3-ma02-melody.description =
 unit.xanthia-3-ma03-chord.name =
 unit.xanthia-3-ma03-chord.description =
 
-# TANKS UNITS
+# Tank Units
 unit.xanthia-3-mb01-sparkle.name =
 unit.xanthia-3-mb01-sparkle.description =
 unit.xanthia-3-mb02-glime.name =
@@ -346,7 +347,6 @@ unit.xanthia-3-mb03-brilliance.description =
 unit.xanthia-3-mb04-dazzle.name =
 unit.xanthia-3-mb04-dazzle.description =
 
-
-# Status
+# Status Effect
 status.xanthia-3-status-upgrade-power.name =
 status.xanthia-3-status-upgrade-power.description =
