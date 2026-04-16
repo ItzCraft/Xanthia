@@ -1,0 +1,6 @@
+type: StaticWall
+
+name: "Foronid Wall"
+description: "Wall that contain foron deep inside."
+
+variants: 3

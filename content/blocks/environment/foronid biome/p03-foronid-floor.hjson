@@ -1,0 +1,7 @@
+type: Floor
+
+name: "Foronid Floor"
+description: "A floor that contain foron deep inside."
+
+variants: 5
+speedMultiplier: 0.9
