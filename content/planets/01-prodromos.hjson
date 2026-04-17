@@ -1,33 +1,34 @@
 //localizedName: Prodromos
-description:
-'''
-Big purple-ish star.
-'''
-mesh: [
- {
-    type: SunMesh
-	divisions: 5
-	octaves: 6
-	persistence: 0.6
-	scl: 2
-	pow: 1.07
-	mag: 1.21
-	colorScale: 1.1
-    colors: [
-	  b3c3ff
-	  949ef7
-	  9375e5
-	  9563d6
-	  914eba
-	]
-  }
-]
+description: "Huge blue star."
+
+radius: 4.2
+parent: sun
 lightColor: b387fa
 bloom: true
 accessible: false
-parent: sun
-radius: 4.3
+visible: true
+
 drawOrbit: false
 orbitRadius: 3000
-orbitSpacing: 14
+orbitSpacing: 23
 solarSystem: 01-prodromos
+
+mesh: [
+	{
+		type: SunMesh
+		divisions: 5
+		octaves: 6
+		persistence: 0.6
+		scl: 2
+		pow: 1.07
+		mag: 1.21
+		colorScale: 1.1
+		colors: [
+			"acd0f2" //b3c3ff
+			"8ec2e8" //949ef7
+			"68b3d4" //9375e5
+			"4ea2b5" //9563d6
+			"348994" //914eba
+		]
+	}
+]
