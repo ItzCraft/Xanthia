@@ -1,5 +1,4 @@
-
-alwaysUnlocked: true
+alwaysUnlocked: true
 visible: true
 accessible: true
 iconColor: 795F5F
@@ -19,8 +18,8 @@ sectorSize: 1
 sectorSeed: 14513
 startSector: 0
 
-radius: 1.2
-minZoom: 0.7
+radius: 0.58
+minZoom: 1.2
 bloom: true
 hasAtmosphere: true
 atmosphereColor: 795F5F
@@ -47,67 +46,85 @@ itemWhitelist: [
 ]
 
 mesh: [
- {
-    //water
-    type: NoiseMesh
-    planet: xanthia
+  {
+    // foron
+    type: SunMesh 
     divisions: 5
-    seed: 7
-    radius: 1.229
-    color1: 3482BE
-    color2: 337AB1
-    octaves: 3.7
-    persistence: 1.1
+    octaves: 1
+    persistence: 0.5
+    scl: 2.1
+    pow: 1
+    mag: 0.8
+    colorScale: 1.35
+    colors: [
+	8A73C6,
+    A387EA
+    ]
   }
   {
-    //lylith
+    // lylite
     type: NoiseMesh
     planet: xanthia
     divisions: 5
-    radius: 1.24
-    seed: 94
+    radius: 0.55274
+    seed: 37
     color1: 656565
     color2: 515151
-    octaves: 3.7
+    octaves: 6
     persistence: 0.6
+	mag: 0.9
   }
   {
-    //foron
+    // Tryllinium
     type: NoiseMesh
     planet: xanthia
-    divisions: 4
-    seed: 101
-    radius: 1.2441
-    color1: A387EA
-    color2: 8A73C6
-    octaves: 5.1
-    persistence: 0.8
+    divisions: 5
+    radius: 0.53128
+    seed: 37
+    color1: 3482BE
+    color2: 337AB1
+    octaves: 7
+    persistence: 0.6
+	mag: 1
   }
   {
-    //veylite
+    // veylite
     type: NoiseMesh
-    planet: asthosus
-    seed: 69
+    planet: xanthia
     divisions: 5
+    radius: 0.50518
+    seed: 37
     color1: 895841
     color2: 623C35
-    radius: 1.212
-    octaves: 4
-    persistence: 1
-    scale: 0.75
-    mag: 1
+    octaves: 7
+    persistence: 0.6
+	mag: 2
   }
   {
-    //basilith
+    //Basalt low mountain
     type: NoiseMesh
     planet: xanthia
     divisions: 5
-    seed: 19
-    radius: 1.247
-    color1: FFE4CA
-    color2: F7CBA4
-    octaves: 4.5
-    persistence: 1.1
+    radius: 0.36975
+    seed: 37
+    color1: 9c821e
+    color2: 968644
+    octaves: 4
+    persistence: 0.7
+	mag: 6.1
+  }
+  {
+    // Basalt mountain
+    type: NoiseMesh
+    planet: xanthia
+    divisions: 5
+    radius: 0.2987
+    seed: 37
+    color1: cf9b4e
+    color2: bf9454
+    octaves: 4
+    persistence: 0.7
+	mag: 7.7
   }
 ]
 cloudMesh: [
@@ -163,4 +180,4 @@ generator: {
   carbonChance: 0.32
   berylChance: 0.2
   ferricChance: 0.2
-}
+}
