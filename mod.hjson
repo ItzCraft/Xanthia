@@ -5,10 +5,10 @@ repo: "ItzCraft/Xanthia"
 hidden: false
 hideBrowser: false
 
-version: "V0.6?"
+version: "V0.6"
 minGameVersion: 157
 dependencies: [hjsonpp]
 
-author: "«Itz-Just-a-Team» \n\n[accent[]]Coders:[[]] Decaract, ItzCraft, Nahan, AnDashik. \n[accent[]]Spriters:[[]] Decaract, Nahan. \n[accent[]]Testers:[[]] DarkSniper, Nahan, ItzCraft, AnDashik. \n[accent[]]Contributors:[[]] Arbuzer, Los Sasikos, AnDashik. \n[accent[]]Translators:[[]] Kevin Vilyan, ItzCraft."
-description: "// Insert cool description here // \n Discover and explore a brand new planet with its own campaign: Xanthia, a mountainous hot planet with more dangers and threat hiding there. \n \n[salmon[]]Remember that Xanthia is in beta test right now. Everything is subject to change."
+author: "«Itz-Just-a-Team»\n\n[accent[]]Coders:[[]] Decaract, ItzCraft, Nahan, AnDashik.\n[accent[]]Spriters:[[]] Decaract, Nahan.\n[accent[]]Testers:[[]] DarkSniper, Nahan, ItzCraft, AnDashik.\n[accent[]]Contributors:[[]] Arbuzer, Los Sasikos, AnDashik.\n[accent[]]Translators:[[]] Kevin Vilyan, ItzCraft."
+description: "Discover and explore a brand new planet with its own campaign: Xanthia, a mountainous hot planet with more dangers and threat hiding there.\n\n[salmon[]]Remember that Xanthia is in beta test right now. Everything is subject to change."
 subtitle: "Remake? (V0.6?)"
