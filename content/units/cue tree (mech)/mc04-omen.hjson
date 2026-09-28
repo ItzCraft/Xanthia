@@ -73,7 +73,6 @@ weapons: [
      hitEffect: titanSmoke
      hitColor: a3b9ff
      damage: 150
-     fragBullet: true
      fragOnHit: true
      fragBullets: 5
      fragBullet: {
